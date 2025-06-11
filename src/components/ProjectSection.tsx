@@ -36,7 +36,7 @@ export default function ProjectSection() {
             <h3 className="text-3xl font-bold text-yellow-300 italic underline">
               Ordee
             </h3>
-            <Link to="/projects" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/ordee" className="flex flex-col items-center space-y-4">
               <img
                 src={project1}
                 width={900}
@@ -52,7 +52,7 @@ export default function ProjectSection() {
             <h3 className="text-3xl font-bold text-yellow-300 italic underline">
               Monedo
             </h3>
-            <Link to="/projects" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/monedo" className="flex flex-col items-center space-y-4">
               <img
                 src={project2}
                 width={900}
@@ -68,7 +68,7 @@ export default function ProjectSection() {
             <h3 className="text-3xl font-bold text-yellow-300 italic underline">
               Exaya
             </h3>
-            <Link to="/projects" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/exaya" className="flex flex-col items-center space-y-4">
               <img
                 src={project3}
                 width={900}
@@ -84,7 +84,7 @@ export default function ProjectSection() {
             <h3 className="text-3xl font-bold text-yellow-300 italic underline">
               Blue-Motors
             </h3>
-            <Link to="/projects" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/blue-motors" className="flex flex-col items-center space-y-4">
               <img
                 src={project4}
                 width={900}
@@ -100,7 +100,7 @@ export default function ProjectSection() {
             <h3 className="text-3xl font-bold text-yellow-300 italic underline">
               VitaLight
             </h3>
-            <Link to="/projects" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/vitalight" className="flex flex-col items-center space-y-4">
               <img
                 src={project5}
                 width={900}
@@ -116,7 +116,7 @@ export default function ProjectSection() {
             <h3 className="text-3xl font-bold text-yellow-300 italic underline">
               Hotel Conquistador Huanta
             </h3>
-            <Link to="/projects" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/hotel-conquistador-huanta" className="flex flex-col items-center space-y-4">
               <img
                 src={project6}
                 width={900}
@@ -132,7 +132,7 @@ export default function ProjectSection() {
             <h3 className="text-3xl font-bold text-yellow-300 italic underline">
               Nido Perulina
             </h3>
-            <Link to="/projects" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/nido-perulina" className="flex flex-col items-center space-y-4">
               <img
                 src={project7}
                 width={900}
