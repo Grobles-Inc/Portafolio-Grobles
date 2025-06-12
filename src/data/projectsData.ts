@@ -31,9 +31,9 @@ export const projectsData: Project[] = [
     fullDescription: "Ordee es una aplicación móvil para la gestión de ordenes en restaurantes, que permite llevar un control de las ordenes, en tiempo real, y que se pueden ver en un panel de administración.",
     image: project1,
     technologies: ["ReactNative", "TypeScript", "NativeWind", "Supabase", "Tailwind CSS"],
-    liveDemo: "https://ordee-app.vercel.app/",
+    liveDemo: "https://ordee.framer.website/",
     github: "https://github.com/Grobles-Inc/ordee",
-    category: "Aplicación Móvil",
+    category: "Aplicacion Movil",
     client: "Ordee Inc.",
     duration: "3 meses",
     features: [
@@ -54,7 +54,7 @@ export const projectsData: Project[] = [
     technologies: ["React Native", "TypeScript", "NativeWind", "Supabase", "Tailwind CSS"],
     liveDemo: "https://monedo.framer.website/",
     github: "https://github.com/kralion/monedo",
-    category: "Aplicación Móvil",
+    category: "Aplicacion Movil",
     client: "Monedo Inc.",
     duration: "6 meses",
     features: [
@@ -128,8 +128,8 @@ export const projectsData: Project[] = [
   },
   {
     id: "6",
-    title: "Hotel Conquistador Huanta",
-    slug: "hotel-conquistador-huanta",
+    title: "Hotel Conquistador",
+    slug: "hotel-conquistador",
     description: "Landing Page que muestra contenido de hoteles y sus servicios.",
     fullDescription: "Landing Page que muestra contenido, servicios e información del hotel Conquistador Huanta.",
     image: project6,
@@ -156,7 +156,7 @@ export const projectsData: Project[] = [
     technologies: ["Astro", "GSAP", "TailwindCSS", "AOS", "Open Graph", "Google Analytics"],
     liveDemo: "https://nidoperulina.netlify.app/",
     github: "https://github.com/Grobles-Inc/nido", 
-    category: "Sistema Web",
+    category: "Landing Page",
     client: "Nido Perulina",
     duration: "1 mes",
     features: [

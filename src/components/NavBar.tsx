@@ -29,11 +29,10 @@ export default function NavBar() {
           <nav className="hidden lg:flex">
             <ul className="flex space-x-8">
               <li>
-                <NavLink 
-                  to="/" 
-                  className={({ isActive }) => 
-                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -41,11 +40,10 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/about" 
-                  className={({ isActive }) => 
-                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -53,11 +51,10 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/services" 
-                  className={({ isActive }) => 
-                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                <NavLink
+                  to="/services"
+                  className={({ isActive }) =>
+                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -65,11 +62,10 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/projects" 
-                  className={({ isActive }) => 
-                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                <NavLink
+                  to="/projects"
+                  className={({ isActive }) =>
+                    `transition-colors duration-200 hover:bg-yellow-300 rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -81,9 +77,9 @@ export default function NavBar() {
 
           {/* Desktop Contact Button */}
           <div className="hidden lg:flex">
-            <Link 
+            <Link
               to="/contact"
-              className="btn btn-lg bg-white text-gray-800 border border-gray-300 hover:bg-yellow-300 hover:border-transparent transition-all duration-300 ease-in-out rounded-4xl px-6 py-2"
+              className="btn btn-lg border-none text-gray-800 hover:opacity-70 bg-yellow-300  transition-all duration-300 ease-in-out rounded-4xl px-6 py-2"
             >
               Contáctanos
             </Link>
@@ -104,20 +100,18 @@ export default function NavBar() {
         </div>
 
         {/* Mobile Navigation */}
-        <div className={`lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-40 transition-all duration-300 ease-in-out transform ${
-          isMenuOpen 
-            ? 'opacity-100 translate-y-0 visible' 
-            : 'opacity-0 -translate-y-4 invisible'
-        }`}>
+        <div className={`lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-40 transition-all duration-300 ease-in-out transform ${isMenuOpen
+          ? 'opacity-100 translate-y-0 visible'
+          : 'opacity-0 -translate-y-4 invisible'
+          }`}>
           <nav className="px-4 py-4">
             <ul className="space-y-2">
               <li>
-                <NavLink 
-                  to="/" 
+                <NavLink
+                  to="/"
                   onClick={closeMenu}
-                  className={({ isActive }) => 
-                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                  className={({ isActive }) =>
+                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -125,12 +119,11 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/about" 
+                <NavLink
+                  to="/about"
                   onClick={closeMenu}
-                  className={({ isActive }) => 
-                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                  className={({ isActive }) =>
+                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -138,12 +131,11 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/services" 
+                <NavLink
+                  to="/services"
                   onClick={closeMenu}
-                  className={({ isActive }) => 
-                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                  className={({ isActive }) =>
+                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -151,12 +143,11 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/projects" 
+                <NavLink
+                  to="/projects"
                   onClick={closeMenu}
-                  className={({ isActive }) => 
-                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${
-                      isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
+                  className={({ isActive }) =>
+                    `block transition-colors duration-200 hover:bg-yellow-300 rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-yellow-300' : 'text-gray-700'
                     }`
                   }
                 >
@@ -164,7 +155,7 @@ export default function NavBar() {
                 </NavLink>
               </li>
               <li className="pt-2">
-                <Link 
+                <Link
                   to="/contact"
                   onClick={closeMenu}
                   className="block text-center bg-yellow-300 text-gray-800 hover:bg-yellow-400 transition-all duration-300 ease-in-out rounded-lg px-4 py-3 font-semibold"
