@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://groblesolutions.netlify.app/sitemap.xml
+
+# Permitir indexación de todas las páginas importantes
+Allow: /
+Allow: /projects
+Allow: /about
+Allow: /services
+Allow: /contact
+
+# Evitar indexación de archivos del sistema
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: *.ts
+Disallow: *.tsx
+Disallow: *.js.map 

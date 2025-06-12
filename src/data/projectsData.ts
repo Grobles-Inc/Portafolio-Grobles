@@ -154,7 +154,7 @@ export const projectsData: Project[] = [
     fullDescription: "Nido Perulina es una plataforma educativa especializada en la gestión integral de centros de educación inicial. Facilita la comunicación entre padres y maestros, el seguimiento del desarrollo infantil, la gestión académica y administrativa del centro educativo.",
     image: project7,
     technologies: ["Astro", "GSAP", "TailwindCSS", "AOS", "Open Graph", "Google Analytics"],
-    liveDemo: "https://nidoperulina.netlify.app/",
+    liveDemo: "https://nidoperulina.edu.pe/",
     github: "https://github.com/Grobles-Inc/nido", 
     category: "Landing Page",
     client: "Nido Perulina",

@@ -33,7 +33,7 @@ export default function ProjectSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Project 1 */}
           <div className="flex flex-col items-center space-y-4">
-            <h3 className="text-3xl font-bold text-yellow-300 italic underline">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
               Ordee
             </h3>
             <Link to="/projects/ordee" className="flex flex-col items-center space-y-4">
@@ -49,7 +49,7 @@ export default function ProjectSection() {
 
           {/* Project 2 */}
           <div className="flex flex-col items-center space-y-4">
-            <h3 className="text-3xl font-bold text-yellow-300 italic underline">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
               Monedo
             </h3>
             <Link to="/projects/monedo" className="flex flex-col items-center space-y-4">
@@ -65,7 +65,7 @@ export default function ProjectSection() {
 
           {/* Project 3 */}
           <div className="flex flex-col items-center space-y-4">
-            <h3 className="text-3xl font-bold text-yellow-300 italic underline">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
               Exaya
             </h3>
             <Link to="/projects/exaya" className="flex flex-col items-center space-y-4">
@@ -81,7 +81,7 @@ export default function ProjectSection() {
 
           {/* Project 4 */}
           <div className="flex flex-col items-center space-y-4">
-            <h3 className="text-3xl font-bold text-yellow-300 italic underline">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
               Blue-Motors
             </h3>
             <Link to="/projects/blue-motors" className="flex flex-col items-center space-y-4">
@@ -97,7 +97,7 @@ export default function ProjectSection() {
 
           {/* Project 5 */}
           <div className="flex flex-col items-center space-y-4">
-            <h3 className="text-3xl font-bold text-yellow-300 italic underline">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
               VitaLight
             </h3>
             <Link to="/projects/vitalight" className="flex flex-col items-center space-y-4">
@@ -113,10 +113,10 @@ export default function ProjectSection() {
 
           {/* Project 6 */}
           <div className="flex flex-col items-center space-y-4">
-            <h3 className="text-3xl font-bold text-yellow-300 italic underline">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
               Hotel Conquistador Huanta
             </h3>
-            <Link to="/projects/hotel-conquistador-huanta" className="flex flex-col items-center space-y-4">
+            <Link to="/projects/hotel-conquistador" className="flex flex-col items-center space-y-4">
               <img
                 src={project6}
                 width={900}
@@ -129,7 +129,7 @@ export default function ProjectSection() {
 
           {/* Project 7 */}
           <div className="flex flex-col items-center space-y-4">
-            <h3 className="text-3xl font-bold text-yellow-300 italic underline">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
               Nido Perulina
             </h3>
             <Link to="/projects/nido-perulina" className="flex flex-col items-center space-y-4">

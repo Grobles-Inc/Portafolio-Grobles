@@ -24,11 +24,12 @@ export default function HeroSection() {
       >
         <img
           src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Personas programando"
+          alt="Equipo de desarrolladores de software trabajando en proyectos innovadores con tecnología moderna"
           width={900}
           height={900}
           className="rounded-4xl"
           loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-12 px-4 text-lg"
