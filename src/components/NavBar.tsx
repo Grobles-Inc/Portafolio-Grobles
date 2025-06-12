@@ -15,7 +15,7 @@ export default function NavBar() {
   }
 
   return (
-    <header className="bg-white shadow-lg top-0 z-50 relative">
+    <header className="bg-white shadow-lg top-0 z-50 fixed w-full">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -79,7 +79,7 @@ export default function NavBar() {
           <div className="hidden lg:flex">
             <Link
               to="/contact"
-              className="btn btn-lg border-none text-gray-800 hover:opacity-70 bg-yellow-300  transition-all duration-300 ease-in-out rounded-4xl px-6 py-2"
+              className="btn btn-lg border text-gray-800 hover:opacity-70 bg-yellow-300  transition-all hover:bg-white hover:border-gray-800 hover:text-black duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
             >
               Contáctanos
             </Link>

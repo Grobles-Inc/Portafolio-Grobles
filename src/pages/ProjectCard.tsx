@@ -1,3 +1,4 @@
+import { ExternalLink, Link as LinkIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
@@ -29,7 +30,7 @@ export default function ProjectCard({
       <div className=" flex flex-col mt-10 gap-4 items-start px-6">
         <div className="flex items-center w-full mb-2">
           <h3 className="md:text-xl text-lg font-bold text-gray-900 leading-tight flex-1">{title}</h3>
-          <span className="bg-gray-100 text-gray-500 text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{featuresLength} features</span>
+          <span className="bg-yellow-200 text-black text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{featuresLength} features</span>
         </div>
         {/* Description */}
         <p className="text-gray-500  md:text-sm text-xs ">
@@ -38,16 +39,18 @@ export default function ProjectCard({
         {/* Button and stats */}
         <div className="flex items-center gap-2 w-full ">
           <Link
-            className="btn btn-neutral pt-1 rounded-full"
+            className="btn bg-yellow-300 text-black rounded-4xl gap-2 hover:border-transparent hover:bg-yellow-400"
             to={demoUrl}
             target="_blank"
           >
+            <ExternalLink className="w-5 h-5" />
             Ver Demo
           </Link>
           <button
-            className="btn btn-outline pt-1 rounded-full"
+            className="btn bg-black text-white rounded-4xl hover:bg-white hover:border hover:text-black gap-2"
             onClick={onButtonClick}
           >
+            <LinkIcon className="w-5 h-5" />
             Ver Detalles
           </button>
 
