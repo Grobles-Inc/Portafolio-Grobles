@@ -14,7 +14,7 @@ export default function ServiceSection() {
         </p>
         <Link 
           to="/contact" 
-          className="btn btn-lg bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+          className="btn btn-lg bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
         >
           Comenzar ahora
         </Link>
@@ -34,7 +34,7 @@ export default function ServiceSection() {
             </p>
             <Link 
               to="/contact" 
-              className="btn bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -53,7 +53,7 @@ export default function ServiceSection() {
             </p>
             <Link 
               to="/contact" 
-              className="btn bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -72,7 +72,7 @@ export default function ServiceSection() {
             </p>
             <Link 
               to="/contact" 
-              className="btn bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -91,7 +91,7 @@ export default function ServiceSection() {
             </p>
             <Link 
               to="/contact" 
-              className="btn bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>

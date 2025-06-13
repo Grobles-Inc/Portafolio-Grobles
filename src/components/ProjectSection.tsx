@@ -6,6 +6,7 @@ import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
 import project7 from "../assets/project7.png"
+import project8 from "../assets/project8.png"
 
 
 export default function ProjectSection() {
@@ -21,7 +22,7 @@ export default function ProjectSection() {
         </p>
         <Link
           to="/projects"
-          className="btn btn-lg bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+          className="btn btn-lg bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
         >
           Todos los Proyectos
         </Link>
@@ -135,6 +136,22 @@ export default function ProjectSection() {
             <Link to="/projects/nido-perulina" className="flex flex-col items-center space-y-4">
               <img
                 src={project7}
+                width={900}
+                height={900}
+                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+              />
+            </Link>
+          </div>
+
+          {/* Project 8 */}
+          <div className="flex flex-col items-center space-y-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 italic underline">
+              Fundación HolosEduca
+            </h3>
+            <Link to="/projects/fundacion-holoseduca" className="flex flex-col items-center space-y-4">
+              <img
+                src={project8}
                 width={900}
                 height={900}
                 className="rounded-4xl hover:scale-105 transition-transform duration-300"

@@ -135,7 +135,7 @@ export default function ProjectDetail() {
                 href={project.liveDemo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn bg-yellow-300 text-black rounded-4xl w-full gap-2 hover:border-transparent hover:bg-yellow-400"
+                className="btn bg-yellow-300 text-black rounded-4xl w-full gap-2 hover:bg-white transition-all duration-300 hover:scale-105"
               >
                 <ExternalLink className="w-5 h-5" />
                 Ver Demo en Vivo
@@ -147,7 +147,7 @@ export default function ProjectDetail() {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn bg-black text-white rounded-4xl hover:bg-white hover:border hover:text-black w-full gap-2"
+                className="btn bg-black text-white rounded-4xl hover:bg-white hover:border hover:text-black w-full gap-2 transition-all duration-300 hover:scale-105"
               >
                 <Github className="w-5 h-5" />
                 Ver Código

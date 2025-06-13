@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export default function Footer() {
   return (
     <section 
-      className="bg-yellow-400 flex flex-col items-center justify-center mt-20 h-[800px] rounded-3xl m-5"
+      className="bg-yellow-400 flex flex-col items-center justify-center mt-20 h-[800px] rounded-3xl"
     >
       <div className="max-w-4xl mx-auto text-center px-6 py-20">
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-black leading-tight mb-8">

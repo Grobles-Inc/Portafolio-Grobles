@@ -5,6 +5,7 @@ import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
 
 export interface Project {
   id: string;
@@ -118,7 +119,7 @@ export const projectsData: Project[] = [
     github: "https://github.com/Grobles-Inc/vitalight",
     category: "Ecommerce",
     client: "VitaLight",
-    duration: "2 meses",
+    duration: "10 días",
     features: [
       "Sección de productos",
       "Sección de ventas",
@@ -138,7 +139,7 @@ export const projectsData: Project[] = [
     github: "#",
     category: "Landing Page",
     client: "Hotel Conquistador - Huanta",
-    duration: "1 mes",
+    duration: "15 días",
     features: [
       "Sección de reservas",
       "Sección de servicios",
@@ -158,13 +159,34 @@ export const projectsData: Project[] = [
     github: "https://github.com/Grobles-Inc/nido", 
     category: "Landing Page",
     client: "Nido Perulina",
-    duration: "1 mes",
+    duration: "19 días",
     features: [
       "Sección de inicio",
       "Sección de nosotros",
       "Sección de servicios",
       "Sección de contacto",
       "Sección de noticias"
+    ]
+  },
+  {
+    id: "8",
+    title: "Fundación HolosEduca",
+    slug: "fundacion-holoseduca",
+    description: "Página Web de presentación de la fundación HolosEduca, que muestra los servicios, proyectos y contacto de la fundación.",
+    fullDescription: "Fundacion HolosEduca, es una organización sin fines de lucro dedicada a la educación y el desarrollo social. La página web presenta sus programas, proyectos y formas de contacto, con un diseño atractivo y funcional.",
+    image: project8,
+    technologies: ["Astro", "TailwindCSS", "AOS", "Netlify"],
+    liveDemo: "https://holoseduca.netlify.app/",
+    github: "https://github.com/Grobles-Inc/holoseduca",
+    category: "Landing Page",
+    client: "Fundación HolosEduca",
+    duration: "10 días",
+    features: [
+      "Sección de inicio",
+      "Sección de nosotros",
+      "Sección de programas",
+      "Sección de proyectos",
+      "Sección de contacto"
     ]
   }
 ];
