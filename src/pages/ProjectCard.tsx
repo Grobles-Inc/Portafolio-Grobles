@@ -33,7 +33,7 @@ export default function ProjectCard({
           <span className="bg-yellow-200 text-black text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{featuresLength} features</span>
         </div>
         {/* Description */}
-        <p className="text-gray-500  md:text-sm text-xs ">
+        <p className="text-gray-500  md:text-sm text-xs">
           {description}...
         </p>
         {/* Button and stats */}
