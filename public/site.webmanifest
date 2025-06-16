@@ -2,14 +2,7 @@
   "name": "Grobles Solutions - Desarrollo de Software",
   "short_name": "Grobles Solutions",
   "description": "Startup líder en desarrollo de software. Convertimos tus ideas en soluciones innovadoras.",
-  "icons": [
-    {
-      "src": "/src/assets/icons.png",
-      "sizes": "any",
-      "type": "image/png",
-      "purpose": "any"
-    }
-  ],
+  "icons": [],
   "theme_color": "#fde047",
   "background_color": "#ffffff",
   "display": "standalone",
