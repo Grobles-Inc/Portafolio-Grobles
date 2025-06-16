@@ -1,0 +1,21 @@
+# Netlify redirects para Single Page Application (SPA)
+# Todas las rutas que no sean archivos estáticos deben ser dirigidas a index.html
+# para que React Router pueda manejarlas
+
+# Permite que los archivos estáticos se sirvan directamente
+/assets/*  /assets/:splat  200
+/public/*  /public/:splat  200
+*.js       /:splat         200
+*.css      /:splat         200
+*.png      /:splat         200
+*.jpg      /:splat         200
+*.jpeg     /:splat         200
+*.svg      /:splat         200
+*.ico      /:splat         200
+*.woff     /:splat         200
+*.woff2    /:splat         200
+*.ttf      /:splat         200
+*.eot      /:splat         200
+
+# Redirige todas las demás rutas a index.html para que React Router las maneje
+/*    /index.html   200 
