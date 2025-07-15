@@ -6,6 +6,7 @@ import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
 import project8 from "../assets/project8.png";
+import project9 from "../assets/project9.png";
 
 export interface Project {
   id: string;
@@ -187,6 +188,28 @@ export const projectsData: Project[] = [
       "Sección de programas",
       "Sección de proyectos",
       "Sección de contacto"
+    ]
+  },
+  {
+    id: "9",
+    title: "MLStreaming",
+    slug: "ml-streaming",
+    description: "MLStreaming es un sistam web que permite gestionar y comercializar cuentas de plataformas de streaming.",
+    fullDescription: "MLStreaming es una solución web integral diseñada para facilitar la gestión y comercialización de cuentas de servicios de streaming. Diseñada para emprendedores, revendedores digitales o negocios que ofrecen suscripciones compartidas, la plataforma centraliza todas las operaciones en un entorno seguro, intuitivo y eficiente.",
+    image: project9,
+    technologies: ["React", "TailwindCSS", "Shadcn", "Supabase", "TypeScript"],
+    liveDemo: "https://mlstreaming.com/",
+    github: "https://github.com/Grobles-Inc/streaming",
+    category: "Sistema Web",
+    client: "MLStreaming",
+    duration: "31 días",
+    features: [
+      "Gestión de cuentas de streaming",
+      "Gestión de usuarios por roles",
+      "Gestión de venta de productos y cuentas",
+      "Gestión de billeteras entre usuarios",
+      "Gestión de pedidos de productos y cuentas",
+      "Gestión de administradores con control total de la plataforma",
     ]
   }
 ];

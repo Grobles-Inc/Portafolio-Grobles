@@ -29,14 +29,14 @@ export default function About() {
         <div className="flex flex-col items-center text-center space-y-6 py-12"
           data-aos="fade-up"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Creando Tu <span className="text-yellow-300 italic">Éxito Digital</span></h1>
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Creando Tu <span className="text-[#dcd500] italic">Éxito Digital</span></h1>
           <p className="max-w-2xl text-lg">
             Somos un equipo dinámico impulsado por la pasión y la creatividad comprometidos a transformar sus ideas en realidad.
           </p>
           <span className="text-xl">Construyamos el futuro juntos. 🚀</span>
           <Link
             to="/contact"
-            className="btn btn-lg bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+            className="btn btn-lg bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
           >
             Comenzar ahora
           </Link>
@@ -57,14 +57,14 @@ export default function About() {
         <div className="flex flex-col items-center text-center space-y-6 py-12 mt-20"
           data-aos="fade-up"
         >
-          <span className="text-yellow-300 font-semibold">Nuestra Visión</span>
+          <span className="text-[#dcd500] font-semibold">Nuestra Visión</span>
           <h1 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl font-bold">Nuestros Valores</h1>
           <p className="max-w-2xl text-lg">
             Nuestra visión es ser un referente en el mercado de desarrollo de software, ofreciendo soluciones innovadoras y de alta calidad.
           </p>
           <Link
             to="/contact"
-            className="btn btn-lg bg-yellow-300 hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+            className="btn btn-lg bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
           >
             Comenzar ahora
           </Link>
@@ -76,7 +76,7 @@ export default function About() {
           <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
             <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-yellow-300 rounded-full p-4">
+              <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
                 <User />
               </div>
               <h3 className="text-2xl font-bold">Centrado en el Cliente</h3>
@@ -90,7 +90,7 @@ export default function About() {
           <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
             <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-yellow-300 rounded-full p-4">
+              <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
                 <BadgeCheck />
               </div>
               <h3 className="text-2xl font-bold">Precisión y Eficiencia</h3>
@@ -104,7 +104,7 @@ export default function About() {
           <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
             <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-yellow-300 rounded-full p-4">
+              <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
                 <Cpu />
               </div>
               <h3 className="text-2xl font-bold">Innovación y Tecnología</h3>
@@ -118,7 +118,7 @@ export default function About() {
           <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
           >
             <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-yellow-300 rounded-full p-4">
+              <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
                 <Moon />
               </div>
               <h3 className="text-2xl font-bold">Manteniendo la simplicidad</h3>
@@ -133,22 +133,22 @@ export default function About() {
           data-aos="fade-up"
         >
           <div className="space-y-6">
-            <span className="text-yellow-300 font-semibold">Nuestra Misión</span>
+            <span className="text-[#dcd500] font-semibold">Nuestra Misión</span>
             <h2 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl font-bold mt-5">Reducir La Brecha De Habilidades Digitales</h2>
             <p className="text-lg text-gray-600">
               En Grobles Solutions, nuestra misión es transformar ideas en soluciones digitales innovadoras que impulsen el crecimiento de nuestros clientes. Nos comprometemos a:
             </p>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
-                <span className="text-yellow-300 text-xl">•</span>
+                <span className="text-[#dcd500] text-xl">•</span>
                 <span className="text-gray-600">Proporcionar soluciones tecnológicas de alta calidad que superen las expectativas.</span>
               </li>
               <li className="flex items-start space-x-3">
-                <span className="text-yellow-300 text-xl">•</span>
+                <span className="text-[#dcd500] text-xl">•</span>
                 <span className="text-gray-600">Mantenernos a la vanguardia de las últimas tendencias tecnológicas.</span>
               </li>
               <li className="flex items-start space-x-3">
-                <span className="text-yellow-300 text-xl">•</span>
+                <span className="text-[#dcd500] text-xl">•</span>
                 <span className="text-gray-600">Construir relaciones duraderas basadas en la confianza y el éxito mutuo.</span>
               </li>
             </ul>

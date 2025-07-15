@@ -38,7 +38,7 @@ export default function Projects() {
       />
       <section className="max-w-7xl mx-auto py-12">
         <div className="flex flex-col items-center text-center space-y-6" data-aos="fade-up">
-          <span className="text-yellow-300 font-semibold">Proyectos</span>
+          <span className="text-[#dcd500] font-semibold">Proyectos</span>
           <h1 className="text-2xl max-w-xl md:text-3xl lg:text-4xl font-bold">
             Nuestra Experiencia
           </h1>
@@ -54,7 +54,7 @@ export default function Projects() {
                 to={category.slug === 'todos' ? '/projects/todos' : `/projects/category/${category.slug}`}
                 key={category.name}
                 className={`card shadow-lg cursor-pointer group transition-all  rounded-2xl  hover:scale-105
-                  hover:bg-yellow-300 duration-200 ease-in-out text-black`}
+                  hover:bg-[#dcd500] duration-200 ease-in-out text-black`}
               >
                 <div className="card-body p-6">
                   <div

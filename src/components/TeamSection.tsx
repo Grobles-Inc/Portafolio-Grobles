@@ -37,7 +37,7 @@ export default function TeamSection() {
       <div className="flex flex-col items-center text-center space-y-6 py-12 mt-20"
         data-aos="fade-up"
       >
-        <span className="text-yellow-300 font-semibold">Nuestro Equipo</span>
+        <span className="text-[#dcd500] font-semibold">Nuestro Equipo</span>
         <h1 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl font-bold">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
         <p className="max-w-2xl text-lg">
           Somos más que un simple proveedor de servicios; Somos un equipo de profesionales apasionados que están comprometidos a ayudarlo a desbloquear todo el potencial de su marca.
@@ -66,7 +66,7 @@ export default function TeamSection() {
                 <div className="flex justify-center gap-4">
                   <a 
                     href={member.linkedin} 
-                    className="btn btn-circle hover:bg-yellow-300 transition-all duration-300"
+                    className="btn btn-circle hover:bg-[#dcd500] transition-all duration-300"
                     aria-label={`LinkedIn de ${member.name}`}
                     target="_blank"
                   >
@@ -74,7 +74,7 @@ export default function TeamSection() {
                   </a>
                   <a 
                     href={member.github} 
-                    className="btn btn-circle hover:bg-yellow-300 transition-all duration-300"
+                    className="btn btn-circle hover:bg-[#dcd500] transition-all duration-300"
                     aria-label={`GitHub de ${member.name}`}
                     target="_blank"
                   >

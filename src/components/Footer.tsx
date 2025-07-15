@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export default function Footer() {
   return (
     <section 
-      className="bg-yellow-400 flex flex-col items-center justify-center mt-20 h-[800px] rounded-3xl"
+      className="bg-[#dcd500] flex flex-col items-center justify-center mt-20 h-[800px] rounded-3xl"
     >
       <div className="max-w-4xl mx-auto text-center px-6 py-20">
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-black leading-tight mb-8">
@@ -26,7 +26,9 @@ export default function Footer() {
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center w-full px-10 mt-10 space-y-4 md:space-y-0">
         <div className="text-center md:text-start">
-          Sitio Web desarrollado por <span className="font-bold">Grobles Solutions.</span>
+          <p>¿Tienes alguna duda, o quieres contactarnos?<br />
+            <span className="font-bold">grobles.dev@gmail.com</span>
+          </p>
         </div>
         <div className="text-center md:text-end">
           <p>Copyright © 2025 Grobles Solutions. Todos los derechos reservados.</p>

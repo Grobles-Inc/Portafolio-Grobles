@@ -14,7 +14,7 @@ export default function ProjectDetail() {
           <p className="text-gray-600 mb-8">El proyecto que buscas no existe o ha sido movido.</p>
           <Link
             to="/projects"
-            className="btn bg-yellow-300 text-black rounded-4xl hover:bg-yellow-400 hover:border-transparent transition-all duration-300 ease-in-out"
+            className="btn bg-[#dcd500] text-black rounded-4xl hover:bg-yellow-400 hover:border-transparent transition-all duration-300 ease-in-out"
           >
             Volver a Proyectos
           </Link>
@@ -28,7 +28,7 @@ export default function ProjectDetail() {
       {/* Back Button */}
       <Link
         to="/projects"
-        className="inline-flex items-center gap-2 text-yellow-300 hover:text-yellow-400 transition-colors mb-8"
+        className="inline-flex items-center gap-2 text-[#dcd500] hover:text-yellow-400 transition-colors mb-8"
       >
         <ArrowLeft className="w-5 h-5" />
         Volver a Proyectos
@@ -76,7 +76,7 @@ export default function ProjectDetail() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {project.features.map((feature, index) => (
               <div key={index} className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-yellow-300 rounded-full mt-3 flex-shrink-0"></div>
+                <div className="w-2 h-2 bg-[#dcd500] rounded-full mt-3 flex-shrink-0"></div>
                 <span>{feature}</span>
               </div>
             ))}
@@ -102,7 +102,7 @@ export default function ProjectDetail() {
 
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <User className="w-5 h-5 text-yellow-300" />
+                  <User className="w-5 h-5 text-[#dcd500]" />
                   <div>
                     <p className="text-sm text-gray-400">Cliente</p>
                     <p className="font-semibold">{project.client}</p>
@@ -110,7 +110,7 @@ export default function ProjectDetail() {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <Calendar className="w-5 h-5 text-yellow-300" />
+                  <Calendar className="w-5 h-5 text-[#dcd500]" />
                   <div>
                     <p className="text-sm text-gray-400">Duración</p>
                     <p className="font-semibold">{project.duration}</p>
@@ -118,7 +118,7 @@ export default function ProjectDetail() {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <Tag className="w-5 h-5 text-yellow-300" />
+                  <Tag className="w-5 h-5 text-[#dcd500]" />
                   <div>
                     <p className="text-sm text-gray-400">Categoría</p>
                     <p className="font-semibold">{project.category}</p>
@@ -135,7 +135,7 @@ export default function ProjectDetail() {
                 href={project.liveDemo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn bg-yellow-300 text-black rounded-4xl w-full gap-2 hover:bg-white transition-all duration-300 hover:scale-105"
+                className="btn bg-[#dcd500] text-black rounded-4xl w-full gap-2 hover:bg-white transition-all duration-300 hover:scale-105"
               >
                 <ExternalLink className="w-5 h-5" />
                 Ver Demo en Vivo
@@ -158,7 +158,7 @@ export default function ProjectDetail() {
       </div>
 
       {/* Call to Action */}
-      <div className="text-center bg-yellow-300 rounded-3xl p-12 mt-16"
+      <div className="text-center bg-[#dcd500] rounded-3xl p-12 mt-16"
         data-aos="fade-up"
       >
         <h2 className="text-3xl font-bold mb-4">¿Te Interesa un Proyecto Similar?</h2>

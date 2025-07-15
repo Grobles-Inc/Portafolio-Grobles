@@ -41,7 +41,7 @@ export default function CategoryProjects() {
     <section className="max-w-7xl mx-auto py-12 px-4">
       <Link
         to="/projects"
-        className="inline-flex items-center gap-2 transition-colors mb-8 text-yellow-300 hover:text-yellow-400"
+        className="inline-flex items-center gap-2 transition-colors mb-8 text-[#dcd500] hover:text-yellow-400"
       >
         <ArrowLeft className="w-5 h-5" />
         Volver a Categorías
