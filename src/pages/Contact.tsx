@@ -180,7 +180,7 @@ export default function Contact() {
                 <div className="form-control mt-6 flex justify-center">
                   <button
                     type="submit"
-                    className="btn rounded-full bg-[#dcd500] hover:bg-yellow-400 text-black border-none text-lg font-bold"
+                    className="btn rounded-full border bg-[#dcd500] hover:bg-white text-black text-lg font-bold transition-all duration-300 ease-in-out"
                   >
                     <MessageCircle className="w-5 h-5 mr-2" />
                     Enviar por WhatsApp
