@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Monitor, Smartphone, Server, Paintbrush } from "lucide-react";
+import { Monitor, Smartphone, Server, Paintbrush, ChartLine, Wrench } from "lucide-react";
 import SEOHead from "../components/SEOHead"
 
 export default function Services() {
@@ -165,6 +165,43 @@ export default function Services() {
               <h3 className="text-2xl font-bold">Diseño UI/UX</h3>
               <p className="text-gray-600">
                 Creamos interfaces intuitivas y atractivas que mejoran la experiencia de usuario y aumentan la conversión.
+              </p>
+              <Link 
+                to="/contact" 
+                className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              >
+                Comenzar ahora
+              </Link>
+            </div>
+          </div>
+          {/* Tarjeta 5 */}
+          <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
+            <div className="flex flex-col items-center text-center space-y-4">
+              <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+                <ChartLine />
+              </div>
+              <h3 className="text-2xl font-bold">Marketing Digital</h3>
+              <p className="text-gray-600">
+                Impulsa tu negocio con estrategias de marketing digital, publicidad en redes sociales y posicionamiento SEO para llegar a más clientes.
+              </p>
+              <Link 
+                to="/contact" 
+                className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              >
+                Comenzar ahora
+              </Link>
+            </div>
+          </div>
+
+          {/* Tarjeta 6 */}
+          <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
+            <div className="flex flex-col items-center text-center space-y-4">
+              <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+                <Wrench />
+              </div>
+              <h3 className="text-2xl font-bold">Soporte y Mantenimiento</h3>
+              <p className="text-gray-600">
+                Ofrecemos soporte técnico y mantenimiento continuo para asegurar que tus sistemas funcionen de manera óptima y segura en todo momento.
               </p>
               <Link 
                 to="/contact" 
