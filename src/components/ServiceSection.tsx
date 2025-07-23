@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Monitor, Smartphone, Server, Paintbrush } from "lucide-react"
+import { Monitor, Smartphone, Server, Paintbrush, ChartLine, Wrench } from "lucide-react"
 
 export default function ServiceSection() {
   return (
@@ -12,8 +12,8 @@ export default function ServiceSection() {
         <p className="max-w-2xl text-lg">
           Nos asociamos con usted para crear un modelo de negocio exitoso que refleje auténticamente su visión única mientras logra sus objetivos de conversión deseados.
         </p>
-        <Link 
-          to="/contact" 
+        <Link
+          to="/contact"
           className="btn btn-lg bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
         >
           Comenzar ahora
@@ -32,8 +32,8 @@ export default function ServiceSection() {
             <p className="text-gray-600">
               Creamos sitios web modernos y responsivos que impulsan tu presencia digital y generan resultados tangibles.
             </p>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
@@ -51,8 +51,8 @@ export default function ServiceSection() {
             <p className="text-gray-600">
               Desarrollamos aplicaciones móviles nativas y multiplataforma que ofrecen experiencias excepcionales.
             </p>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
@@ -70,8 +70,8 @@ export default function ServiceSection() {
             <p className="text-gray-600">
               Construimos APIs robustas y escalables que potencian tus aplicaciones con la mejor tecnología.
             </p>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
@@ -89,8 +89,45 @@ export default function ServiceSection() {
             <p className="text-gray-600">
               Creamos interfaces intuitivas y atractivas que mejoran la experiencia de usuario y aumentan la conversión.
             </p>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
+              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+            >
+              Comenzar ahora
+            </Link>
+          </div>
+        </div>
+        {/* Tarjeta 5 */}
+        <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
+          <div className="flex flex-col items-center text-center space-y-4">
+            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+              <ChartLine />
+            </div>
+            <h3 className="text-2xl font-bold">Marketing Digital</h3>
+            <p className="text-gray-600">
+              Impulsa tu negocio con estrategias de marketing digital, publicidad en redes sociales y posicionamiento SEO para llegar a más clientes.
+            </p>
+            <Link
+              to="/contact"
+              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+            >
+              Comenzar ahora
+            </Link>
+          </div>
+        </div>
+
+        {/* Tarjeta 6 */}
+        <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
+          <div className="flex flex-col items-center text-center space-y-4">
+            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+              <Wrench />
+            </div>
+            <h3 className="text-2xl font-bold">Soporte y Mantenimiento</h3>
+            <p className="text-gray-600">
+              Ofrecemos soporte técnico y mantenimiento continuo para asegurar que tus sistemas funcionen de manera óptima y segura en todo momento.
+            </p>
+            <Link
+              to="/contact"
               className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
