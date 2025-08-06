@@ -44,7 +44,7 @@ export default function Contact() {
       "name": "Grobles Solutions",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+51-937-760-953",
+        "telephone": "+51-972-557-287",
         "contactType": "customer service",
         "availableLanguage": ["Spanish", "English"],
         "areaServed": "Worldwide"

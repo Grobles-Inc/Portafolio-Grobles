@@ -6,7 +6,7 @@ interface WhatsappContactParams {
 }
 
 export function formatWhatsappContact({ name, email, phone, message }: WhatsappContactParams): string {
-  const phoneNumber = "51937760953";
+  const phoneNumber = "51972557287";
   
   const formattedMessage =
     `¡Hola Grobles, quiero ponerme en contacto con ustedes!%0A%0A` +
