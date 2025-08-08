@@ -89,8 +89,8 @@ export default function Contact() {
           >
             <div className="card-body items-center text-center">
               <MapPin className="w-12 h-12 text-[#dcd500] mb-4" />
-              <h2 className="card-title text-xl font-bold">Ubicados en</h2>
-              <p className="text-base-content/80">Lima, Perú</p>
+              <h2 className="card-title text-xl font-bold">Trabajamos de <br /> manera remota</h2>
+              <p className="text-base-content/80">Somos una empresa peruana</p>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ export default function Contact() {
             <div className="card-body items-center text-center">
               <Phone className="w-12 h-12 text-[#dcd500] mb-4" />
               <h2 className="card-title text-xl font-bold">Llámanos</h2>
-              <p className="text-base-content/80">+51 937 760 953</p>
+              <p className="text-base-content/80">+51 972 557 287</p>
             </div>
           </div>
         </div>
