@@ -7,6 +7,7 @@ import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
 import project8 from "../assets/project8.png";
 import project9 from "../assets/project9.png";
+import project10 from "../assets/project10.png";
 
 export interface Project {
   id: string;
@@ -208,6 +209,28 @@ export const projectsData: Project[] = [
       "Gestión de usuarios por roles",
       "Gestión de venta de productos y cuentas",
       "Gestión de billeteras entre usuarios",
+      "Gestión de pedidos de productos y cuentas",
+      "Gestión de administradores con control total de la plataforma",
+    ]
+  },
+  {
+    id: "10",
+    title: "Tu Techo Ahora",
+    slug: "tu-techo-ahora",
+    description: "Plataforma web para promocionar propiedades inmobiliarias con panel de administración integrado.",
+    fullDescription: "Sistema web diseñado para inmobiliarias que desean mostrar y gestionar sus propiedades de forma profesional. Incluye un panel de administración intuitivo para agregar, editar y organizar propiedades, ofreciendo a los clientes una experiencia de navegación clara y atractiva, optimizada para aumentar la visibilidad y generar oportunidades de venta o alquiler.",
+    image: project10,
+    technologies: ["React", "TailwindCSS", "TanStack", "DaisyUI", "Zod"],
+    liveDemo: "https://www.tutechoahora.com/",
+    github: "https://github.com/Grobles-Inc/tutechoahora",
+    category: "Sistema Web",
+    client: "Tu Techo Ahora",
+    duration: "14 días",
+    features: [
+      "Gestión de propiedades en venta y alquiler",
+      "Gestión de usuarios con roles y permisos",
+      "Gestión de solicitudes y contactos de interesados",
+      "Gestión de imágenes por propiedades",
       "Gestión de pedidos de productos y cuentas",
       "Gestión de administradores con control total de la plataforma",
     ]
