@@ -8,6 +8,7 @@ import project7 from "../assets/project7.png";
 import project8 from "../assets/project8.png";
 import project9 from "../assets/project9.png";
 import project10 from "../assets/project10.png";
+import project11 from "../assets/project11.png";
 
 export interface Project {
   id: string;
@@ -218,7 +219,7 @@ export const projectsData: Project[] = [
     title: "Tu Techo Ahora",
     slug: "tu-techo-ahora",
     description: "Plataforma web para promocionar propiedades inmobiliarias con panel de administración integrado.",
-    fullDescription: "Sistema web diseñado para inmobiliarias que desean mostrar y gestionar sus propiedades de forma profesional. Incluye un panel de administración intuitivo para agregar, editar y organizar propiedades, ofreciendo a los clientes una experiencia de navegación clara y atractiva, optimizada para aumentar la visibilidad y generar oportunidades de venta o alquiler.",
+    fullDescription: "Sistema web diseñado para mostrar y gestionar sus propiedades de forma profesional. Incluye un panel de administración intuitivo para agregar, editar y organizar propiedades, ofreciendo a los clientes una experiencia de navegación clara y atractiva, optimizada para aumentar la visibilidad y generar oportunidades de venta o alquiler.",
     image: project10,
     technologies: ["React", "TailwindCSS", "TanStack", "DaisyUI", "Zod"],
     liveDemo: "https://www.tutechoahora.com/",
@@ -233,6 +234,26 @@ export const projectsData: Project[] = [
       "Gestión de imágenes por propiedades",
       "Gestión de pedidos de productos y cuentas",
       "Gestión de administradores con control total de la plataforma",
+    ]
+  },
+  {
+    id: "11",
+    title: "Wild Horse CarWash Mobile",
+    slug: "wild-horse-carwash-mobile",
+    description: "Landing Page para promocionar servicios de limpieza de autos y captar clientes .",
+    fullDescription: "Landing Page para promocionar servicios de limpieza de autos y captar clientes. La página web es una experiencia de navegación atractiva y fácil de usar, diseñada para atraer a los clientes potenciales y convertirlos en clientes activos.",
+    image: project11,
+    technologies: ["Astro", "TailwindCSS", "AOS", "DaisyUI"],
+    liveDemo: "https://wildhorsecarwashmobile.com/",
+    github: "https://github.com/Grobles-Inc/mustang",
+    category: "Landing Page",
+    client: "Wild Horse CarWash",
+    duration: "10 días",
+    features: [
+      "Sección de inicio",
+      "Sección Sobre Nosotros",
+      "Sección de servicios",
+      "Sección de contacto",
     ]
   }
 ];

@@ -9,6 +9,7 @@ import project7 from "../assets/project7.png"
 import project8 from "../assets/project8.png"
 import project9 from "../assets/project9.png"
 import project10 from "../assets/project10.png"
+import project11 from "../assets/project11.png"
 
 export default function ProjectSection() {
   return (
@@ -185,6 +186,22 @@ export default function ProjectSection() {
             <Link to="/projects/tu-techo-ahora" className="flex flex-col items-center space-y-4">
               <img
                 src={project10}
+                width={900}
+                height={900}
+                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+              />
+            </Link>
+          </div>
+
+          {/* Project 11 */}
+          <div className="flex flex-col items-center space-y-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#dcd500] italic underline">
+              Wild Horse CarWash Mobile
+            </h3>
+            <Link to="/projects/wild-horse-carwash-mobile" className="flex flex-col items-center space-y-4">
+              <img
+                src={project11}
                 width={900}
                 height={900}
                 className="rounded-4xl hover:scale-105 transition-transform duration-300"
