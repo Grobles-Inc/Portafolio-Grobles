@@ -4,7 +4,7 @@ import { Facebook, Instagram, Github } from "lucide-react"
 export default function Footer() {
   return (
     <section
-      className="bg-[#dcd500] flex flex-col items-center justify-center mt-20 h-[800px] rounded-3xl md:m-8"
+      className="bg-[#dcd500] flex flex-col items-center justify-center mt-20 pb-10 rounded-3xl md:m-8"
     >
       <div className="max-w-4xl mx-auto text-center px-6 py-20">
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-black leading-tight mb-8">
