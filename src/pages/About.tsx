@@ -45,7 +45,7 @@ export default function About() {
           data-aos="fade-up"
         >
           <img
-            src="https://images.unsplash.com/photo-1629904869392-ae2a682d4d01?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Personas programando reunidas"
             width={900}
             height={900}
@@ -155,7 +155,7 @@ export default function About() {
           </div>
           <div className="relative h-[400px] rounded-2xl overflow-hidden">
             <img 
-              src="https://framerusercontent.com/images/GshzYw0x9SZcdDbvMofdpn78Cs.jpg?scale-down-to=1024" 
+              src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Nuestra Misión" 
               className="object-cover w-full h-full"
             />

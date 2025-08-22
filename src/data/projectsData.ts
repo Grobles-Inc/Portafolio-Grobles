@@ -9,6 +9,7 @@ import project8 from "../assets/project8.png";
 import project9 from "../assets/project9.png";
 import project10 from "../assets/project10.png";
 import project11 from "../assets/project11.png";
+import project12 from "../assets/project12.png";
 
 export interface Project {
   id: string;
@@ -254,6 +255,27 @@ export const projectsData: Project[] = [
       "Sección Sobre Nosotros",
       "Sección de servicios",
       "Sección de contacto",
+    ]
+  },
+  {
+    id: "12",
+    title: "Andina Group E.I.R.L.",
+    slug: "andina-group",
+    description: "Landing Page de promoción de servicios generales para el hogar y negocios.",
+    fullDescription: "Landing Page para promocionar servicios generales de construcción de hogares y negocios. La página web es una experiencia de navegación atractiva y fácil de usar, diseñada para atraer a los clientes potenciales y convertirlos en clientes activos.",
+    image: project12,
+    technologies: ["Astro", "TailwindCSS", "AOS", "Shadcn", "Vercel"],
+    liveDemo: "https://www.andinagroup.org/",
+    github: "https://github.com/kralion/andina",
+    category: "Landing Page",
+    client: "Andina Group",
+    duration: "8 días",
+    features: [
+      "Sección de inicio",
+      "Sección Sobre Nosotros",
+      "Sección de servicios",
+      "Sección de contacto",
+      "Integración de contacto por mensaje con Whatsapp",
     ]
   }
 ];

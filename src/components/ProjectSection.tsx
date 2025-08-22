@@ -10,6 +10,7 @@ import project8 from "../assets/project8.png"
 import project9 from "../assets/project9.png"
 import project10 from "../assets/project10.png"
 import project11 from "../assets/project11.png"
+import project12 from "../assets/project12.png"
 
 export default function ProjectSection() {
   return (
@@ -44,7 +45,7 @@ export default function ProjectSection() {
                 src={project1}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -60,7 +61,7 @@ export default function ProjectSection() {
                 src={project2}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -76,7 +77,7 @@ export default function ProjectSection() {
                 src={project3}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -92,7 +93,7 @@ export default function ProjectSection() {
                 src={project4}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -108,7 +109,7 @@ export default function ProjectSection() {
                 src={project5}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -124,7 +125,7 @@ export default function ProjectSection() {
                 src={project6}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -140,7 +141,7 @@ export default function ProjectSection() {
                 src={project7}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -156,7 +157,7 @@ export default function ProjectSection() {
                 src={project8}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -188,7 +189,7 @@ export default function ProjectSection() {
                 src={project10}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
@@ -204,7 +205,22 @@ export default function ProjectSection() {
                 src={project11}
                 width={900}
                 height={900}
-                className="rounded-4xl hover:scale-105 transition-transform duration-300"
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
+                loading="lazy"
+              />
+            </Link>
+          </div>
+          {/* Project 12 */}
+          <div className="flex flex-col items-center space-y-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#dcd500] italic underline">
+              Andina Group E.I.R.L.
+            </h3>
+            <Link to="/projects/andina-group" className="flex flex-col items-center space-y-4">
+              <img
+                src={project12}
+                width={900}
+                height={900}
+                className="rounded-4xl hover:scale-105 transition-transform duration-300 shadow-xl"
                 loading="lazy"
               />
             </Link>
