@@ -6,7 +6,7 @@ export default function HeroSection() {
       <div className="flex flex-col items-center text-center space-y-6 py-12 px-4"
         data-aos="fade-up"
       >
-        <h1 className="text-3xl md:text-6xl font-bold">Empresa Líder en <span className="text-[#07e288] italic">Soluciones Digitales</span></h1>
+        <h1 className="text-3xl md:text-6xl font-bold">Empresa Líder en <br /> <span className="text-[#07e288] italic">Soluciones Digitales</span></h1>
         <p className="max-w-2xl md:text-lg">
           Trae tu idea, nosotros la transformamos en innovación que impulsa tu negocio.
         </p>
@@ -20,7 +20,7 @@ export default function HeroSection() {
           </Link>
           <Link
             to="/projects"
-            className="btn md:btn-lg btn-outline rounded-full hover:bg-[#07e288] hover:text-white transition-all duration-300 ease-in-out hover:scale-105"
+            className="btn md:btn-lg bg-white rounded-full hover:bg-[#07e288] hover:text-white transition-all duration-300 ease-in-out hover:scale-105 px-8"
           >
             Ver proyectos
           </Link>
