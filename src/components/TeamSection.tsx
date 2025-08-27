@@ -25,7 +25,14 @@ export default function TeamSection() {
       description: "Luigi es experto en diseño de experiencias digitales centradas en el usuario. Su enfoque combina creatividad y análisis para diseñar interfaces intuitivas y atractivas que garantizan una interacción fluida. Es responsable de transformar la visión del cliente en diseños.",
       linkedin: "#",
       github: "https://github.com/Yuriine"
-    }
+    },
+    {
+      name: "Jheison Huaynate",
+      role: "Ciberseguridad",
+      description: "Jheison es un experto en seguridad informática y criptografía. Con su experiencia en la implementación de sistemas seguros y la gestión de identidades digitales, ha demostrado ser un experto en el tema. Su enfoque en la seguridad y la privacidad es fundamental para garantizar la integridad de los datos.",
+      linkedin: "#",
+      github: "https://github.com/jheisonHPC"
+    },
   ];
 
   return (

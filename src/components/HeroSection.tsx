@@ -14,13 +14,13 @@ export default function HeroSection() {
 
           <Link
             to="/contact"
-            className="btn md:btn-lg bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+            className="btn md:btn-lg bg-[#07e288] hover:bg-white hover:text-gray-900 text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
           >
             Comenzar ahora
           </Link>
           <Link
             to="/projects"
-            className="btn md:btn-lg btn-outline rounded-full"
+            className="btn md:btn-lg bg-white rounded-full hover:bg-[#07e288] hover:text-white transition-all duration-300 ease-in-out hover:scale-105 px-8"
           >
             Ver proyectos
           </Link>

@@ -34,7 +34,7 @@ export default function About() {
             Siempre priorizamos la fidelidad y la confianza con nuestros clientes, y nos esforzamos por ser un referente en el mercado de desarrollo de software, ofreciendo soluciones innovadoras y de alta calidad.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-12 max-w-6xl mx-auto"
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-12 max-w-5xl mx-auto"
           data-aos="fade-up"
         >
           {/* Tarjeta 1 */}
