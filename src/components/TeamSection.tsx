@@ -22,11 +22,18 @@ export default function TeamSection() {
       description: "Luigi es experto en diseño de experiencias digitales centradas en el usuario. Su enfoque combina creatividad y análisis para diseñar interfaces intuitivas y atractivas que garantizan una interacción fluida. Es responsable de transformar la visión del cliente en diseños.",
       linkedin: "#",
       github: "https://github.com/Yuriine"
-    }
+    },
+    {
+      name: "Jheison Huaynate",
+      role: "Ciberseguridad",
+      description: "Jheison es un experto en seguridad informática y criptografía. Con su experiencia en la implementación de sistemas seguros y la gestión de identidades digitales, ha demostrado ser un experto en el tema. Su enfoque en la seguridad y la privacidad es fundamental para garantizar la integridad de los datos.",
+      linkedin: "#",
+      github: "https://github.com/jheisonHPC"
+    },
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4">
+    <section className="max-w-6xl mx-auto px-4">
       <div className="flex flex-col items-center text-center space-y-6 py-12 mt-20"
         data-aos="fade-up"
       >
@@ -36,7 +43,7 @@ export default function TeamSection() {
           Somos más que un simple proveedor de servicios; Somos un equipo de profesionales apasionados que están comprometidos a ayudarlo a desbloquear todo el potencial de su marca.
         </p>
       </div>
-      
+
       {/* Team Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 mt-16 pb-20">
         {teamMembers.map((member, index) => (
@@ -48,26 +55,26 @@ export default function TeamSection() {
               {/* Member Info */}
               <div className="text-center">
                 <h2 className="card-title text-2xl font-bold mb-2 justify-center">{member.name}</h2>
-                <div className="badge bg-yellow-100 badge-lg text-black font-semibold mb-4">
+                <div className="badge bg-green-100 badge-lg text-black font-semibold mb-4">
                   {member.role}
                 </div>
                 <p className="text-base-content/80 leading-relaxed mb-6">
                   {member.description}
                 </p>
-                
+
                 {/* Social Links */}
                 <div className="flex justify-center gap-4">
-                  <a 
-                    href={member.linkedin} 
-                    className="btn btn-circle hover:bg-[#07e288] transition-all duration-300 hover:text-white"
+                  <a
+                    href={member.linkedin}
+                    className="btn btn-circle bg-[#07e288] transition-all duration-300 hover:bg-white hover:text-[#07e288] hover:border-[#07e288]"
                     aria-label={`LinkedIn de ${member.name}`}
                     target="_blank"
                   >
                     <Linkedin className="w-5 h-5" />
                   </a>
-                  <a 
-                    href={member.github} 
-                    className="btn btn-circle hover:bg-[#07e288] transition-all duration-300 hover:text-white"
+                  <a
+                    href={member.github}
+                    className="btn btn-circle bg-[#07e288] transition-all duration-300 hover:bg-white hover:text-[#07e288] hover:border-[#07e288]"
                     aria-label={`GitHub de ${member.name}`}
                     target="_blank"
                   >

@@ -29,14 +29,14 @@ export default function About() {
         <div className="flex flex-col items-center text-center space-y-6 py-12"
           data-aos="fade-up"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Creando Tu <span className="text-[#07e288] italic">Éxito Digital</span></h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Creando Tu <span className="text-[#07e288] italic">Éxito Digital</span></h1>
           <p className="max-w-2xl text-lg">
             Somos un equipo dinámico impulsado por la pasión y la creatividad comprometidos a transformar sus ideas en realidad.
           </p>
           <span className="text-xl">Construyamos el futuro juntos. 🚀</span>
           <Link
             to="/contact"
-            className="btn btn-lg bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+            className="btn btn-lg bg-[#07e288] hover:bg-white text-white hover:text-gray-900 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
           >
             Comenzar ahora
           </Link>
@@ -64,12 +64,12 @@ export default function About() {
           </p>
           <Link
             to="/contact"
-            className="btn btn-lg bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+            className="btn btn-lg bg-[#07e288] hover:bg-white text-white hover:text-gray-900 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
           >
             Comenzar ahora
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-12 max-w-6xl mx-auto"
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-12 max-w-5xl mx-auto"
           data-aos="fade-up"
         >
           {/* Tarjeta 1 */}
