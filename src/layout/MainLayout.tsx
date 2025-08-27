@@ -43,7 +43,7 @@ export default function MainLayout() {
     if (smootherRef.current) {
       smootherRef.current.scrollTo(0, true)
     }
-    
+
     AOS.refresh()
   }, [location.pathname])
 
@@ -52,7 +52,7 @@ export default function MainLayout() {
       <NavBar />
       <div id="smooth-content" ref={smoothContentRef}>
         <div className="min-h-screen bg-white flex flex-col">
-          <main className="pt-20 flex-1 bg-white">
+          <main className="md:pt-36 pt-20 flex-1 bg-white">
             <Outlet />
           </main>
           <Footer />

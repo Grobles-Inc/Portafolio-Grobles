@@ -1,40 +1,8 @@
-import { Mail, MapPin, Phone, MessageCircle } from "lucide-react";
-import { useState } from "react";
-import { formatWhatsappContact } from "../utils/whatsappFormatter";
-import SEOHead from "../components/SEOHead"
+import { Calendar, Mail, Phone } from "lucide-react";
+
+import SEOHead from "../components/SEOHead";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: ""
-  });
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    // Validar que todos los campos estén llenos
-    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
-      alert("Por favor completa todos los campos");
-      return;
-    }
-
-    // Generar el link de WhatsApp y abrir en nueva ventana
-    const whatsappLink = formatWhatsappContact(formData);
-    window.open(whatsappLink, '_blank');
-    
-    // Limpiar el formulario
-    setFormData({ name: "", email: "", phone: "", message: "" });
-  };
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -61,134 +29,82 @@ export default function Contact() {
         canonical="https://grobles.netlify.app/contact"
         structuredData={structuredData}
       />
-      <section className="max-w-7xl mx-auto">
-        <div className="flex flex-col items-center text-center space-y-6 py-12 lg:mt-20"
+      <section className="max-w-7xl mx-auto px-4">
+        <div
+          className="flex flex-col items-center text-center gap-4 py-16 lg:mt-24"
           data-aos="fade-up"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Conecta Con <span className="text-[#07e288] italic">Nosotros</span></h1>
-          <p className="max-w-2xl text-lg">
-            Tenemos un fuerte deseo de colaborar y damos la bienvenida a marcas estimadas y emprendedores entusiastas para que se unan a nosotros.
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
+            Conecta con <span className="text-[#07e288] italic">Nosotros</span>
+          </h1>
+          <p className="max-w-2xl text-lg text-base-content/80">
+            ¿Listo para impulsar tu proyecto? Hablemos. Trabajamos con marcas y emprendedores que buscan resultados reales.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 mb-20 mt-20">
-          <div className="card bg-base-100 shadow-xl rounded-3xl"
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+          {/* Email Card */}
+          <div
+            className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-[#07e288] focus-within:ring-2 focus-within:ring-[#07e288]"
             data-aos="zoom-in"
             data-aos-delay="100"
+            tabIndex={0}
           >
             <div className="card-body items-center text-center">
-              <Mail className="w-12 h-12 text-[#07e288] mb-4" />
-              <h2 className="card-title text-xl font-bold">Nuestro Email</h2>
-              <p className="text-base-content/80">grobles.dev@gmail.com</p>
+              <div className="flex items-center justify-center w-16 h-16 rounded-full bg-[#07e288]/10 mb-4 group-hover:bg-[#07e288]/20 transition">
+                <Mail className="w-10 h-10 text-[#07e288]" />
+              </div>
+              <h2 className="card-title text-xl font-bold mb-1">Email</h2>
+              <a
+                href="mailto:grobles.dev@gmail.com"
+                className="text-base-content/80 hover:text-[#07e288] underline underline-offset-2 transition"
+              >
+                grobles.dev@gmail.com
+              </a>
             </div>
           </div>
 
-          <div className="card bg-base-100 shadow-xl rounded-3xl"
+          {/* Calendar Card */}
+          <a
+            href="https://cal.com/grobles/cotizacion"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-[#07e288] focus:ring-2 focus:ring-[#07e288]"
             data-aos="zoom-in"
             data-aos-delay="200"
+            tabIndex={0}
           >
             <div className="card-body items-center text-center">
-              <MapPin className="w-12 h-12 text-[#07e288] mb-4" />
-              <h2 className="card-title text-xl font-bold">Trabajamos de <br /> manera remota</h2>
-              <p className="text-base-content/80">Somos una empresa peruana</p>
+              <div className="flex items-center justify-center w-16 h-16 rounded-full bg-[#07e288]/10 mb-4 group-hover:bg-[#07e288]/20 transition">
+                <Calendar className="w-10 h-10 text-[#07e288]" />
+              </div>
+              <h2 className="card-title text-xl font-bold mb-1">Agenda una cita</h2>
+              <span className="text-base-content/80 group-hover:text-[#07e288] transition">
+                Reserva una reunión con nuestro equipo
+              </span>
             </div>
-          </div>
+          </a>
 
-          <div className="card bg-base-100 shadow-xl rounded-3xl"
+          {/* Phone Card */}
+          <a
+            href="https://wa.me/51972557287?text=Hola Grobles Solutions, quiero ponerme en contacto con ustedes!"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-[#07e288] focus:ring-2 focus:ring-[#07e288]"
             data-aos="zoom-in"
             data-aos-delay="300"
+            tabIndex={0}
           >
             <div className="card-body items-center text-center">
-              <Phone className="w-12 h-12 text-[#07e288] mb-4" />
-              <h2 className="card-title text-xl font-bold">Llámanos</h2>
-              <p className="text-base-content/80">+51 972 557 287</p>
+              <div className="flex items-center justify-center w-16 h-16 rounded-full bg-[#07e288]/10 mb-4 group-hover:bg-[#07e288]/20 transition">
+                <Phone className="w-10 h-10 text-[#07e288]" />
+              </div>
+              <h2 className="card-title text-xl font-bold mb-1">Whatsapp</h2>
+              <span className="text-base-content/80 group-hover:text-[#07e288] transition">
+                +51 972 557 287
+              </span>
             </div>
-          </div>
-        </div>
-
-        {/* Formulario de contacto */}
-        <div className="px-4 mb-20">
-          <div className="card rounded-3xl shadow-xl max-w-4xl mx-auto"
-            data-aos="zoom-in"
-          >
-            <div className="card-body">
-              <h2 className="card-title text-2xl font-bold text-center justify-center mb-6">
-                <MessageCircle className="w-8 h-8 text-[#07e288] mr-2" />
-                Envíanos un Mensaje por WhatsApp
-              </h2>
-              
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text text-base font-semibold">Nombre Completo</span>
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    placeholder="Tu nombre completo"
-                    className="input input-bordered w-full"
-                    required
-                  />
-                </div>
-
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text text-base font-semibold">Correo Electrónico</span>
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    placeholder="tu@email.com"
-                    className="input input-bordered w-full"
-                    required
-                  />
-                </div>
-
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text text-base font-semibold">Número de Teléfono</span>
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                    placeholder="+51 999 999 999"
-                    className="input input-bordered w-full"
-                    required
-                  />
-                </div>
-
-                <div className="form-control">
-                  <label className="label">
-                    <span className="label-text text-base font-semibold">Mensaje</span>
-                  </label>
-                  <textarea
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    placeholder="Cuéntanos sobre tu proyecto o consulta..."
-                    className="textarea textarea-bordered h-32 w-full"
-                    required
-                  />
-                </div>
-
-                <div className="form-control mt-6 flex justify-center">
-                  <button
-                    type="submit"
-                    className="btn rounded-full border bg-[#07e288] hover:bg-white text-black text-lg font-bold transition-all duration-300 ease-in-out"
-                  >
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    Enviar por WhatsApp
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
+          </a>
         </div>
       </section>
     </div>

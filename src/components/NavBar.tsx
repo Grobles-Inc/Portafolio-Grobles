@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Logo from '../assets/logoGrobles.png'
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isVisible, setIsVisible] = useState(true)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -14,9 +15,30 @@ export default function NavBar() {
     setIsMenuOpen(false)
   }
 
+  useEffect(() => {
+    let lastScrollY = window.scrollY
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY
+
+      // Show header when scrolling up or at the top
+      if (currentScrollY < lastScrollY || currentScrollY <= 10) {
+        setIsVisible(true)
+      } else {
+        // Hide header when scrolling down
+        setIsVisible(false)
+      }
+
+      lastScrollY = currentScrollY
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className="bg-white shadow-lg top-0 z-50 fixed w-full">
-      <div className="container mx-auto px-4 py-3">
+    <header className={`bg-white top-0 z-50 fixed w-full transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+      <div className="container mx-auto px-4 md:py-8 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div>

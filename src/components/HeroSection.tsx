@@ -3,20 +3,28 @@ import { Link } from "react-router-dom"
 export default function HeroSection() {
   return (
     <section className="max-w-7xl mx-auto">
-      <div className="flex flex-col items-center text-center space-y-6 py-12"
+      <div className="flex flex-col items-center text-center space-y-6 py-12 px-4"
         data-aos="fade-up"
       >
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Somos Grobles Startup Líder en <span className="text-[#07e288] italic">Desarrollo de Software</span></h1>
-        <p className="max-w-2xl text-lg">
-          Trabajamos contigo para convertir tus ideas en soluciones innovadoras, utilizando tecnología de punta para desarrollar productos de software escalable.
+        <h1 className="text-3xl md:text-5xl  font-bold">Empresa Líder en <span className="text-[#07e288] italic">Soluciones Digitales</span></h1>
+        <p className="max-w-2xl md:text-lg">
+          Trae tu idea, nosotros la transformamos en innovación que impulsa tu negocio.
         </p>
-        <span className="text-xl">Construyamos el futuro juntos. 🚀</span>
-        <Link
-          to="/contact"
-          className="btn btn-lg bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
-        >
-          Comenzar ahora
-        </Link>
+        <div className="flex   gap-4">
+
+          <Link
+            to="/contact"
+            className="btn md:btn-lg bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+          >
+            Comenzar ahora
+          </Link>
+          <Link
+            to="/projects"
+            className="btn md:btn-lg btn-outline rounded-full"
+          >
+            Ver proyectos
+          </Link>
+        </div>
       </div>
 
       <div className="flex justify-center items-center px-4 sm:px-6 md:px-8"
@@ -32,7 +40,7 @@ export default function HeroSection() {
           decoding="async"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-12 px-4 text-lg"
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 py-12 px-4 text-lg"
         data-aos="fade-up"
       >
         <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center">

@@ -27,26 +27,21 @@ export default function Footer() {
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center w-full px-10 mt-10 space-y-4 md:space-y-0">
         <div className="text-center md:text-start">
-          <p>¿Tienes alguna duda, o quieres contactarnos?<br />
-            <span className="font-bold">grobles.dev@gmail.com</span>
-          </p>
-          <div className="flex flex-col justify-center md:justify-start space-x-4 mt-4">
-            <p className="text-sm">Síguenos en nuestras redes sociales</p>
-            <div className="flex justify-center md:justify-start space-x-4 mt-2">
-              <a href="https://www.facebook.com/profile.php?id=61573124294121" target="_blank" rel="noopener noreferrer">
-                <Facebook className="w-6 h-6 hover:text-white hover:scale-125 transition-all duration-300" />
-              </a>
-              <a href="https://www.instagram.com/grobl_esdev/" target="_blank" rel="noopener noreferrer">
-                <Instagram className="w-6 h-6 hover:text-white hover:scale-125 transition-all duration-300" />
-              </a>
-              <a href="https://github.com/Grobles-Inc" target="_blank" rel="noopener noreferrer">
-                <Github className="w-6 h-6 hover:text-white hover:scale-125 transition-all duration-300" />
-              </a>
-            </div>
+
+          <div className="flex justify-center md:justify-start  mt-2">
+            <a href="https://www.facebook.com/profile.php?id=61573124294121" target="_blank" className="btn btn-ghost btn-circle" rel="noopener noreferrer">
+              <Facebook className="w-6 h-6 " />
+            </a>
+            <a href="https://www.instagram.com/grobl_esdev/" target="_blank" className="btn btn-ghost btn-circle" rel="noopener noreferrer">
+              <Instagram className="w-6 h-6" />
+            </a>
+            <a href="https://github.com/Grobles-Inc" target="_blank" className="btn btn-ghost btn-circle" rel="noopener noreferrer">
+              <Github className="w-6 h-6" />
+            </a>
           </div>
         </div>
         <div className="text-center md:text-end">
-          <p>Copyright © 2025 Grobles Solutions. Todos los derechos reservados.</p>
+          <p>Copyright © 2025 Grobles Solutions.</p>
         </div>
       </div>
     </section>
