@@ -36,3 +36,29 @@ body {
 .animate-slide-up {
   animation: slide-up 0.6s ease-out;
 }
+
+/* Estilos para ScrollSmoother */
+#smooth-wrapper {
+  overflow: hidden;
+}
+
+#smooth-content {
+  overflow: visible;
+  width: 100%;
+}
+
+/* Mejorar el rendimiento del scroll */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ocultar scrollbars del navegador para una experiencia más limpia */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
