@@ -32,7 +32,7 @@ export default function NavBar() {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] hover:text-white rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288] text-white' : 'text-black'
                     }`
                   }
                 >
@@ -43,7 +43,7 @@ export default function NavBar() {
                 <NavLink
                   to="/about"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] hover:text-white rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288] text-white' : 'text-black'
                     }`
                   }
                 >
@@ -54,7 +54,7 @@ export default function NavBar() {
                 <NavLink
                   to="/services"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] hover:text-white rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288] text-white' : 'text-black'
                     }`
                   }
                 >
@@ -65,7 +65,7 @@ export default function NavBar() {
                 <NavLink
                   to="/projects"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] hover:text-white rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288] text-white' : 'text-black'
                     }`
                   }
                 >
@@ -79,7 +79,7 @@ export default function NavBar() {
           <div className="hidden lg:flex">
             <Link
               to="/contact"
-              className="btn btn-lg border text-gray-800 hover:opacity-70 bg-[#07e288]  transition-all hover:bg-white hover:border-gray-800 hover:text-black duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
+              className="btn btn-lg border text-white hover:opacity-70 bg-[#07e288]  transition-all hover:bg-white hover:border-gray-800 hover:text-black duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
             >
               Contáctanos
             </Link>
