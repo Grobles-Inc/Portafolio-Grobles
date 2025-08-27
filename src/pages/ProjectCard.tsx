@@ -39,7 +39,7 @@ export default function ProjectCard({
         {/* Button and stats */}
         <div className="flex items-center gap-2 w-full ">
           <Link
-            className="btn bg-[#dcd500] text-black rounded-4xl gap-2 hover:bg-white"
+            className="btn bg-[#07e288] text-black rounded-4xl gap-2 hover:bg-white"
             to={demoUrl}
             target="_blank"
           >

@@ -58,14 +58,14 @@ export default function Contact() {
         title="Contacto - Grobles Solutions | Hablemos de tu Proyecto"
         description="¿Tienes una idea? Contacta con Grobles Solutions. Soporte 24/7, consulta gratuita y presupuesto personalizado para tu proyecto de software."
         keywords="contacto, consulta gratuita, presupuesto software, desarrollo personalizado, soporte 24/7"
-        canonical="https://groblesolutions.netlify.app/contact"
+        canonical="https://grobles.netlify.app/contact"
         structuredData={structuredData}
       />
       <section className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center space-y-6 py-12 lg:mt-20"
           data-aos="fade-up"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Conecta Con <span className="text-[#dcd500] italic">Nosotros</span></h1>
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Conecta Con <span className="text-[#07e288] italic">Nosotros</span></h1>
           <p className="max-w-2xl text-lg">
             Tenemos un fuerte deseo de colaborar y damos la bienvenida a marcas estimadas y emprendedores entusiastas para que se unan a nosotros.
           </p>
@@ -77,7 +77,7 @@ export default function Contact() {
             data-aos-delay="100"
           >
             <div className="card-body items-center text-center">
-              <Mail className="w-12 h-12 text-[#dcd500] mb-4" />
+              <Mail className="w-12 h-12 text-[#07e288] mb-4" />
               <h2 className="card-title text-xl font-bold">Nuestro Email</h2>
               <p className="text-base-content/80">grobles.dev@gmail.com</p>
             </div>
@@ -88,7 +88,7 @@ export default function Contact() {
             data-aos-delay="200"
           >
             <div className="card-body items-center text-center">
-              <MapPin className="w-12 h-12 text-[#dcd500] mb-4" />
+              <MapPin className="w-12 h-12 text-[#07e288] mb-4" />
               <h2 className="card-title text-xl font-bold">Trabajamos de <br /> manera remota</h2>
               <p className="text-base-content/80">Somos una empresa peruana</p>
             </div>
@@ -99,7 +99,7 @@ export default function Contact() {
             data-aos-delay="300"
           >
             <div className="card-body items-center text-center">
-              <Phone className="w-12 h-12 text-[#dcd500] mb-4" />
+              <Phone className="w-12 h-12 text-[#07e288] mb-4" />
               <h2 className="card-title text-xl font-bold">Llámanos</h2>
               <p className="text-base-content/80">+51 972 557 287</p>
             </div>
@@ -113,7 +113,7 @@ export default function Contact() {
           >
             <div className="card-body">
               <h2 className="card-title text-2xl font-bold text-center justify-center mb-6">
-                <MessageCircle className="w-8 h-8 text-[#dcd500] mr-2" />
+                <MessageCircle className="w-8 h-8 text-[#07e288] mr-2" />
                 Envíanos un Mensaje por WhatsApp
               </h2>
               
@@ -180,7 +180,7 @@ export default function Contact() {
                 <div className="form-control mt-6 flex justify-center">
                   <button
                     type="submit"
-                    className="btn rounded-full border bg-[#dcd500] hover:bg-white text-black text-lg font-bold transition-all duration-300 ease-in-out"
+                    className="btn rounded-full border bg-[#07e288] hover:bg-white text-black text-lg font-bold transition-all duration-300 ease-in-out"
                   >
                     <MessageCircle className="w-5 h-5 mr-2" />
                     Enviar por WhatsApp

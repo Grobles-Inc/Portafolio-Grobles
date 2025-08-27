@@ -7,14 +7,14 @@ export default function ServiceSection() {
       <div className="flex flex-col items-center text-center space-y-6 py-12"
         data-aos="fade-up"
       >
-        <span className="text-[#dcd500] font-semibold">Nuestros Servicios</span>
+        <span className="text-[#07e288] font-semibold">Nuestros Servicios</span>
         <h1 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl font-bold">Servicios De Diseño y Desarrollo de Alto Impacto</h1>
         <p className="max-w-2xl text-lg">
           Nos asociamos con usted para crear un modelo de negocio exitoso que refleje auténticamente su visión única mientras logra sus objetivos de conversión deseados.
         </p>
         <Link
           to="/contact"
-          className="btn btn-lg bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+          className="btn btn-lg bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
         >
           Comenzar ahora
         </Link>
@@ -25,7 +25,7 @@ export default function ServiceSection() {
         {/* Tarjeta 1 */}
         <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
           <div className="flex flex-col items-center text-center space-y-4">
-            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+            <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
               <Monitor />
             </div>
             <h3 className="text-2xl font-bold">Desarrollo Web</h3>
@@ -34,7 +34,7 @@ export default function ServiceSection() {
             </p>
             <Link
               to="/contact"
-              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -44,7 +44,7 @@ export default function ServiceSection() {
         {/* Tarjeta 2 */}
         <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
           <div className="flex flex-col items-center text-center space-y-4">
-            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+            <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
               <Smartphone />
             </div>
             <h3 className="text-2xl font-bold">Desarrollo Móvil</h3>
@@ -53,7 +53,7 @@ export default function ServiceSection() {
             </p>
             <Link
               to="/contact"
-              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -63,7 +63,7 @@ export default function ServiceSection() {
         {/* Tarjeta 3 */}
         <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
           <div className="flex flex-col items-center text-center space-y-4">
-            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+            <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
               <Server />
             </div>
             <h3 className="text-2xl font-bold">Desarrollo Backend</h3>
@@ -72,7 +72,7 @@ export default function ServiceSection() {
             </p>
             <Link
               to="/contact"
-              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -82,7 +82,7 @@ export default function ServiceSection() {
         {/* Tarjeta 4 */}
         <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
           <div className="flex flex-col items-center text-center space-y-4">
-            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+            <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
               <Paintbrush />
             </div>
             <h3 className="text-2xl font-bold">Diseño UI/UX</h3>
@@ -91,7 +91,7 @@ export default function ServiceSection() {
             </p>
             <Link
               to="/contact"
-              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -100,7 +100,7 @@ export default function ServiceSection() {
         {/* Tarjeta 5 */}
         <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
           <div className="flex flex-col items-center text-center space-y-4">
-            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+            <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
               <ChartLine />
             </div>
             <h3 className="text-2xl font-bold">Marketing Digital</h3>
@@ -109,7 +109,7 @@ export default function ServiceSection() {
             </p>
             <Link
               to="/contact"
-              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>
@@ -119,7 +119,7 @@ export default function ServiceSection() {
         {/* Tarjeta 6 */}
         <div className="bg-white p-8 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
           <div className="flex flex-col items-center text-center space-y-4">
-            <div className="text-4xl text-white bg-[#dcd500] rounded-full p-4">
+            <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
               <Wrench />
             </div>
             <h3 className="text-2xl font-bold">Soporte y Mantenimiento</h3>
@@ -128,7 +128,7 @@ export default function ServiceSection() {
             </p>
             <Link
               to="/contact"
-              className="btn bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+              className="btn bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
             >
               Comenzar ahora
             </Link>

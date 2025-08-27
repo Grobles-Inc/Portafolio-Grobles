@@ -21,7 +21,7 @@ export default function NavBar() {
           {/* Logo */}
           <div>
             <Link to="/" onClick={closeMenu}>
-              <img src={Logo} alt="Logo" className="h-10 w-auto" />
+              <img src={Logo} alt="Logo" className="h-12 w-auto" />
             </Link>
           </div>
 
@@ -32,7 +32,7 @@ export default function NavBar() {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#dcd500] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -43,7 +43,7 @@ export default function NavBar() {
                 <NavLink
                   to="/about"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#dcd500] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -54,7 +54,7 @@ export default function NavBar() {
                 <NavLink
                   to="/services"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#dcd500] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -65,7 +65,7 @@ export default function NavBar() {
                 <NavLink
                   to="/projects"
                   className={({ isActive }) =>
-                    `transition-colors duration-200 hover:bg-[#dcd500] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -79,7 +79,7 @@ export default function NavBar() {
           <div className="hidden lg:flex">
             <Link
               to="/contact"
-              className="btn btn-lg border text-gray-800 hover:opacity-70 bg-[#dcd500]  transition-all hover:bg-white hover:border-gray-800 hover:text-black duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
+              className="btn btn-lg border text-gray-800 hover:opacity-70 bg-[#07e288]  transition-all hover:bg-white hover:border-gray-800 hover:text-black duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
             >
               Contáctanos
             </Link>
@@ -111,7 +111,7 @@ export default function NavBar() {
                   to="/"
                   onClick={closeMenu}
                   className={({ isActive }) =>
-                    `block transition-colors duration-200 hover:bg-[#dcd500] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `block transition-colors duration-200 hover:bg-[#07e288] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -123,7 +123,7 @@ export default function NavBar() {
                   to="/about"
                   onClick={closeMenu}
                   className={({ isActive }) =>
-                    `block transition-colors duration-200 hover:bg-[#dcd500] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `block transition-colors duration-200 hover:bg-[#07e288] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -135,7 +135,7 @@ export default function NavBar() {
                   to="/services"
                   onClick={closeMenu}
                   className={({ isActive }) =>
-                    `block transition-colors duration-200 hover:bg-[#dcd500] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `block transition-colors duration-200 hover:bg-[#07e288] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -147,7 +147,7 @@ export default function NavBar() {
                   to="/projects"
                   onClick={closeMenu}
                   className={({ isActive }) =>
-                    `block transition-colors duration-200 hover:bg-[#dcd500] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#dcd500]' : 'text-gray-700'
+                    `block transition-colors duration-200 hover:bg-[#07e288] rounded-lg px-4 py-3 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
                     }`
                   }
                 >
@@ -158,7 +158,7 @@ export default function NavBar() {
                 <Link
                   to="/contact"
                   onClick={closeMenu}
-                  className="block text-center bg-[#dcd500] text-gray-800 hover:bg-yellow-400 transition-all duration-300 ease-in-out rounded-lg px-4 py-3 font-semibold"
+                  className="block text-center bg-[#07e288] text-gray-800 hover:bg-yellow-400 transition-all duration-300 ease-in-out rounded-lg px-4 py-3 font-semibold"
                 >
                   Contáctanos
                 </Link>

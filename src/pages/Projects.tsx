@@ -33,12 +33,12 @@ export default function Projects() {
         title="Portfolio de Proyectos - Grobles Solutions | 15+ Proyectos Completados"
         description="Explora nuestro portfolio de proyectos de desarrollo de software. 15+ proyectos completados en aplicaciones web, móviles y soluciones personalizadas."
         keywords="portfolio, proyectos software, aplicaciones web, desarrollo móvil, casos de éxito, React, TypeScript"
-        canonical="https://groblesolutions.netlify.app/projects"
+        canonical="https://grobles.netlify.app/projects"
         structuredData={structuredData}
       />
       <section className="max-w-7xl mx-auto py-12">
         <div className="flex flex-col items-center text-center space-y-6" data-aos="fade-up">
-          <span className="text-[#dcd500] font-semibold">Proyectos</span>
+          <span className="text-[#07e288] font-semibold">Proyectos</span>
           <h1 className="text-2xl max-w-xl md:text-3xl lg:text-4xl font-bold">
             Nuestra Experiencia
           </h1>
@@ -54,7 +54,7 @@ export default function Projects() {
                 to={category.slug === 'todos' ? '/projects/todos' : `/projects/category/${category.slug}`}
                 key={category.name}
                 className={`card shadow-lg cursor-pointer group transition-all  rounded-2xl  hover:scale-105
-                  hover:bg-[#dcd500] duration-200 ease-in-out text-black`}
+                  hover:bg-[#07e288] duration-200 ease-in-out text-black`}
               >
                 <div className="card-body p-6">
                   <div

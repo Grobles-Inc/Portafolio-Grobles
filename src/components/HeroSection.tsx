@@ -6,14 +6,14 @@ export default function HeroSection() {
       <div className="flex flex-col items-center text-center space-y-6 py-12"
         data-aos="fade-up"
       >
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Somos Grobles Startup Líder en <span className="text-[#dcd500] italic">Desarrollo de Software</span></h1>
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">Somos Grobles Startup Líder en <span className="text-[#07e288] italic">Desarrollo de Software</span></h1>
         <p className="max-w-2xl text-lg">
           Trabajamos contigo para convertir tus ideas en soluciones innovadoras, utilizando tecnología de punta para desarrollar productos de software escalable.
         </p>
         <span className="text-xl">Construyamos el futuro juntos. 🚀</span>
         <Link
           to="/contact"
-          className="btn btn-lg bg-[#dcd500] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+          className="btn btn-lg bg-[#07e288] hover:bg-white text-gray-800 font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
         >
           Comenzar ahora
         </Link>
@@ -36,22 +36,22 @@ export default function HeroSection() {
         data-aos="fade-up"
       >
         <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center">
-          <h3 className="text-4xl font-bold text-[#dcd500] mb-2">15+</h3>
+          <h3 className="text-4xl font-bold text-[#07e288] mb-2">15+</h3>
           <p className="text-gray-700">Proyectos completados</p>
         </div>
 
         <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center">
-          <h3 className="text-4xl font-bold text-[#dcd500] mb-2">10+</h3>
+          <h3 className="text-4xl font-bold text-[#07e288] mb-2">10+</h3>
           <p className="text-gray-700">Años de experiencia</p>
         </div>
 
         <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center">
-          <h3 className="text-4xl font-bold text-[#dcd500] mb-2">95%</h3>
+          <h3 className="text-4xl font-bold text-[#07e288] mb-2">95%</h3>
           <p className="text-gray-700">Satisfacción del Cliente</p>
         </div>
 
         <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center">
-          <h3 className="text-4xl font-bold text-[#dcd500] mb-2">24x7</h3>
+          <h3 className="text-4xl font-bold text-[#07e288] mb-2">24x7</h3>
           <p className="text-gray-700">Soporte al cliente</p>
         </div>
       </div>
