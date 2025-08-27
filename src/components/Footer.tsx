@@ -4,16 +4,15 @@ import { Facebook, Instagram, Github } from "lucide-react"
 export default function Footer() {
   return (
     <section
-      className="bg-[#07e288] flex flex-col items-center justify-center mt-20 pb-10 rounded-3xl md:m-8"
+      className="bg-[#07e288] flex flex-col items-center justify-center mt-20 pb-10 rounded-t-3xl "
     >
       <div className="max-w-4xl mx-auto text-center px-6 py-20">
-        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-black leading-tight mb-8">
-          Eleve Su<br />
-          Marca <span className="italic">Digital</span>
+        <h1 className="lg:text-6xl text-4xl   font-bold text-black leading-tight mb-8">
+          Eleva tu negocio al siguiente nivel
         </h1>
 
         <p className="text-xl md:text-2xl text-black mb-12 max-w-2xl mx-auto">
-          Ponte en contacto con nosotros para hablar sobre tu próximo sitio web.
+          Nosotros te ayudamos a crecer, con soluciones que realmente funcionan.
         </p>
 
         <div className="flex flex-col items-center space-y-6">

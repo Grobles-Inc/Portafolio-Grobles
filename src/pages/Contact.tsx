@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Calendar, Mail, Phone } from "lucide-react";
 
 import SEOHead from "../components/SEOHead";
@@ -20,6 +21,10 @@ export default function Contact() {
     }
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <SEOHead
@@ -37,7 +42,7 @@ export default function Contact() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
             Conecta con <span className="text-[#07e288] italic">Nosotros</span>
           </h1>
-          <p className="max-w-2xl text-lg text-base-content/80">
+          <p className="max-w-2xl md:text-lg text-base-content/80">
             ¿Listo para impulsar tu proyecto? Hablemos. Trabajamos con marcas y emprendedores que buscan resultados reales.
           </p>
         </div>

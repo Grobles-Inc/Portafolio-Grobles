@@ -6,7 +6,7 @@ export default function HeroSection() {
       <div className="flex flex-col items-center text-center space-y-6 py-12 px-4"
         data-aos="fade-up"
       >
-        <h1 className="text-3xl md:text-5xl  font-bold">Empresa Líder en <span className="text-[#07e288] italic">Soluciones Digitales</span></h1>
+        <h1 className="text-3xl md:text-5xl  font-bold">Empresa Líder en <span className="text-primary italic">Soluciones Digitales</span></h1>
         <p className="max-w-2xl md:text-lg">
           Trae tu idea, nosotros la transformamos en innovación que impulsa tu negocio.
         </p>

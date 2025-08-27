@@ -1,9 +1,16 @@
-import { FileText, Laptop, ShoppingCart, Smartphone } from "lucide-react";
+import { FileText, Laptop, ShoppingCart, Smartphone, Grid3X3 } from "lucide-react";
 
 export const categories = [
   {
-    name: "Aplicación Móvil",
-    slug: "aplicacion-movil",
+    name: "Todos",
+    slug: "todos",
+    icon: <Grid3X3 className="w-8 h-8" color="gray" />,
+    iconColor: "gray",
+    description: "Todos los proyectos disponibles en nuestro portfolio."
+  },
+  {
+    name: "App",
+    slug: "app",
     icon: <Smartphone className="w-8 h-8" color="green" />,
     iconColor: "green",
     description: "Aplicaciones móviles, incluyendo apps nativas para iOS y Android, aplicaciones híbridas con React Native, y PWAs (Progressive Web Apps)."

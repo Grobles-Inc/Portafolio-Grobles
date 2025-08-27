@@ -1,25 +1,15 @@
-import { ExternalLink, Link as LinkIcon } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
+import type { Project } from "../data/projectsData";
 
 interface ProjectCardProps {
-  image: string;
-  demoUrl: string;
-  title: string;
-  description: string;
-  featuresLength: number;
-  category: string;
-  onButtonClick?: () => void;
+  project: Project;
 }
 
 export default function ProjectCard({
-  image,
-  demoUrl,
-  title,
-  description,
-  featuresLength,
-  onButtonClick,
+  project,
 }: ProjectCardProps) {
-
+  const { image, liveDemo, title, description, duration } = project;
   return (
     <div className="relative group bg-white rounded-3xl shadow-md flex flex-col w-full max-w-[400px] mx-auto min-h-[400px] border border-gray-300 overflow-hidden">
       {/* Header background image area */}
@@ -30,29 +20,23 @@ export default function ProjectCard({
       <div className=" flex flex-col mt-10 gap-4 items-start px-6">
         <div className="flex items-center w-full mb-2">
           <h3 className="md:text-xl text-lg font-bold text-gray-900 leading-tight flex-1">{title}</h3>
-          <span className="bg-yellow-200 text-black text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{featuresLength} features</span>
+          <span className="bg-yellow-200 text-black text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{duration}</span>
         </div>
         {/* Description */}
-        <p className="text-gray-500  md:text-sm text-xs">
-          {description}...
+        <p className=" md:text-sm text-xs line-clamp-3">
+          {description}
         </p>
         {/* Button and stats */}
-        <div className="flex items-center gap-2 w-full ">
+        <div className="flex items-center justify-end gap-2 w-full ">
           <Link
             className="btn bg-[#07e288] text-black rounded-4xl gap-2 hover:bg-white"
-            to={demoUrl}
+            to={liveDemo || ''}
             target="_blank"
           >
             <ExternalLink className="w-5 h-5" />
             Ver Demo
           </Link>
-          <button
-            className="btn bg-black text-white rounded-4xl hover:bg-white hover:border hover:text-black gap-2"
-            onClick={onButtonClick}
-          >
-            <LinkIcon className="w-5 h-5" />
-            Ver Detalles
-          </button>
+
 
         </div>
       </div>
