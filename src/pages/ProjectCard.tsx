@@ -29,12 +29,12 @@ export default function ProjectCard({
         {/* Button and stats */}
         <div className="flex items-center justify-end gap-2 w-full ">
           <Link
-            className="btn bg-[#07e288] text-black rounded-4xl gap-2 hover:bg-white"
+            className="btn bg-primary rounded-full gap-2 hover:bg-white"
             to={liveDemo || ''}
             target="_blank"
           >
-            <ExternalLink className="w-5 h-5" />
             Ver Demo
+            <ExternalLink size={14} />
           </Link>
 
 

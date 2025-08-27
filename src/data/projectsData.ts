@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     liveDemo: "https://ordee.framer.website/",
     github: "https://github.com/Grobles-Inc/ordee",
     category: "App",
-    duration: "3 meses",
+    duration: "1 mes",
   },
   {
     id: "2", 
@@ -41,7 +41,7 @@ export const projectsData: Project[] = [
     liveDemo: "https://monedo.framer.website/",
     github: "https://github.com/kralion/monedo",
     category: "App",
-    duration: "6 meses",
+    duration: "1 mes",
   },
   {
     id: "3",
@@ -51,7 +51,7 @@ export const projectsData: Project[] = [
     liveDemo: "https://exaya.vercel.app/",
     github: "https://github.com/kralion/exaya",
     category: "Sistema Web",
-      duration: "10 meses",
+      duration: "2 meses",
   },
   {
     id: "4",
@@ -61,7 +61,7 @@ export const projectsData: Project[] = [
     liveDemo: "https://blue-motors.netlify.app/",
     github: "https://github.com/MiguelRequenaR/Blue-Motors",
     category: "Ecommerce",
-    duration: "3 meses",
+    duration: "15 días",
   },
   {
     id: "5",

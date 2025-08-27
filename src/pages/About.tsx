@@ -30,7 +30,7 @@ export default function About() {
           data-aos="fade-up"
         >
           <h1 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl font-bold">Nuestros Valores</h1>
-          <p className="max-w-2xl md:text-lg">
+          <p className="max-w-2xl md:text-lg text-sm">
             Siempre priorizamos la fidelidad y la confianza con nuestros clientes, y nos esforzamos por ser un referente en el mercado de desarrollo de software, ofreciendo soluciones innovadoras y de alta calidad.
           </p>
         </div>

@@ -9,7 +9,6 @@ export default defineConfig({
   // Optimizaciones para SEO
   build: {
     minify: 'esbuild',
-    
     rollupOptions: {
       output: {
         manualChunks: {

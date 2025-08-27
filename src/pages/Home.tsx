@@ -28,12 +28,12 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div >
       <SEOHead
-        title="Grobles Solutions - Desarrollo de Software Innovador | Startup Tecnológica"
+        title="Grobles™ - Startup Tecnológica"
         description="Startup líder en desarrollo de software. 15+ proyectos completados, 10+ años de experiencia. Convertimos tus ideas en soluciones innovadoras con tecnología de punta."
         keywords="desarrollo software, startup, tecnología, aplicaciones web, programación, soluciones digitales, desarrollo móvil, consultoria IT, React, TypeScript"
-        canonical="https://grobles.netlify.app/"
+        canonical="https://grobles.netlify.app"
         structuredData={structuredData}
       />
       <HeroSection />

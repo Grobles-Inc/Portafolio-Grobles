@@ -11,7 +11,7 @@ interface SEOProps {
 }
 
 export default function SEOHead({
-  title = 'Grobles Solutions - Desarrollo de Software Innovador',
+  title = 'Grobles™ - Desarrollo de Software Innovador',
   description = 'Startup líder en desarrollo de software. Convertimos tus ideas en soluciones innovadoras con tecnología de punta y productos escalables.',
   keywords = 'desarrollo software, startup, tecnología, aplicaciones web, programación, soluciones digitales',
   ogImage = 'https://grobles.netlify.app/src/assets/logoGrobles.png',
@@ -19,16 +19,16 @@ export default function SEOHead({
   type = 'website',
   structuredData
 }: SEOProps) {
-  
+
   useEffect(() => {
     // Actualizar título
     document.title = title
-    
+
     // Función para actualizar o crear meta tags
     const updateMetaTag = (name: string, content: string, isProperty?: boolean) => {
       const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`
       let meta = document.querySelector(selector) as HTMLMetaElement
-      
+
       if (!meta) {
         meta = document.createElement('meta')
         if (isProperty) {
@@ -40,22 +40,22 @@ export default function SEOHead({
       }
       meta.setAttribute('content', content)
     }
-    
+
     // Meta tags
     updateMetaTag('description', description)
     updateMetaTag('keywords', keywords)
-    
+
     // Open Graph
     updateMetaTag('og:title', title, true)
     updateMetaTag('og:description', description, true)
     updateMetaTag('og:type', type, true)
     updateMetaTag('og:image', ogImage, true)
-    
+
     // Twitter Cards
     updateMetaTag('twitter:title', title)
     updateMetaTag('twitter:description', description)
     updateMetaTag('twitter:image', ogImage)
-    
+
     // Actualizar canonical URL si se proporciona
     if (canonical) {
       let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement
@@ -67,7 +67,7 @@ export default function SEOHead({
       link.setAttribute('href', canonical)
       updateMetaTag('og:url', canonical, true)
     }
-    
+
     // Agregar structured data si se proporciona
     if (structuredData) {
       let script = document.querySelector('script[type="application/ld+json"]') as HTMLScriptElement
@@ -78,8 +78,8 @@ export default function SEOHead({
       }
       script.textContent = JSON.stringify(structuredData)
     }
-    
+
   }, [title, description, keywords, ogImage, canonical, type, structuredData])
-  
+
   return null
 }
