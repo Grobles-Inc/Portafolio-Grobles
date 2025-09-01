@@ -41,7 +41,7 @@ export default function TeamSection() {
         data-aos="fade-up"
       >
         <span className="text-[#07e288] font-semibold">Nuestro Equipo</span>
-        <h1 className="text-2xl max-w-3xl md:text-4xl lg:text-5xl font-bold">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
+        <h1 className="text-2xl max-w-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
         <p className="max-w-2xl text-lg hidden md:block">
           Somos más que un simple proveedor de servicios; Somos un equipo de profesionales apasionados que están comprometidos a ayudarlo a desbloquear todo el potencial de su marca.
         </p>
@@ -65,8 +65,8 @@ export default function TeamSection() {
                 loading="lazy"
               />
             </div>
-            <h2 className="card-title text-xl md:text-2xl font-bold mb-1 text-center">{member.name}</h2>
-            <div className="badge bg-yellow-100 badge-lg text-black font-semibold mb-3">
+            <h3 className="card-title text-xl md:text-2xl font-bold mb-1 text-center">{member.name}</h3>
+            <div className="badge bg-green-100 badge-lg text-black font-semibold mb-3">
               {member.role}
             </div>
             <p className="text-base-content/80 leading-relaxed mb-6  text-xs md:text-base">

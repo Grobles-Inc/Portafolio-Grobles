@@ -20,7 +20,7 @@ export default function ProjectCard({
       <div className=" flex flex-col mt-10 gap-4 items-start px-6">
         <div className="flex items-center w-full mb-2">
           <h3 className="md:text-xl text-lg font-bold text-gray-900 leading-tight flex-1">{title}</h3>
-          <span className="bg-yellow-200 text-black text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{duration}</span>
+          <span className="bg-green-200 text-black text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{duration}</span>
         </div>
         {/* Description */}
         <p className=" md:text-sm text-xs line-clamp-3">
