@@ -33,7 +33,7 @@ export default function MainLayout() {
       <NavBar />
       <div>
         <div className="min-h-screen flex flex-col">
-          <main className="md:pt-36 pt-20 flex-1 ">
+          <main className="flex-1 pt-20">
             <Outlet />
           </main>
           <Footer />

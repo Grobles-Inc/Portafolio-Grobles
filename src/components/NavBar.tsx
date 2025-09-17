@@ -59,25 +59,25 @@ export default function NavBar() {
   ]
 
   return (
-    <header className={`bg-white/70 backdrop-blur-xl top-0 z-50 fixed w-full transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className="container mx-auto px-4 md:py-8 py-4">
+    <header className={`bg-[#07e288] backdrop-blur-md top-0 z-50 fixed w-full transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`} >
+      <div className="container mx-auto p-2" data-aos="fade-down">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div>
             <Link to="/" onClick={closeMenu}>
-              <img src={Logo} alt="Logo" className="h-12 w-auto" />
+              <img src={Logo} alt="Logo" className="h-20 w-auto" />
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex">
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-2">
               {navLinks.map((link) => (
                 <li key={link.to}>
                   <NavLink
                     to={link.to}
                     className={({ isActive }) =>
-                      `transition-colors duration-200 hover:bg-primary hover:text-white rounded-full px-4 py-2 ${isActive ? 'font-semibold bg-primary text-white' : 'text-black'
+                      `transition-colors btn btn-ghost font-bold rounded-full ${isActive ? ' bg-primary text-white' : 'text-black'
                       }`
                     }
                   >
@@ -92,7 +92,7 @@ export default function NavBar() {
           <div className="hidden lg:flex">
             <Link
               to="/contact"
-              className="btn btn-lg border text-white hover:opacity-70 bg-[#07e288]  transition-all hover:bg-white hover:border-gray-800 hover:text-black duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
+              className="btn btn-lg btn-neutral border text-white hover:opacity-70   transition-all duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
             >
               Contáctanos
             </Link>
