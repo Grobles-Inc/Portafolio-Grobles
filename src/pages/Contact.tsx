@@ -49,10 +49,13 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
           {/* Email Card */}
-          <div
-            className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-[#07e288] focus-within:ring-2 focus-within:ring-[#07e288]"
+          <a 
+            href="mailto:grobles.dev@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-[#07e288] focus:ring-2 focus:ring-[#07e288]"
             data-aos="zoom-in"
-            data-aos-delay="100"
+            data-aos-delay="200"
             tabIndex={0}
           >
             <div className="card-body items-center text-center">
@@ -60,14 +63,11 @@ export default function Contact() {
                 <Mail className="w-10 h-10 text-[#07e288]" />
               </div>
               <h2 className="card-title text-xl font-bold mb-1">Email</h2>
-              <a
-                href="mailto:grobles.dev@gmail.com"
-                className="text-base-content/80 hover:text-[#07e288] underline underline-offset-2 transition"
-              >
+              <span className="text-base-content/80 group-hover:text-[#07e288] transition">
                 grobles.dev@gmail.com
-              </a>
+              </span>
             </div>
-          </div>
+          </a>
 
           {/* Calendar Card */}
           <a
