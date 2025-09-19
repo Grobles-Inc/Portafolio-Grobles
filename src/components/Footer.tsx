@@ -8,11 +8,11 @@ export default function Footer() {
     >
       <div className="max-w-4xl mx-auto text-center px-6 py-20">
         <h1 className="lg:text-6xl text-4xl   font-bold text-black leading-tight mb-8">
-          Eleva tu negocio al siguiente nivel
+          Transforma tu idea en realidad digital
         </h1>
 
         <p className="text-xl md:text-2xl text-black mb-12 max-w-2xl mx-auto">
-          Nosotros te ayudamos a crecer, con soluciones que realmente funcionan.
+          Desarrollamos soluciones tecnológicas personalizadas que impulsan el crecimiento de tu negocio.
         </p>
 
         <div className="flex flex-col items-center space-y-6">

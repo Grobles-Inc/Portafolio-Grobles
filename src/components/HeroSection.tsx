@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom"
 import oooscillate from "../assets/oooscillate.svg"
 
+const stats = [
+  { value: "20+", label: "Proyectos completados" },
+  { value: "6+", label: "Años de experiencia" },
+  { value: "95%", label: "Satisfacción del Cliente" },
+  { value: "24x7", label: "Soporte al cliente" },
+];
 export default function HeroSection() {
+  const marqueeStats = [...stats, ...stats];
   return (
-    <section className="relative bg-[#07e288] pt-20 overflow-hidden">
+    <section className="relative bg-[#07e288] md:pt-20 pt-10 overflow-hidden">
       <img
         src={oooscillate}
         alt=""
@@ -14,9 +21,9 @@ export default function HeroSection() {
         <div className="flex flex-col items-center text-center space-y-6 md:py-12 py-6 px-4"
           data-aos="fade-up"
         >
-          <h1 className="text-3xl md:text-5xl leading-12 font-bold">Empresa Líder en <span className="text-white italic">Soluciones Digitales</span></h1>
-          <p className="max-w-2xl md:text-lg">
-            Trae tu idea, nosotros la transformamos en innovación que impulsa tu negocio.
+          <h1 className="text-2xl md:text-5xl leading-8 font-bold">Transformamos <span className="text-white italic">ideas</span> en <span className="text-white italic">resultados digitales</span></h1>
+          <p className="max-w-3xl  md:text-lg  text-gray-800 font-medium">
+            Desarrollo, diseño, marketing y consultoría digital. Todo lo que necesitas para hacer crecer tu negocio.
           </p>
           <div className="flex gap-2">
 
@@ -26,7 +33,7 @@ export default function HeroSection() {
               data-aos="flip-left"
               data-aos-delay="300"
             >
-              Comenzar ahora
+              Construir mi proyecto
             </Link>
             <Link
               to="/projects"
@@ -34,7 +41,7 @@ export default function HeroSection() {
               data-aos="flip-right"
               data-aos-delay="500"
             >
-              Ver proyectos
+              Ver nuestro trabajo
             </Link>
           </div>
         </div>
@@ -54,28 +61,64 @@ export default function HeroSection() {
             decoding="async"
           />
         </div>
-        <div className="grid grid-cols-2 max-w-5xl mx-auto md:grid-cols-2 lg:grid-cols-4 gap-6 py-12 px-4 text-lg"
-        >
-          <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center" data-aos="fade-up" data-aos-delay="100">
-            <h3 className="text-4xl font-bold text-[#07e288] mb-2">20+</h3>
-            <p className="text-gray-700 text-sm">Proyectos completados</p>
-          </div>
-
-          <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center" data-aos="fade-up" data-aos-delay="200">
-            <h3 className="text-4xl font-bold text-[#07e288] mb-2">6+</h3>
-            <p className="text-gray-700 text-sm">Años de experiencia</p>
-          </div>
-
-          <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center" data-aos="fade-up" data-aos-delay="300">
-            <h3 className="text-4xl font-bold text-[#07e288] mb-2">95%</h3>
-            <p className="text-gray-700 text-sm">Satisfacción del Cliente</p>
-          </div>
-
-          <div className="bg-white p-6 rounded-xl hover:scale-105 transition-transform duration-300 text-center" data-aos="fade-up" data-aos-delay="400">
-            <h3 className="text-4xl font-bold text-[#07e288] mb-2">24x7</h3>
-            <p className="text-gray-700 text-sm">Soporte al cliente</p>
+        {/* Desktop Marquee */}
+        <div className="relative overflow-x-hidden py-24 hidden md:block">
+          <div
+            className="flex items-center animate-marquee whitespace-nowrap gap-20"
+            style={{
+              animation:
+                'marquee 28s linear infinite',
+            }}
+          >
+            {marqueeStats.map((stat, i) => (
+              <div key={i} className="flex flex-col gap-2 items-center min-w-[220px] mx-2">
+                <h3 className="md:text-6xl text-4xl font-bold text-white font-mono">{stat.value}</h3>
+                <p className="text-white text-lg font-medium">{stat.label}</p>
+              </div>
+            ))}
           </div>
         </div>
+
+        {/* Mobile Static Stats */}
+        <div className="relative py-12 md:hidden">
+          <div className="grid grid-cols-2 gap-8 px-4">
+            {stats.map((stat, i) => (
+              <div
+                key={i}
+                className="flex flex-col gap-2 items-center animate-fade-in"
+                style={{
+                  animationDelay: `${i * 200}ms`
+                }}
+              >
+                <h3 className="text-3xl font-bold text-white font-mono">{stat.value}</h3>
+                <p className="text-white text-xs font-medium text-center">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <style>
+          {`
+            @keyframes marquee {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-50%); }
+            }
+            @keyframes fade-in {
+              0% {
+                opacity: 0;
+                transform: translateY(20px);
+              }
+              100% {
+                opacity: 1;
+                transform: translateY(0);
+              }
+            }
+            .animate-fade-in {
+              animation: fade-in 0.6s ease-out forwards;
+              opacity: 0;
+            }
+          `}
+        </style>
       </div>
     </section >
   )

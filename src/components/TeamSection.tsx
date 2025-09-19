@@ -3,34 +3,34 @@ import { Linkedin, Github } from "lucide-react";
 export default function TeamSection() {
   const teamMembers = [
     {
-      name: "Miguel",
-      role: "Fundador - CTO",
-      avatar: "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent("Miguel"),
-      description: "Miguel Ángel se especializa en diseñar y desarrollar soluciones tecnológicas eficientes y personalizadas. Su conocimiento en lenguajes de programación y arquitectura de software le permite crear aplicaciones innovadoras que optimizan procesos y mejoran la experiencia del usuario.",
-      linkedin: "https://pe.linkedin.com/in/miguelangelrequenaramos",
+      name: "Miguel Requena",
+      role: "Full Stack Developer",
+      avatar: "https://scontent.fayp1-1.fna.fbcdn.net/v/t39.30808-1/418864142_4398843287006652_4443117054819886401_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=1d2534&_nc_ohc=20mFYvxfTY8Q7kNvwHENKFO&_nc_oc=Adm_auW_ZYeGLFp94bZlCdMPh70r8HZIpUJR1bV-91kNoYvnEzmeSKNsnqyln5fMNrjkwpAEDi2JqKlPhmEOesvC&_nc_zt=24&_nc_ht=scontent.fayp1-1.fna&_nc_gid=79-At5twrXjlfEpD7Gpy_g&oh=00_AfZJTdq_7x_rlPzZrbET9szZsDUaMSmtPdGEAqK27EzcUQ&oe=68D323DC",
+      description: "Especialista en desarrollo y arquitectura de software.",
+      linkedin: "https://www.linkedin.com/in/miguelangelrequenaramos/",
       github: "https://github.com/MiguelRequenaR"
     },
     {
-      name: "Brayan Joan",
-      role: "Fundador - CEO",
-      avatar: "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent("Brayan"),
-      description: "Brayan lidera nuestra agencia con una visión estratégica excepcional. Su experiencia en la toma de decisiones clave y su habilidad para identificar oportunidades han sido fundamentales para posicionar a la empresa como líder en el sector.",
-      linkedin: "#",
+      name: "Brayan Paucar",
+      role: "Product Manager",
+      avatar: "https://avatars.githubusercontent.com/u/66649036?v=4",
+      description: "Lidera la estrategia y visión de la empresa, impulsando el crecimiento y la excelencia diaria.",
+      linkedin: "https://www.linkedin.com/in/brayanpaucar/",
       github: "https://github.com/kralion"
     },
     {
-      name: "Luigi Christopher",
-      role: "Diseñador UX/UI",
+      name: "Luigi Santana",
+      role: "UI/UX Designer",
       avatar: "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent("Luigi"),
-      description: "Luigi es experto en diseño de experiencias digitales centradas en el usuario. Su enfoque combina creatividad y análisis para diseñar interfaces intuitivas y atractivas que garantizan una interacción fluida. Es responsable de transformar la visión del cliente en diseños.",
-      linkedin: "#",
+      description: "Diseña interfaces intuitivas y experiencias centradas en el usuario, cuidando cada detalle visual.",
+      linkedin: "https://www.linkedin.com/in/luigi-santana-esteban-b4b69731a/",
       github: "https://github.com/Yuriine"
     },
     {
       name: "Jheison Huaynate",
-      role: "Ciberseguridad",
-      description: "Jheison es un experto en seguridad informática y criptografía. Con su experiencia en la implementación de sistemas seguros y la gestión de identidades digitales, ha demostrado ser un experto en el tema. Su enfoque en la seguridad y la privacidad es fundamental para garantizar la integridad de los datos.",
-      linkedin: "#",
+      role: "Cybersecurity Engineer",
+      description: "Experto en seguridad informática y protección de datos, garantizando entornos digitales confiables.",
+      linkedin: "https://www.linkedin.com/in/jheison-percy-huaynate-cori%C3%B1aupa-392654208/",
       github: "https://github.com/jheisonHPC"
     },
   ];
@@ -43,57 +43,50 @@ export default function TeamSection() {
         <span className="text-[#07e288] font-semibold">Nuestro Equipo</span>
         <h1 className="text-2xl max-w-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
         <p className="max-w-2xl text-lg hidden md:block">
-          Somos más que un simple proveedor de servicios; Somos un equipo de profesionales apasionados que están comprometidos a ayudarlo a desbloquear todo el potencial de su marca.
+          Somos un equipo de profesionales apasionados que están comprometidos a ayudarlo a desbloquear todo el potencial de su marca.
         </p>
       </div>
 
       {/* Team Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pb-20">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-20">
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="card bg-base-100 p-6 shadow-xl border border-base-300 rounded-3xl flex md:items-center justify-center flex-col h-full"
+            className="flex flex-col items-center max-w-xs mx-auto"
           >
-
-            {/* Avatar Placeholder */}
-            <div className="w-24 h-24 mb-4 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden border-4 border-[#07e288] shadow-md">
-              {/* Replace src with member.avatar when available */}
+            <div className="md:size-64 size-44 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden border-0 mb-6">
               <img
                 src={member.avatar || "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent(member.name)}
                 alt={`Avatar de ${member.name}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover grayscale"
                 loading="lazy"
               />
             </div>
-            <h3 className="card-title text-xl md:text-2xl font-bold mb-1 text-center">{member.name}</h3>
-            <div className="badge bg-green-100 badge-lg text-black font-semibold mb-3">
-              {member.role}
-            </div>
-            <p className="text-base-content/80 leading-relaxed mb-6  text-xs md:text-base">
-              {member.description}
-            </p>
-            <div className="flex justify-center gap-3 mt-auto">
-              <a
-                href={member.linkedin}
-                className="btn btn-circle bg-white border border-base-300 hover:bg-[#07e288] hover:text-white transition-all duration-300"
-                aria-label={`LinkedIn de ${member.name}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href={member.github}
-                className="btn btn-circle bg-white border border-base-300 hover:bg-[#07e288] hover:text-white transition-all duration-300"
-                aria-label={`GitHub de ${member.name}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className="w-5 h-5" />
-              </a>
+            <div className="text-center">
+              <h3 className="font-bold text-lg md:text-xl text-black mb-1">{member.name}</h3>
+              <div className="text-gray-500 text-sm mb-2">{member.role}</div>
+              <div className="flex justify-center gap-2">
+                <a
+                  href={member.linkedin}
+                  className="btn btn-circle"
+                  aria-label={`LinkedIn de ${member.name}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="w-4 h-4" />
+                </a>
+                <a
+                  href={member.github}
+                  className="btn btn-circle"
+                  aria-label={`GitHub de ${member.name}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Github className="w-4 h-4" />
+                </a>
+              </div>
             </div>
           </div>
-
         ))}
       </div>
     </section>

@@ -65,7 +65,7 @@ export default function NavBar() {
           {/* Logo */}
           <div>
             <Link to="/" onClick={closeMenu}>
-              <img src={Logo} alt="Logo" className="h-20 w-auto" />
+              <img src={Logo} alt="Logo" className="md:h-20 h-16 w-auto" />
             </Link>
           </div>
 
@@ -125,8 +125,7 @@ export default function NavBar() {
                     to={link.to}
                     onClick={closeMenu}
                     className={({ isActive }) =>
-                      `block transition-colors duration-200 hover:bg-[#07e288] rounded-full px-4 py-3 ${isActive ? 'font-semibold bg-[#07e288]' : 'text-gray-700'
-                      }`
+                      `btn w-full  justify-start rounded-full px-4 py-3 ${isActive ? 'btn-outline' : 'btn-ghost'}`
                     }
                   >
                     {link.label}

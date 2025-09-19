@@ -1,6 +1,33 @@
-import { BadgeCheck, Cpu, Rocket, User } from "lucide-react";
+import { BadgeCheck, Cpu, Rocket, User, Eye, Users, Heart } from "lucide-react";
 import SEOHead from "../components/SEOHead";
 import TeamSection from "../components/TeamSection";
+
+const values = [
+  {
+    id: 1,
+    title: "Cliente",
+    description: "Nos enfocamos en las necesidades del cliente y adaptamos cada solución.",
+    icon: "https://img.icons8.com/?size=200&id=Fng18fG6GFC0&format=png&color=000000",
+  },
+  {
+    id: 2,
+    title: "Comunicación",
+    description: "Fomentamos alianzas sólidas y comunicación continua con nuestros clientes.",
+    icon: "https://img.icons8.com/?size=100&id=4cjwkaJ1Zo0u&format=png&color=000000",
+  },
+  {
+    id: 3,
+    title: "Innovación",
+    description: "Nos mantenemos a la vanguardia de las últimas tendencias tecnológicas.",
+    icon: "https://img.icons8.com/?size=100&id=Fq7ecL0SYXZl&format=png&color=000000",
+  },
+  {
+    id: 4,
+    title: "Eficiencia",
+    description: "Nos enfocamos en los resultados que nuestros proyectos generan para nuestros clientes.",
+    icon: "https://img.icons8.com/?size=100&id=36hKsBf6lD0k&format=png&color=000000",
+  }
+];
 
 export default function About() {
   const structuredData = {
@@ -25,76 +52,88 @@ export default function About() {
         structuredData={structuredData}
       />
       <section className="max-w-7xl mx-auto">
-        {/* Vision section */}
-        <div className="flex flex-col items-center text-center space-y-6 py-12 px-4 "
-          data-aos="fade-up"
-        >
-          <h1 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl font-bold">Nuestros Valores</h1>
-          <p className="max-w-2xl md:text-lg text-sm">
-            Siempre priorizamos la fidelidad y la confianza con nuestros clientes, y nos esforzamos por ser un referente en el mercado de desarrollo de software, ofreciendo soluciones innovadoras y de alta calidad.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-12 max-w-5xl mx-auto"
-          data-aos="fade-up"
-        >
-          {/* Tarjeta 1 */}
-          <div className="card card-compact bg-base-100 shadow-xl p-8 rounded-2xl"
-          >
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
-                <User />
-              </div>
-              <h3 className="text-2xl font-bold">Cliente</h3>
-              <p className="text-gray-600">
-                Nos enfocamos en las necesidades del cliente y adaptamos cada solución.
-              </p>
-            </div>
-          </div>
-
-          {/* Tarjeta 2 */}
-          <div className="card card-compact bg-base-100 shadow-xl p-8 rounded-2xl"
-          >
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
-                <BadgeCheck />
-              </div>
-              <h3 className="text-2xl font-bold">Comunicación</h3>
-              <p className="text-gray-600">
-                Fomentamos alianzas sólidas y comunicación continua con nuestros clientes.
-              </p>
-            </div>
-          </div>
-
-          {/* Tarjeta 3 */}
-          <div className="card card-compact bg-base-100 shadow-xl p-8 rounded-2xl"
-          >
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
-                <Cpu />
-              </div>
-              <h3 className="text-2xl font-bold">Innovación</h3>
-              <p className="text-gray-600">
-                Nos mantenemos a la vanguardia de las últimas tendencias tecnológicas.
-              </p>
-            </div>
-          </div>
-
-          {/* Tarjeta 4 */}
-          <div className="card card-compact bg-base-100 shadow-xl p-8 rounded-2xl"
-          >
-            <div className="flex flex-col items-center text-center space-y-4">
-              <div className="text-4xl text-white bg-[#07e288] rounded-full p-4">
-                <Rocket />
-              </div>
-              <h3 className="text-2xl font-bold">Eficiencia</h3>
-              <p className="text-gray-600">
-                Nos enfocamos en los resultados que nuestros proyectos generan para nuestros clientes.
-              </p>
-            </div>
-          </div>
-        </div>
-
         <TeamSection />
+
+        {/* Values section */}
+        <div className="py-20 px-4">
+          {/* Desktop Layout */}
+          <div className="hidden lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+            {/* Left side - Image */}
+            <div className="relative">
+              <img
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3"
+                alt="Modern office space with team collaboration"
+                className="w-full h-[600px] object-cover rounded-3xl shadow-2xl"
+              />
+            </div>
+
+            {/* Right side - Content */}
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <h2 className="text-4xl font-bold text-gray-900">
+                  Nuestros Valores
+                </h2>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  Siempre priorizamos la fidelidad y la confianza con nuestros clientes, y nos esforzamos por ser un referente en el mercado.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-2 gap-6">
+                {values.map((value, index) => {
+                  const IconComponent = value.icon;
+                  return (
+                    <div key={value.id} className="space-y-3">
+
+                      <img src={IconComponent} alt={value.title} className="size-12 text-white" />
+
+                      <h3 className="text-xl font-semibold text-gray-900">
+                        {value.title}
+                      </h3>
+                      <p className="text-gray-600 text-sm leading-relaxed">
+                        {value.description}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          {/* Mobile Layout */}
+          <div className="lg:hidden space-y-12">
+            {/* Header */}
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-bold text-gray-900">
+                Nuestros Valores
+              </h2>
+              <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
+                Siempre priorizamos la fidelidad y la confianza con nuestros clientes, y nos esforzamos por ser un referente en el mercado.
+              </p>
+            </div>
+
+            {/* Values Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+              {values.map((value, index) => {
+                const IconComponent = value.icon;
+                return (
+                  <div key={value.id} className="text-center space-y-4">
+
+                    <img src={IconComponent} alt={value.title} className="w-8 h-8 text-white" />
+
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      {value.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      {value.description}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+
       </section>
     </div>
   )

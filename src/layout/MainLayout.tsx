@@ -29,15 +29,13 @@ export default function MainLayout() {
   }, [location.pathname])
 
   return (
-    <div className="min-h-screen" data-theme="grobles">
+    <div data-theme="grobles">
       <NavBar />
       <div>
-        <div className="min-h-screen flex flex-col">
-          <main className="flex-1 pt-20">
-            <Outlet />
-          </main>
+        <main className="flex-1 pt-20">
+          <Outlet />
           <Footer />
-        </div>
+        </main>
       </div>
     </div>
   )
