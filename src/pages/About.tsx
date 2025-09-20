@@ -1,4 +1,3 @@
-import { BadgeCheck, Cpu, Rocket, User, Eye, Users, Heart } from "lucide-react";
 import SEOHead from "../components/SEOHead";
 import TeamSection from "../components/TeamSection";
 
@@ -79,7 +78,7 @@ export default function About() {
               </div>
 
               <div className="grid grid-cols-2 gap-6">
-                {values.map((value, index) => {
+                {values.map((value) => {
                   const IconComponent = value.icon;
                   return (
                     <div key={value.id} className="space-y-3">
@@ -113,7 +112,7 @@ export default function About() {
 
             {/* Values Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-              {values.map((value, index) => {
+              {values.map((value) => {
                 const IconComponent = value.icon;
                 return (
                   <div key={value.id} className="text-center space-y-4">
