@@ -10,6 +10,7 @@ import project9 from "../assets/project9.png";
 import project10 from "../assets/project10.png";
 import project11 from "../assets/project11.png";
 import project12 from "../assets/project12.png";
+import project13 from "../assets/project13.png";
 
 export interface Project {
   id: string;
@@ -142,6 +143,16 @@ export const projectsData: Project[] = [
     github: "https://github.com/kralion/andina",
     category: "Landing Page",
     duration: "8 días",
+  },
+  {
+    id: "13",
+    title: "Sistema CP-360°",
+    description: "Landing Page para promocionar el sistema CP-360°.",
+    image: project13,
+    liveDemo: "https://cp360-landing.abccostos.com/",
+    github: "https://github.com/Grobles-Inc/landing-cp360",
+    category: "Landing Page",
+    duration: "5 días",
   }
 ];
 
