@@ -77,7 +77,7 @@ export default function NavBar() {
                   <NavLink
                     to={link.to}
                     className={({ isActive }) =>
-                      `transition-colors btn btn-ghost font-bold rounded-full ${isActive ? ' bg-primary text-white' : 'text-black'
+                      `btn bg-transparent border-transparent text-black text-[16px] font-bold rounded-full hover:bg-white ${isActive ? ' bg-white text-black' : 'text-black'
                       }`
                     }
                   >
@@ -92,7 +92,7 @@ export default function NavBar() {
           <div className="hidden lg:flex">
             <Link
               to="/contact"
-              className="btn btn-lg btn-neutral border text-white hover:opacity-70   transition-all duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold"
+              className="btn btn-lg btn-neutral border text-white hover:opacity-70   transition-all duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold hover:bg-transparent hover:text-black"
             >
               Contáctanos
             </Link>

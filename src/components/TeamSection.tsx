@@ -5,7 +5,7 @@ export default function TeamSection() {
     {
       name: "Miguel Requena",
       role: "Full Stack Developer",
-      avatar: "https://scontent.fayp1-1.fna.fbcdn.net/v/t39.30808-1/418864142_4398843287006652_4443117054819886401_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=1d2534&_nc_ohc=20mFYvxfTY8Q7kNvwHENKFO&_nc_oc=Adm_auW_ZYeGLFp94bZlCdMPh70r8HZIpUJR1bV-91kNoYvnEzmeSKNsnqyln5fMNrjkwpAEDi2JqKlPhmEOesvC&_nc_zt=24&_nc_ht=scontent.fayp1-1.fna&_nc_gid=79-At5twrXjlfEpD7Gpy_g&oh=00_AfZJTdq_7x_rlPzZrbET9szZsDUaMSmtPdGEAqK27EzcUQ&oe=68D323DC",
+      avatar: "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent("Miguel"),
       description: "Especialista en desarrollo y arquitectura de software.",
       linkedin: "https://www.linkedin.com/in/miguelangelrequenaramos/",
       github: "https://github.com/MiguelRequenaR"
@@ -29,6 +29,7 @@ export default function TeamSection() {
     {
       name: "Jheison Huaynate",
       role: "Cybersecurity Engineer",
+      avatar: "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent("Jheison"),
       description: "Experto en seguridad informática y protección de datos, garantizando entornos digitales confiables.",
       linkedin: "https://www.linkedin.com/in/jheison-percy-huaynate-cori%C3%B1aupa-392654208/",
       github: "https://github.com/jheisonHPC"

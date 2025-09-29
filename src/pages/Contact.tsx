@@ -13,7 +13,7 @@ export default function Contact() {
       "name": "Grobles Solutions",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+51-972-557-287",
+        "telephone": "+51-901-617-809",
         "contactType": "customer service",
         "availableLanguage": ["Spanish", "English"],
         "areaServed": "Worldwide"
@@ -92,7 +92,7 @@ export default function Contact() {
 
           {/* Phone Card */}
           <a
-            href="https://wa.me/51972557287?text=Hola Grobles Solutions, quiero ponerme en contacto con ustedes!"
+            href="https://wa.me/51901617809?text=Hola Grobles Solutions, quiero ponerme en contacto con ustedes!"
             target="_blank"
             rel="noopener noreferrer"
             className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-[#07e288] focus:ring-2 focus:ring-[#07e288]"
@@ -106,7 +106,7 @@ export default function Contact() {
               </div>
               <h2 className="card-title text-xl font-bold mb-1">Whatsapp</h2>
               <span className="text-base-content/80 group-hover:text-[#07e288] transition">
-                +51 972 557 287
+                +51 901 617 809
               </span>
             </div>
           </a>

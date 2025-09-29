@@ -29,7 +29,7 @@ export default function HeroSection() {
 
             <Link
               to="/contact"
-              className="btn md:btn-lg btn-neutral border text-white hover:opacity-70   transition-all duration-300 ease-in-out rounded-full "
+              className="btn md:btn-lg btn-neutral border text-white hover:opacity-70 hover:bg-transparent hover:text-black  transition-all duration-300 ease-in-out rounded-full "
               data-aos="flip-left"
               data-aos-delay="300"
             >
