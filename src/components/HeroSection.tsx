@@ -25,7 +25,7 @@ export default function HeroSection() {
           <p className="max-w-3xl  md:text-lg  text-gray-800 font-medium">
             Desarrollo, diseño, marketing y consultoría digital. Todo lo que necesitas para hacer crecer tu negocio.
           </p>
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-2">
 
             <Link
               to="/contact"

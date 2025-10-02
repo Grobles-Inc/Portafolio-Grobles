@@ -147,7 +147,7 @@ export const projectsData: Project[] = [
   {
     id: "13",
     title: "Sistema CP-360°",
-    description: "Landing Page para promocionar el sistema CP-360°.",
+    description: "Landing Page para promocionar el sistema CP-360°, muestra los servicios, características y beneficios del sistema.",
     image: project13,
     liveDemo: "https://cp360-landing.abccostos.com/",
     github: "https://github.com/Grobles-Inc/landing-cp360",

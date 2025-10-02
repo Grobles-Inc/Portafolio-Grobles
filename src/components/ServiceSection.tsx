@@ -35,7 +35,7 @@ const services = [
 
 export default function ServiceSection() {
   return (
-    <section className="max-w-7xl mx-auto">
+    <section className="max-w-7xl mx-auto p-4 md:p-0">
       <div className="flex flex-col items-center text-center space-y-6 py-12 px-4"
         data-aos="fade-up"
       >

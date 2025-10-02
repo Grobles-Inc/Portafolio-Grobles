@@ -117,7 +117,9 @@ export default function About() {
                 return (
                   <div key={value.id} className="text-center space-y-4">
 
-                    <img src={IconComponent} alt={value.title} className="w-8 h-8 text-white" />
+                    <div className="flex justify-center">
+                      <img src={IconComponent} alt={value.title} className="w-8 h-8 text-white" />
+                    </div>
 
                     <h3 className="text-xl font-semibold text-gray-900">
                       {value.title}
@@ -131,8 +133,6 @@ export default function About() {
             </div>
           </div>
         </div>
-
-
       </section>
     </div>
   )

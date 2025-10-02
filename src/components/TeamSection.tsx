@@ -37,7 +37,7 @@ export default function TeamSection() {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4">
+    <section className="max-w-7xl mx-auto">
       <div className="flex flex-col items-center text-center space-y-6 py-6 mt-20"
         data-aos="fade-up"
       >
@@ -55,7 +55,7 @@ export default function TeamSection() {
             key={index}
             className="flex flex-col items-center max-w-xs mx-auto"
           >
-            <div className="md:size-64 size-44 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden border-0 mb-6">
+            <div className="md:size-64 size-36 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden border-0 mb-6">
               <img
                 src={member.avatar || "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent(member.name)}
                 alt={`Avatar de ${member.name}`}
@@ -64,7 +64,7 @@ export default function TeamSection() {
               />
             </div>
             <div className="text-center">
-              <h3 className="font-bold text-lg md:text-xl text-black mb-1">{member.name}</h3>
+              <h3 className="font-bold text-base md:text-xl text-black mb-1">{member.name}</h3>
               <div className="text-gray-500 text-sm mb-2">{member.role}</div>
               <div className="flex justify-center gap-2">
                 <a
