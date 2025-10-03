@@ -11,14 +11,6 @@ export default function TeamSection() {
       github: "https://github.com/MiguelRequenaR"
     },
     {
-      name: "Brayan Paucar",
-      role: "Product Manager",
-      avatar: "https://avatars.githubusercontent.com/u/66649036?v=4",
-      description: "Lidera la estrategia y visión de la empresa, impulsando el crecimiento y la excelencia diaria.",
-      linkedin: "https://www.linkedin.com/in/brayanpaucar/",
-      github: "https://github.com/kralion"
-    },
-    {
       name: "Luigi Santana",
       role: "UI/UX Designer",
       avatar: "https://api.dicebear.com/7.x/initials/svg?seed=" + encodeURIComponent("Luigi"),
@@ -49,7 +41,7 @@ export default function TeamSection() {
       </div>
 
       {/* Team Cards Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-20">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 py-20">
         {teamMembers.map((member, index) => (
           <div
             key={index}
