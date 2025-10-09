@@ -62,8 +62,8 @@ export default function Contact() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-secondary/10 mb-4 group-hover:bg-secondary/20 transition">
                 <Mail className="w-10 h-10 text-secondary" />
               </div>
-              <h2 className="card-title text-xl font-bold mb-1">Email</h2>
-              <span className="text-base-content/80 group-hover:text-secondary transition">
+              <h2 className="card-title text-xl font-bold text-white mb-1">Email</h2>
+              <span className="text-white font-bold group-hover:text-secondary transition">
                 grobles.dev@gmail.com
               </span>
             </div>
@@ -83,9 +83,9 @@ export default function Contact() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-secondary/10 mb-4 group-hover:bg-secondary/20 transition">
                 <Calendar className="w-10 h-10 text-secondary" />
               </div>
-              <h2 className="card-title text-xl font-bold mb-1">Agenda una cita</h2>
-              <span className="text-base-content/80 group-hover:text-secondary transition">
-                Reserva una reunión con nuestro equipo
+              <h2 className="card-title text-xl font-bold text-white mb-1">Agenda una cita</h2>
+              <span className="text-white font-bold group-hover:text-secondary transition">
+                Reserva una reunión con nuestro equipo.
               </span>
             </div>
           </a>
@@ -104,8 +104,8 @@ export default function Contact() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-secondary/10 mb-4 group-hover:bg-secondary/20 transition">
                 <Phone className="w-10 h-10 text-secondary" />
               </div>
-              <h2 className="card-title text-xl font-bold mb-1">Whatsapp</h2>
-              <span className="text-base-content/80 group-hover:text-secondary transition">
+              <h2 className="card-title text-xl font-bold text-white mb-1">Whatsapp</h2>
+              <span className="text-white font-bold group-hover:text-secondary transition">
                 +51 901 617 809
               </span>
             </div>
