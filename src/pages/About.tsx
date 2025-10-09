@@ -102,10 +102,10 @@ export default function About() {
           <div className="lg:hidden space-y-12">
             {/* Header */}
             <div className="text-center space-y-4">
-              <h2 className="text-3xl font-bold text-gray-900">
+              <h2 className="text-3xl font-bold text-white">
                 Nuestros Valores
               </h2>
-              <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
+              <p className="text-secondary font-bold leading-relaxed max-w-2xl mx-auto">
                 Siempre priorizamos la fidelidad y la confianza con nuestros clientes, y nos esforzamos por ser un referente en el mercado.
               </p>
             </div>
@@ -121,10 +121,10 @@ export default function About() {
                       <img src={IconComponent} alt={value.title} className="w-8 h-8 text-white" />
                     </div>
 
-                    <h3 className="text-xl font-semibold text-gray-900">
+                    <h3 className="text-xl font-semibold uppercase text-white">
                       {value.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-secondary font-bold leading-relaxed">
                       {value.description}
                     </p>
                   </div>
