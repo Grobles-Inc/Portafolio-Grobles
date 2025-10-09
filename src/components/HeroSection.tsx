@@ -10,7 +10,7 @@ const stats = [
 export default function HeroSection() {
   const marqueeStats = [...stats, ...stats];
   return (
-    <section className="relative bg-[#07e288] md:pt-20 pt-10 overflow-hidden">
+    <section className="relative bg-primary md:pt-20 pt-10 overflow-hidden">
       <img
         src={oooscillate}
         alt=""
@@ -18,18 +18,18 @@ export default function HeroSection() {
         className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="relative">
-        <div className="flex flex-col items-center text-center space-y-6 md:py-12 py-6 px-4"
+        <div className="flex flex-col items-center text-center space-y-10 md:py-12 py-6 px-4"
           data-aos="fade-up"
         >
-          <h1 className="text-2xl md:text-5xl leading-8 font-bold">Transformamos <span className="text-white italic">ideas</span> en <span className="text-white italic">resultados digitales</span></h1>
-          <p className="max-w-3xl  md:text-lg  text-gray-800 font-medium">
+          <h1 className="text-2xl md:text-5xl text-secondary leading-8 font-bold">Transformamos <span className="text-white italic">ideas</span> en <span className="text-white italic">resultados digitales</span></h1>
+          <p className="max-w-3xl  md:text-lg  text-white font-bold">
             Desarrollo, diseño, marketing y consultoría digital. Todo lo que necesitas para hacer crecer tu negocio.
           </p>
           <div className="flex flex-col md:flex-row gap-2">
 
             <Link
               to="/contact"
-              className="btn md:btn-lg btn-neutral border text-white hover:opacity-70 hover:bg-transparent hover:text-black  transition-all duration-300 ease-in-out rounded-full "
+              className="bg-secondary flex items-center border border-transparent rounded-full px-4 py-3 font-bold hover:text-white hover:bg-primary hover:border-secondary"
               data-aos="flip-left"
               data-aos-delay="300"
             >
@@ -37,7 +37,7 @@ export default function HeroSection() {
             </Link>
             <Link
               to="/projects"
-              className="btn  md:btn-lg btn-outline btn-neutral rounded-full"
+              className="flex items-center text-white px-5 py-3 border border-secondary rounded-full hover:bg-secondary hover:text-primary font-bold"
               data-aos="flip-right"
               data-aos-delay="500"
             >
@@ -72,8 +72,8 @@ export default function HeroSection() {
           >
             {marqueeStats.map((stat, i) => (
               <div key={i} className="flex flex-col gap-2 items-center min-w-[220px] mx-2">
-                <h3 className="md:text-6xl text-4xl font-bold text-white font-mono">{stat.value}</h3>
-                <p className="text-white text-lg font-medium">{stat.label}</p>
+                <h3 className="md:text-6xl text-4xl font-bold text-secondary">{stat.value}</h3>
+                <p className="text-secondary text-lg font-bold">{stat.label}</p>
               </div>
             ))}
           </div>

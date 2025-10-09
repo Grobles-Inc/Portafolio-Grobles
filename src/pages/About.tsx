@@ -42,7 +42,7 @@ export default function About() {
   }
 
   return (
-    <div>
+    <div className="bg-primary">
       <SEOHead
         title="Sobre Nosotros - Grobles Solutions | Equipo de Desarrollo"
         description="Conoce al equipo de Grobles Solutions. Desarrolladores expertos con 10+ años de experiencia creando soluciones tecnológicas innovadoras y escalables."
@@ -69,10 +69,10 @@ export default function About() {
             {/* Right side - Content */}
             <div className="space-y-8">
               <div className="space-y-4">
-                <h2 className="text-4xl font-bold text-gray-900">
+                <h2 className="text-4xl font-bold text-white">
                   Nuestros Valores
                 </h2>
-                <p className="text-gray-600 text-lg leading-relaxed">
+                <p className="text-secondary text-lg leading-relaxed">
                   Siempre priorizamos la fidelidad y la confianza con nuestros clientes, y nos esforzamos por ser un referente en el mercado.
                 </p>
               </div>
@@ -85,10 +85,10 @@ export default function About() {
 
                       <img src={IconComponent} alt={value.title} className="size-12 text-white" />
 
-                      <h3 className="text-xl font-semibold text-gray-900">
+                      <h3 className="text-xl font-semibold text-white uppercase">
                         {value.title}
                       </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">
+                      <p className="text-[15px] leading-relaxed text-secondary font-bold">
                         {value.description}
                       </p>
                     </div>

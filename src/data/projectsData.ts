@@ -126,7 +126,7 @@ export const projectsData: Project[] = [
   },
   {
     id: "11",
-    title: "Wild Horse CarWash Mobile",
+    title: "Wild Horse CarWash",
     description: "Landing Page para promocionar servicios de limpieza de autos y captar clientes .",
     image: project11,
     liveDemo: "https://wildhorsecarwashmobile.com/",

@@ -30,7 +30,7 @@ export default function Services() {
   }
 
   return (
-    <div>
+    <div className="bg-primary">
       <SEOHead
         title="Servicios de Desarrollo - Grobles Solutions | Web, Móvil, Consultoría"
         description="Servicios de desarrollo de software: aplicaciones web, móviles, consultoría IT. Tecnologías modernas, soluciones escalables y soporte 24/7."
@@ -38,10 +38,7 @@ export default function Services() {
         canonical="https://grobles.netlify.app/services"
         structuredData={structuredData}
       />
-
       <ServiceSection />
-
-
     </div>
   )
 }

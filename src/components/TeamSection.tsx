@@ -30,12 +30,12 @@ export default function TeamSection() {
 
   return (
     <section className="max-w-7xl mx-auto">
-      <div className="flex flex-col items-center text-center space-y-6 py-6 mt-20"
+      <div className="flex flex-col items-center text-center space-y-6 py-6 pt-20"
         data-aos="fade-up"
       >
-        <span className="text-[#07e288] font-semibold">Nuestro Equipo</span>
-        <h1 className="text-2xl max-w-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
-        <p className="max-w-2xl text-lg hidden md:block">
+        <span className="text-secondary font-bold">Nuestro Equipo</span>
+        <h1 className="text-2xl max-w-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed text-white">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
+        <p className="max-w-2xl text-lg hidden md:block text-secondary">
           Somos un equipo de profesionales apasionados que están comprometidos a ayudarlo a desbloquear todo el potencial de su marca.
         </p>
       </div>
@@ -56,12 +56,12 @@ export default function TeamSection() {
               />
             </div>
             <div className="text-center">
-              <h3 className="font-bold text-base md:text-xl text-black mb-1">{member.name}</h3>
-              <div className="text-gray-500 text-sm mb-2">{member.role}</div>
+              <h3 className="font-bold text-base md:text-xl text-secondary mb-1">{member.name}</h3>
+              <div className="text-white text-sm mb-2 font-bold">{member.role}</div>
               <div className="flex justify-center gap-2">
                 <a
                   href={member.linkedin}
-                  className="btn btn-circle"
+                  className="text-primary py-2 px-2 border border-transparent bg-white rounded-full hover:bg-primary hover:border-secondary hover:text-secondary transition duration-500 ease-in-out"
                   aria-label={`LinkedIn de ${member.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -70,7 +70,7 @@ export default function TeamSection() {
                 </a>
                 <a
                   href={member.github}
-                  className="btn btn-circle"
+                  className="text-primary py-2 px-2 border border-transparent bg-white rounded-full hover:bg-primary hover:border-secondary hover:text-secondary transition duration-500 ease-in-out"
                   aria-label={`GitHub de ${member.name}`}
                   target="_blank"
                   rel="noopener noreferrer"

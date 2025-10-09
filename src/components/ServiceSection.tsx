@@ -39,9 +39,9 @@ export default function ServiceSection() {
       <div className="flex flex-col items-center text-center space-y-6 py-12 px-4"
         data-aos="fade-up"
       >
-        <span className="text-[#07e288] font-semibold">Nuestros Servicios</span>
-        <h1 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl font-bold">Servicios de Alto Impacto</h1>
-        <p className="max-w-2xl text-lg ">
+        <span className="text-secondary font-bold">Nuestros Servicios</span>
+        <h1 className="text-3xl max-w-3xl md:text-4xl lg:text-5xl text-white font-bold">Servicios de Alto Impacto</h1>
+        <p className="max-w-2xl text-lg text-secondary font-bold">
           Impulsa tu negocio con soluciones digitales hechas para convertir tu visión en resultados.
         </p>
 

@@ -28,7 +28,7 @@ export default function Home() {
   }
 
   return (
-    <div >
+    <div className="bg-primary pb-20">
       <SEOHead
         title="Grobles™ - Startup Tecnológica"
         description="Startup líder en desarrollo de software. 15+ proyectos completados, 10+ años de experiencia. Convertimos tus ideas en soluciones innovadoras con tecnología de punta."

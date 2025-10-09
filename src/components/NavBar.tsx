@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Logo from '../assets/logoGrobles.png'
+import { Home, Users, FolderKanban, Settings } from 'lucide-react'
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -39,37 +40,39 @@ export default function NavBar() {
   const navLinks = [
     {
       to: '/',
-      label: 'Inicio'
+      label: 'Inicio',
+      icon: Home,
     },
 
     {
       to: '/about',
-      label: 'Nosotros'
+      label: 'Nosotros',
+      icon: Users,
     },
 
     {
       to: '/services',
-      label: 'Servicios'
+      label: 'Servicios',
+      icon: Settings
     },
     {
       to: '/projects',
-      label: 'Proyectos'
+      label: 'Proyectos',
+      icon: FolderKanban
     },
 
   ]
 
   return (
-    <header className={`bg-[#07e288] backdrop-blur-md top-0 z-50 fixed w-full transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`} >
+    <header className={`bg-primary backdrop-blur-md top-0 z-50 fixed w-full transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`} >
       <div className="container mx-auto p-2" data-aos="fade-down">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <div>
             <Link to="/" onClick={closeMenu}>
               <img src={Logo} alt="Logo" className="md:h-20 h-16 w-auto" />
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden lg:flex">
             <ul className="flex space-x-2">
               {navLinks.map((link) => (
@@ -77,22 +80,34 @@ export default function NavBar() {
                   <NavLink
                     to={link.to}
                     className={({ isActive }) =>
-                      `btn bg-transparent border-transparent text-black text-[16px] font-bold rounded-full hover:bg-white ${isActive ? ' bg-white text-black' : 'text-black'
+                      `relative text-secondary border-transparent transition-all duration-300 ease-in-out text-[16px] px-4 py-2 font-bold rounded-full flex items-center gap-2 group overflow-hidden ${isActive 
+                        ? 'text-black' 
+                        : 'text-white hover:text-secondary'
                       }`
                     }
                   >
-                    {link.label}
+                    {({ isActive }) => (
+                      <>
+                        <link.icon className="h-6 w-6" />
+                        {link.label}
+                        
+                        <span className={`absolute bottom-0 left-0 h-0.5 bg-secondary transition-all duration-300 ease-in-out ${
+                          isActive 
+                            ? 'w-full' 
+                            : 'w-0 group-hover:w-full'
+                        }`}></span>
+                      </>
+                    )}
                   </NavLink>
                 </li>
               ))}
             </ul>
           </nav>
 
-          {/* Desktop Contact Button */}
           <div className="hidden lg:flex">
             <Link
               to="/contact"
-              className="btn btn-lg btn-neutral border text-white hover:opacity-70   transition-all duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold hover:bg-transparent hover:text-black"
+              className="bg-secondary border border-transparent text-primary hover:opacity-70 transition-all duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold hover:bg-transparent hover:text-white hover:border-secondary"
             >
               Contáctanos
             </Link>

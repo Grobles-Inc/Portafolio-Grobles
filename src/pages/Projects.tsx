@@ -31,7 +31,7 @@ export default function Projects() {
   }
 
   return (
-    <div>
+    <div className="bg-primary">
       <SEOHead
         title="Portfolio de Proyectos - Grobles Solutions | 15+ Proyectos Completados"
         description="Explora nuestro portfolio de proyectos de desarrollo de software. 15+ proyectos completados en aplicaciones web, móviles y soluciones personalizadas."
@@ -41,11 +41,11 @@ export default function Projects() {
       />
       <section className="max-w-7xl mx-auto py-12 px-4">
         <div className="flex flex-col items-center text-center space-y-6" data-aos="fade-up">
-          <span className="text-[#07e288] font-semibold">Proyectos</span>
-          <h1 className="text-2xl max-w-xl md:text-3xl lg:text-4xl font-bold">
+          <span className="text-secondary font-semibold">Proyectos</span>
+          <h1 className="text-2xl max-w-xl text-white md:text-3xl lg:text-4xl font-bold">
             Nuestra Experiencia
           </h1>
-          <p className="max-w-2xl md:text-lg px-4">
+          <p className="max-w-2xl md:text-lg px-4 text-secondary">
             Soluciones reales, resultados reales. Mira cómo ayudamos a nuestros clientes a crecer.
           </p>
         </div>
@@ -54,7 +54,7 @@ export default function Projects() {
           {categories.map((category) => (
             <button
               key={category.name}
-              className={`badge cursor-pointer badge-lg rounded-full ${selectedCategory === category.name ? 'badge-primary' : 'bg-gray-200 text-gray-700'}`}
+              className={`badge cursor-pointer badge-lg rounded-full ${selectedCategory === category.name ? 'badge-secondary' : 'bg-primary text-secondary border-secondary'}`}
               onClick={() => setSelectedCategory(category.name)}
             >
               {category.name}
