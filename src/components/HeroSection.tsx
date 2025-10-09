@@ -90,8 +90,8 @@ export default function HeroSection() {
                   animationDelay: `${i * 200}ms`
                 }}
               >
-                <h3 className="text-3xl font-bold text-white font-mono">{stat.value}</h3>
-                <p className="text-white text-xs font-medium text-center">{stat.label}</p>
+                <h3 className="text-3xl font-bold text-secondary">{stat.value}</h3>
+                <p className="text-secondary text-xs font-bold text-center">{stat.label}</p>
               </div>
             ))}
           </div>
