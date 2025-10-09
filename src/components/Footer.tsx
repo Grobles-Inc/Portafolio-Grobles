@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Facebook, Instagram, Github } from "lucide-react"
+import logo from "../assets/logoGrobles.png"
 
 export default function Footer() {
   return (
@@ -25,8 +26,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center w-full px-10 mt-10 space-y-4 md:space-y-0">
-        <div className="text-center md:text-start">
+        <div className="text-center md:text-start flex flex-col items-center">
 
+          <img src={logo} alt="Logo" className="h-20 w-auto" />
           <div className="flex justify-center md:justify-start mt-2 text-secondary space-x-2">
             <a href="https://www.facebook.com/profile.php?id=61573124294121" target="_blank" className="flex items-center hover:text-white rounded-full px-2 py-2 transition duration-500 ease-in-out" rel="noopener noreferrer">
               <Facebook className="w-6 h-6 " />
@@ -40,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center md:text-end text-white font-bold">
-          <p>Copyright © 2025 Grobles Solutions.</p>
+          <p>Todos los derechos reservados © 2025 Grobles Solutions</p>
         </div>
       </div>
     </section>
