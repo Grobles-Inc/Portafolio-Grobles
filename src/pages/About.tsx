@@ -34,7 +34,7 @@ export default function About() {
     "@type": "AboutPage",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Grobles Solutions",
+      "name": "Grobles Studio",
       "description": "Equipo de desarrollo de software especializado en tecnologías modernas",
       "foundingDate": "2023",
       "mission": "Convertir ideas innovadoras en soluciones tecnológicas escalables"
@@ -44,8 +44,8 @@ export default function About() {
   return (
     <div className="bg-primary">
       <SEOHead
-        title="Sobre Nosotros - Grobles Solutions | Equipo de Desarrollo"
-        description="Conoce al equipo de Grobles Solutions. Desarrolladores expertos con 10+ años de experiencia creando soluciones tecnológicas innovadoras y escalables."
+        title="Sobre Nosotros - Grobles Studio | Equipo de Desarrollo"
+        description="Conoce al equipo de Grobles Studio. Desarrolladores expertos con 10+ años de experiencia creando soluciones tecnológicas innovadoras y escalables."
         keywords="equipo desarrollo, sobre nosotros, desarrolladores expertos, tecnología, innovación, software"
         canonical="https://grobles.netlify.app/about"
         structuredData={structuredData}

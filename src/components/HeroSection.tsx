@@ -23,7 +23,7 @@ export default function HeroSection() {
         >
           <h1 className="text-2xl md:text-5xl text-secondary leading-8 font-bold">Transformamos <span className="text-white italic">ideas</span> en <span className="text-white italic">resultados digitales</span></h1>
           <p className="max-w-3xl  md:text-lg  text-white font-bold">
-            Desarrollo, diseño, marketing y consultoría digital. Todo lo que necesitas para hacer crecer tu negocio.
+            En Grobles Studio tenemos todo lo que necesitas para convertir tus ideas en soluciones innovadoras. Desde desarrollo, diseño, marketing y consultoría digital. Comunicate con nosotros para obtener más información.
           </p>
           <div className="flex flex-col md:flex-row gap-2">
 

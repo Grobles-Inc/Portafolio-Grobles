@@ -6,7 +6,7 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Grobles Solutions",
+    "name": "Grobles Studio",
     "description": "Startup líder en desarrollo de software",
     "url": "https://groblesolutions.netlify.app",
     "logo": "https://grobles.netlify.app/src/assets/logoGrobles.png",

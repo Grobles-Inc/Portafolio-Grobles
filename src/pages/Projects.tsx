@@ -10,8 +10,8 @@ export default function Projects() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "Portfolio de Proyectos - Grobles Solutions",
-    "description": "Proyectos de desarrollo de software completados por Grobles Solutions",
+    "name": "Portfolio de Proyectos - Grobles Studio",
+    "description": "Proyectos de desarrollo de software completados por Grobles Studio",
     "mainEntity": {
       "@type": "ItemList",
       "numberOfItems": "15",
@@ -33,7 +33,7 @@ export default function Projects() {
   return (
     <div className="bg-primary">
       <SEOHead
-        title="Portfolio de Proyectos - Grobles Solutions | 15+ Proyectos Completados"
+        title="Portfolio de Proyectos - Grobles Studio | 15+ Proyectos Completados"
         description="Explora nuestro portfolio de proyectos de desarrollo de software. 15+ proyectos completados en aplicaciones web, móviles y soluciones personalizadas."
         keywords="portfolio, proyectos software, aplicaciones web, desarrollo móvil, casos de éxito, React, TypeScript"
         canonical="https://grobles.netlify.app/projects"

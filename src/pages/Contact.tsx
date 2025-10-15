@@ -10,7 +10,7 @@ export default function Contact() {
     "@type": "ContactPage",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Grobles Solutions",
+      "name": "Grobles Studio",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+51-901-617-809",
@@ -28,8 +28,8 @@ export default function Contact() {
   return (
     <div className="bg-primary py-2">
       <SEOHead
-        title="Contacto - Grobles Solutions | Hablemos de tu Proyecto"
-        description="¿Tienes una idea? Contacta con Grobles Solutions. Soporte 24/7, consulta gratuita y presupuesto personalizado para tu proyecto de software."
+        title="Contacto - Grobles Studio | Hablemos de tu Proyecto"
+        description="¿Tienes una idea? Contacta con Grobles Studio. Soporte 24/7, consulta gratuita y presupuesto personalizado para tu proyecto de software."
         keywords="contacto, consulta gratuita, presupuesto software, desarrollo personalizado, soporte 24/7"
         canonical="https://grobles.netlify.app/contact"
         structuredData={structuredData}
@@ -92,7 +92,7 @@ export default function Contact() {
 
           {/* Phone Card */}
           <a
-            href="https://wa.me/51901617809?text=Hola Grobles Solutions, quiero ponerme en contacto con ustedes!"
+            href="https://wa.me/51901617809?text=Hola Grobles Studio, quiero ponerme en contacto con ustedes!"
             target="_blank"
             rel="noopener noreferrer"
             className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-secondary focus:ring-2 focus:ring-secondary"

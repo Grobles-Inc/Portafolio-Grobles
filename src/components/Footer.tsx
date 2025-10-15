@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center md:text-end text-white font-bold">
-          <p>Todos los derechos reservados © 2025 Grobles Solutions</p>
+          <p>Todos los derechos reservados © 2025 Grobles Studio.</p>
         </div>
       </div>
     </section>

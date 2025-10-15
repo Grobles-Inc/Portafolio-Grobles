@@ -7,7 +7,7 @@ export default function Services() {
     "@type": "Service",
     "provider": {
       "@type": "Organization",
-      "name": "Grobles Solutions"
+      "name": "Grobles Studio"
     },
     "serviceType": "Desarrollo de Software",
     "offers": [
@@ -32,7 +32,7 @@ export default function Services() {
   return (
     <div className="bg-primary">
       <SEOHead
-        title="Servicios de Desarrollo - Grobles Solutions | Web, Móvil, Consultoría"
+        title="Servicios de Desarrollo - Grobles Studio | Web, Móvil, Consultoría"
         description="Servicios de desarrollo de software: aplicaciones web, móviles, consultoría IT. Tecnologías modernas, soluciones escalables y soporte 24/7."
         keywords="servicios desarrollo, aplicaciones web, desarrollo móvil, consultoría IT, React, Node.js, tecnología"
         canonical="https://grobles.netlify.app/services"
