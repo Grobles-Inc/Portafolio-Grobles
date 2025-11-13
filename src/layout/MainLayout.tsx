@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import CallToAction from '../components/CallToAction'
 
 
 
@@ -34,6 +35,7 @@ export default function MainLayout() {
       <div>
         <main className="flex-1 pt-20">
           <Outlet />
+          <CallToAction />
           <Footer />
         </main>
       </div>
