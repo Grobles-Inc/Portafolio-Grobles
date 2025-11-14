@@ -12,14 +12,14 @@ export default function Footer() {
           Transforma tu idea en realidad digital
         </h1>
 
-        <p className="text-lg md:text-xl text-secondary mb-12 max-w-2xl mx-auto">
+        <p className="md:text-lg text-secondary mb-12 max-w-2xl mx-auto font-extralight">
           Desarrollamos soluciones tecnológicas personalizadas que impulsan el crecimiento de tu negocio.
         </p>
 
         <div className="flex flex-col items-center space-y-6">
           <Link
             to="/contact"
-            className="bg-secondary text-primary font-bold uppercase px-12 py-4 rounded-full text-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105"
+            className="bg-secondary text-primary font-extralight uppercase px-12 py-4 rounded-full text-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105"
           >
             Empezar ahora
           </Link>
@@ -41,7 +41,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="text-center md:text-end text-white font-bold">
+        <div className="text-center md:text-end text-white font-extralight">
           <p>Todos los derechos reservados © 2025 Grobles Studio.</p>
         </div>
       </div>

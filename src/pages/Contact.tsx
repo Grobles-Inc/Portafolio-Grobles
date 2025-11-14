@@ -39,10 +39,10 @@ export default function Contact() {
           className="flex flex-col items-center text-center gap-4 py-16 lg:mt-24 space-y-5"
           data-aos="fade-up"
         >
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white">
+          <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight text-white">
             Conecta con <span className="text-secondary italic">Nosotros</span>
           </h1>
-          <p className="max-w-2xl md:text-lg text-secondary font-bold">
+          <p className="max-w-2xl md:text-lg text-secondary font-extralight">
             ¿Listo para impulsar tu proyecto? Hablemos. Trabajamos con marcas y emprendedores que buscan resultados reales.
           </p>
         </div>
@@ -62,8 +62,8 @@ export default function Contact() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-secondary/10 mb-4 group-hover:bg-secondary/20 transition">
                 <Mail className="w-10 h-10 text-secondary" />
               </div>
-              <h2 className="card-title text-xl font-bold text-white mb-1">Email</h2>
-              <span className="text-white font-bold group-hover:text-secondary transition">
+              <h2 className="card-title text-xl font-extralight text-white mb-1">Email</h2>
+              <span className="text-white font-extralight group-hover:text-secondary transition text-sm md:text-lg">
                 grobles.dev@gmail.com
               </span>
             </div>
@@ -83,8 +83,8 @@ export default function Contact() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-secondary/10 mb-4 group-hover:bg-secondary/20 transition">
                 <Calendar className="w-10 h-10 text-secondary" />
               </div>
-              <h2 className="card-title text-xl font-bold text-white mb-1">Agenda una cita</h2>
-              <span className="text-white font-bold group-hover:text-secondary transition">
+              <h2 className="card-title text-xl font-extralight text-white mb-1">Agenda una cita</h2>
+              <span className="text-white font-extralight group-hover:text-secondary transition text-sm md:text-lg">
                 Reserva una reunión con nuestro equipo.
               </span>
             </div>
@@ -92,7 +92,7 @@ export default function Contact() {
 
           {/* Phone Card */}
           <a
-            href="https://wa.me/51901617809?text=Hola Grobles Studio, quiero ponerme en contacto con ustedes!"
+            href="https://wa.me/51972557287?text=Hola Grobles Studio, quiero ponerme en contacto con ustedes!"
             target="_blank"
             rel="noopener noreferrer"
             className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-secondary focus:ring-2 focus:ring-secondary"
@@ -104,9 +104,9 @@ export default function Contact() {
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-secondary/10 mb-4 group-hover:bg-secondary/20 transition">
                 <Phone className="w-10 h-10 text-secondary" />
               </div>
-              <h2 className="card-title text-xl font-bold text-white mb-1">Whatsapp</h2>
-              <span className="text-white font-bold group-hover:text-secondary transition">
-                +51 901 617 809
+              <h2 className="card-title text-xl font-extralight text-white mb-1">Whatsapp</h2>
+              <span className="text-white font-extralight group-hover:text-secondary transition text-sm md:text-lg">
+                +51 972 557 287
               </span>
             </div>
           </a>

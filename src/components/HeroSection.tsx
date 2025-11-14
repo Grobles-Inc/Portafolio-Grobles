@@ -22,14 +22,14 @@ export default function HeroSection() {
           data-aos="fade-up"
         >
           <h1 className="text-2xl md:text-5xl text-secondary leading-8 font-bold">Transformamos <span className="text-white italic">ideas</span> en <span className="text-white italic">resultados digitales</span></h1>
-          <p className="max-w-3xl  md:text-lg  text-white font-bold">
+          <p className="max-w-3xl md:text-lg text-white font-extralight">
             En Grobles Studio tenemos todo lo que necesitas para convertir tus ideas en soluciones innovadoras. Desde desarrollo, diseño, marketing y consultoría digital. Comunicate con nosotros para obtener más información.
           </p>
           <div className="flex flex-col md:flex-row gap-2">
 
             <Link
               to="/contact"
-              className="bg-secondary flex items-center border border-transparent rounded-full px-4 py-3 font-bold hover:text-white hover:bg-primary hover:border-secondary"
+              className="bg-secondary flex items-center border border-transparent rounded-full px-4 py-3 font-extralight hover:text-white hover:bg-primary hover:border-secondary"
               data-aos="flip-left"
               data-aos-delay="300"
             >
@@ -37,7 +37,7 @@ export default function HeroSection() {
             </Link>
             <Link
               to="/projects"
-              className="flex items-center text-white px-5 py-3 border border-secondary rounded-full hover:bg-secondary hover:text-primary font-bold"
+              className="flex items-center text-white px-5 py-3 border border-secondary rounded-full hover:bg-secondary hover:text-primary font-extralight"
               data-aos="flip-right"
               data-aos-delay="500"
             >
@@ -72,8 +72,8 @@ export default function HeroSection() {
           >
             {marqueeStats.map((stat, i) => (
               <div key={i} className="flex flex-col gap-2 items-center min-w-[220px] mx-2">
-                <h3 className="md:text-6xl text-4xl font-bold text-secondary">{stat.value}</h3>
-                <p className="text-secondary text-lg font-bold">{stat.label}</p>
+                <h3 className="md:text-6xl text-4xl font-semibold text-secondary">{stat.value}</h3>
+                <p className="text-secondary text-lg font-extralight">{stat.label}</p>
               </div>
             ))}
           </div>

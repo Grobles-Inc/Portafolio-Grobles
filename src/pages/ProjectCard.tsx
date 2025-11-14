@@ -19,17 +19,17 @@ export default function ProjectCard({
       {/* Title and tag */}
       <div className=" flex flex-col mt-10 gap-4 items-start px-6">
         <div className="flex items-center w-full mb-2">
-          <h3 className="md:text-xl text-lg font-bold text-gray-900 leading-tight flex-1 uppercase">{title}</h3>
-          <span className="bg-secondary text-primary text-xs px-3 py-1 rounded-full font-medium ml-2 whitespace-nowrap">{duration}</span>
+          <h3 className="md:text-xl text-lg font-extralight text-gray-900 leading-tight flex-1 uppercase">{title}</h3>
+          <span className="bg-secondary text-sm px-3 py-1 rounded-full font-extralight ml-2 whitespace-nowrap text-gray-600">{duration}</span>
         </div>
         {/* Description */}
-        <p className=" md:text-sm text-xs line-clamp-3">
+        <p className=" md:text-sm text-xs line-clamp-3 text-gray-600 font-extralight">
           {description}
         </p>
         {/* Button and stats */}
         <div className="flex items-center justify-end gap-2 w-full ">
           <Link
-            className="bg-primary text-secondary rounded-full border border-transparent px-3 py-2 gap-3 flex items-center font-bold hover:bg-transparent hover:border-primary hover:text-primary transition duration-500 ease-in-out"
+            className="bg-primary text-secondary rounded-full border border-transparent px-3 py-2 gap-3 flex items-center font-extralight hover:bg-transparent hover:border-gray-600 hover:text-gray-600 transition duration-500 ease-in-out"
             to={liveDemo || ''}
             target="_blank"
           >

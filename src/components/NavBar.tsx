@@ -88,7 +88,7 @@ export default function NavBar() {
                   <NavLink
                     to={link.to}
                     className={({ isActive }) =>
-                      `relative text-secondary border-transparent transition-all duration-300 ease-in-out text-[16px] px-4 py-2 font-bold rounded-full flex items-center gap-2 group overflow-hidden ${isActive 
+                      `relative text-secondary border-transparent transition-all duration-300 ease-in-out text-[16px] px-4 py-2 font-extralight rounded-full flex items-center gap-2 group overflow-hidden ${isActive 
                         ? 'text-black' 
                         : 'text-white hover:text-secondary'
                       }`
@@ -114,7 +114,7 @@ export default function NavBar() {
           <div className="hidden lg:flex">
             <Link
               to="/contact"
-              className="bg-secondary border border-transparent text-primary hover:opacity-70 transition-all duration-300 ease-in-out rounded-4xl px-6 py-2 font-bold hover:bg-transparent hover:text-white hover:border-secondary"
+              className="bg-secondary border border-transparent text-primary hover:opacity-70 transition-all duration-300 ease-in-out rounded-4xl px-6 py-2 font-extralight hover:bg-transparent hover:text-white hover:border-secondary"
             >
               Contáctanos
             </Link>

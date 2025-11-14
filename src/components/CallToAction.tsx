@@ -9,7 +9,7 @@ export default function CallToAction() {
       <div 
         className="border border-secondary border-dashed px-4 py-10 md:p-20  flex flex-col items-center justify-center rounded-3xl mx-4 md:mx-0">
         <h2
-          className="text-white text-3xl md:text-6xl text-center">
+          className="text-white text-3xl md:text-5xl text-center">
           Presentamos {""}
           <a
             href="https://grobles-store.vercel.app"
@@ -19,7 +19,7 @@ export default function CallToAction() {
           </a>
         </h2>
         <p
-          className="text-white pt-10 text-center text-sm md:text-lg">
+          className="text-white pt-10 text-center text-sm md:text-lg font-extralight">
           <a
             href="https://grobles-store.vercel.app"
             target="_blank"

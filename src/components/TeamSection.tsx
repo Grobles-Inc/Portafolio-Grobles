@@ -41,15 +41,15 @@ export default function TeamSection() {
       <div className="flex flex-col items-center text-center space-y-6 py-6 pt-20"
         data-aos="fade-up"
       >
-        <span className="text-secondary font-bold">Nuestro Equipo</span>
-        <h1 className="text-2xl max-w-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed text-white">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
-        <p className="max-w-2xl text-lg hidden md:block text-secondary">
+        <span className="text-secondary font-semibold">Nuestro Equipo</span>
+        <h1 className="text-2xl max-w-3xl md:text-4xl font-bold leading-relaxed text-white">Las Mentes Brillantes Que Impulsan Nuestro Éxito</h1>
+        <p className="max-w-2xl md:text-lg mx-4 md:mx-0 text-secondary font-extralight">
           Somos un equipo de profesionales apasionados que están comprometidos a ayudarlo a desbloquear todo el potencial de su marca.
         </p>
       </div>
 
       {/* Team Cards Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-20">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-10 md:py-20">
         {teamMembers.map((member, index) => (
           <div
             key={index}
@@ -64,8 +64,8 @@ export default function TeamSection() {
               />
             </div>
             <div className="text-center">
-              <h3 className="font-bold text-base md:text-xl text-secondary mb-1">{member.name}</h3>
-              <div className="text-white text-sm mb-2 font-bold">{member.role}</div>
+              <h3 className="font-extralight text-base md:text-xl text-secondary mb-1">{member.name}</h3>
+              <div className="text-white text-sm mb-2 font-extralight">{member.role}</div>
               <div className="flex justify-center gap-2">
                 <a
                   href={member.linkedin}
