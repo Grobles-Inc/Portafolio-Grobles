@@ -47,7 +47,7 @@ export default function About() {
         title="Sobre Nosotros - Grobles Studio | Equipo de Desarrollo"
         description="Conoce al equipo de Grobles Studio. Desarrolladores expertos con 10+ años de experiencia creando soluciones tecnológicas innovadoras y escalables."
         keywords="equipo desarrollo, sobre nosotros, desarrolladores expertos, tecnología, innovación, software"
-        canonical="https://grobles.netlify.app/about"
+        canonical="https://www.groblestudio.com/about"
         structuredData={structuredData}
       />
       <section className="max-w-7xl mx-auto">

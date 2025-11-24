@@ -14,7 +14,7 @@ export default function SEOHead({
   title = 'Grobles™ - Desarrollo de Software Innovador',
   description = 'Startup líder en desarrollo de software. Convertimos tus ideas en soluciones innovadoras con tecnología de punta y productos escalables.',
   keywords = 'desarrollo software, startup, tecnología, aplicaciones web, programación, soluciones digitales',
-  ogImage = 'https://grobles.netlify.app/src/assets/logoGrobles.png',
+  ogImage = 'https://www.groblestudio.com/src/assets/logoGrobles.png',
   canonical,
   type = 'website',
   structuredData

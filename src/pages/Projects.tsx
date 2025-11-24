@@ -36,7 +36,7 @@ export default function Projects() {
         title="Portfolio de Proyectos - Grobles Studio | 15+ Proyectos Completados"
         description="Explora nuestro portfolio de proyectos de desarrollo de software. 15+ proyectos completados en aplicaciones web, móviles y soluciones personalizadas."
         keywords="portfolio, proyectos software, aplicaciones web, desarrollo móvil, casos de éxito, React, TypeScript"
-        canonical="https://grobles.netlify.app/projects"
+        canonical="https://www.groblestudio.com/projects"
         structuredData={structuredData}
       />
       <section className="max-w-7xl mx-auto py-12 px-4">

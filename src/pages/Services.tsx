@@ -23,6 +23,11 @@ export default function Services() {
       },
       {
         "@type": "Offer",
+        "name": "Desarrollo de Software",
+        "description": "Sistemas web y apps a medida que impulsan tu negocio."
+      },
+      {
+        "@type": "Offer",
         "name": "Consultoría IT",
         "description": "Asesoramiento tecnológico especializado"
       }
@@ -35,7 +40,7 @@ export default function Services() {
         title="Servicios de Desarrollo - Grobles Studio | Web, Móvil, Consultoría"
         description="Servicios de desarrollo de software: aplicaciones web, móviles, consultoría IT. Tecnologías modernas, soluciones escalables y soporte 24/7."
         keywords="servicios desarrollo, aplicaciones web, desarrollo móvil, consultoría IT, React, Node.js, tecnología"
-        canonical="https://grobles.netlify.app/services"
+        canonical="https://www.groblestudio.com/services"
         structuredData={structuredData}
       />
       <ServiceSection />

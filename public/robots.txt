@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://grobles.netlify.app/sitemap.xml
+Sitemap: https://www.groblestudio.com/sitemap.xml
 
 # Permitir indexación de todas las páginas importantes
 Allow: /

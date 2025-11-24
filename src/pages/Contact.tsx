@@ -31,7 +31,7 @@ export default function Contact() {
         title="Contacto - Grobles Studio | Hablemos de tu Proyecto"
         description="¿Tienes una idea? Contacta con Grobles Studio. Soporte 24/7, consulta gratuita y presupuesto personalizado para tu proyecto de software."
         keywords="contacto, consulta gratuita, presupuesto software, desarrollo personalizado, soporte 24/7"
-        canonical="https://grobles.netlify.app/contact"
+        canonical="https://www.groblestudio.com/contact"
         structuredData={structuredData}
       />
       <section className="max-w-7xl mx-auto px-4">
@@ -92,7 +92,7 @@ export default function Contact() {
 
           {/* Phone Card */}
           <a
-            href="https://wa.me/51972557287?text=Hola Grobles Studio, quiero ponerme en contacto con ustedes!"
+            href="https://wa.me/51901617809?text=Hola Grobles Studio, quiero ponerme en contacto con ustedes!"
             target="_blank"
             rel="noopener noreferrer"
             className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-secondary focus:ring-2 focus:ring-secondary"
@@ -106,7 +106,7 @@ export default function Contact() {
               </div>
               <h2 className="card-title text-xl font-extralight text-white mb-1">Whatsapp</h2>
               <span className="text-white font-extralight group-hover:text-secondary transition text-sm md:text-lg">
-                +51 972 557 287
+                +51 901 617 809
               </span>
             </div>
           </a>

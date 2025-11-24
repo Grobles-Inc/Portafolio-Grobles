@@ -27,7 +27,7 @@ export const formatDate = (date: Date): string => {
 }
 
 export const getCanonicalUrl = (path: string): string => {
-  const baseUrl = 'https://groblesolutions.netlify.app'
+  const baseUrl = 'https://www.groblestudio.com/'
   return `${baseUrl}${path}`
 }
 

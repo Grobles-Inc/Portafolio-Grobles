@@ -36,8 +36,6 @@ export default function ProjectCard({
             Ver Demo
             <ExternalLink size={14} />
           </Link>
-
-
         </div>
       </div>
     </div>
