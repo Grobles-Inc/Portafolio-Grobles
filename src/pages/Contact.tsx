@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Calendar, Mail, Phone } from "lucide-react";
 
 import SEOHead from "../components/SEOHead";
+import FormContacto from "../components/FormContacto";
 
 export default function Contact() {
 
@@ -111,6 +112,9 @@ export default function Contact() {
             </div>
           </a>
         </div>
+
+        {/* Formulario de Contacto */}
+        <FormContacto />
       </section>
     </div>
   )
