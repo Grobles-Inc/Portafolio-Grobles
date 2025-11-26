@@ -32,7 +32,13 @@ export default function FormContacto() {
     setSubmitStatus({ type: null, message: "" });
 
     try {
-      const response = await fetch("http://localhost:3001/api/contact", {
+      // En producción usa la ruta relativa /api/contact
+      // En desarrollo usa localhost:3001
+      const apiUrl = import.meta.env.DEV 
+        ? "http://localhost:3001/api/contact"
+        : "/api/contact";
+      
+      const response = await fetch(apiUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
