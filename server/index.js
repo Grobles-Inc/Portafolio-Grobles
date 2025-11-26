@@ -109,11 +109,11 @@ app.post('/api/contact', async (req, res) => {
         <head>
           <style>
             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-            .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+            .container { max-width: 600px; margin: 0 auto; padding: 10px; }
             .header { background: #10B981; color: white; padding: 30px; text-align: center; border-radius: 5px 5px 0 0; }
             .header h1 { margin: 0; font-size: 24px; }
-            .content { background: #f9f9f9; padding: 30px; border: 1px solid #ddd; }
-            .message-box { background: white; padding: 20px; border-left: 4px solid #10B981; margin: 20px 0; }
+            .content { background: #f9f9f9; padding: 10px; border: 1px solid #ddd; }
+            .message-box { background: white; padding: 10px; border-left: 4px solid #10B981; margin: 10px 0; }
             .footer { background: #1a1a1a; color: white; padding: 20px; text-align: center; border-radius: 0 0 5px 5px; }
             .cta-button { display: inline-block; background: #10B981; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; margin: 20px 0; }
             .social-links { margin-top: 15px; }
@@ -135,7 +135,7 @@ app.post('/api/contact', async (req, res) => {
                 <p><strong>Mensaje:</strong> ${message.substring(0, 100)}${message.length > 100 ? '...' : ''}</p>
               </div>
 
-              <p>Nuestro equipo revisará tu solicitud y te responderemos lo antes posible, generalmente en un plazo de <strong>24 a 48 horas hábiles</strong>.</p>
+              <p>Nuestro equipo revisará tu solicitud y te responderemos lo antes posible, generalmente en un plazo de <strong>1 a 2 horas</strong>.</p>
 
               <p>Mientras tanto, te invitamos a:</p>
               <ul>
