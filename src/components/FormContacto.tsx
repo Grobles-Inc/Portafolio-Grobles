@@ -32,9 +32,8 @@ export default function FormContacto() {
     setSubmitStatus({ type: null, message: "" });
 
     try {
-      // En producción usa la ruta relativa /api/contact
-      // En desarrollo usa localhost:3001
-      const apiUrl = import.meta.env.DEV 
+      // Usar ruta relativa en producción, localhost en desarrollo
+      const apiUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
         ? "http://localhost:3001/api/contact"
         : "/api/contact";
       
