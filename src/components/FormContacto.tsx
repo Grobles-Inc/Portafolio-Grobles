@@ -65,6 +65,7 @@ export default function FormContacto() {
         throw new Error(data.message || "Error al enviar el mensaje");
       }
     } catch (error) {
+      console.error('Error al enviar mensaje:', error);
       setSubmitStatus({
         type: "error",
         message: "Hubo un error al enviar el mensaje. Por favor, intenta nuevamente.",
