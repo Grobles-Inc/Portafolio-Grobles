@@ -128,7 +128,7 @@ export default async function handler(req, res) {
               </ul>
 
               <p>Si tu consulta es urgente, puedes contactarnos por WhatsApp:</p>
-              <a href="https://wa.me/51901617809" class="cta-button">📱 WhatsApp: +51 901 617 809</a>
+              <a href="https://wa.me/51945689211" class="cta-button">📱 WhatsApp: +51 945 689 211</a>
             </div>
             <div class="footer">
               <p><strong>Grobles Studio</strong></p>

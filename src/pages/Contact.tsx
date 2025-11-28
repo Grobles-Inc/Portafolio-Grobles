@@ -51,7 +51,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
           {/* Email Card */}
           <a 
-            href="mailto:grobles.dev@gmail.com"
+            href="mailto:contacto@groblestudio.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-secondary focus:ring-2 focus:ring-secondary"
@@ -65,7 +65,7 @@ export default function Contact() {
               </div>
               <h2 className="card-title text-xl font-extralight text-white mb-1">Email</h2>
               <span className="text-white font-extralight group-hover:text-secondary transition text-sm md:text-lg">
-                grobles.dev@gmail.com
+                contacto@groblestudio.com
               </span>
             </div>
           </a>
@@ -93,7 +93,7 @@ export default function Contact() {
 
           {/* Phone Card */}
           <a
-            href="https://wa.me/51901617809?text=Hola Grobles Studio, quiero ponerme en contacto con ustedes!"
+            href="https://wa.me/51945689211?text=Hola Grobles Studio, quiero ponerme en contacto con ustedes!"
             target="_blank"
             rel="noopener noreferrer"
             className="group card bg-base-100 shadow-xl hover:shadow-2xl transition-all rounded-3xl border border-base-200 hover:border-secondary focus:ring-2 focus:ring-secondary"
@@ -107,7 +107,7 @@ export default function Contact() {
               </div>
               <h2 className="card-title text-xl font-extralight text-white mb-1">Whatsapp</h2>
               <span className="text-white font-extralight group-hover:text-secondary transition text-sm md:text-lg">
-                +51 901 617 809
+                +51 945 689 211
               </span>
             </div>
           </a>
