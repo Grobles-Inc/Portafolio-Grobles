@@ -2,18 +2,17 @@ import { Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import CallToAction from '../components/CallToAction'
-
-
+import { useLenis } from '@/hooks/useLenis'
+import ScrollToTop from '../components/ScrollToTop'
 
 export default function MainLayout() {
+  useLenis();
   const location = useLocation()
 
   useEffect(() => {
-
 
     AOS.init({
       duration: 1000,
@@ -31,9 +30,10 @@ export default function MainLayout() {
 
   return (
     <div data-theme="grobles">
-      <NavBar />
+      <ScrollToTop />
       <div>
-        <main className="flex-1 pt-20">
+        <NavBar />
+        <main className="flex-1">
           <Outlet />
           <CallToAction />
           <Footer />

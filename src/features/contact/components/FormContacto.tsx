@@ -76,25 +76,17 @@ export default function FormContacto() {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-4 pb-24">
+    <section
+    className="md:mx-10">
       <div
-        className="bg-base-100 rounded-3xl shadow-2xl p-8 md:p-12 border border-base-200"
+        className="p-6 md:p-12"
         data-aos="fade-up"
       >
-        <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Envíanos un <span className="text-secondary italic">Mensaje</span>
-          </h2>
-          <p className="text-secondary font-extralight">
-            Completa el formulario y nos pondremos en contacto contigo lo antes posible.
-          </p>
-        </div>
-
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Nombre */}
           <div className="form-control">
             <label htmlFor="name" className="label">
-              <span className="label-text text-white font-light">Nombre completo *</span>
+              <span className="label-text text-secondary font-light text-xl pb-2">Nombre completo *</span>
             </label>
             <input
               type="text"
@@ -103,7 +95,7 @@ export default function FormContacto() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="input input-bordered bg-primary border-base-300 text-white focus:border-secondary focus:outline-none w-full"
+              className="input input-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
               placeholder="Tu nombre"
             />
           </div>
@@ -112,7 +104,7 @@ export default function FormContacto() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="form-control">
               <label htmlFor="email" className="label">
-                <span className="label-text text-white font-light">Email *</span>
+                <span className="label-text text-secondary font-light text-xl pb-2">Email *</span>
               </label>
               <input
                 type="email"
@@ -121,14 +113,14 @@ export default function FormContacto() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="input input-bordered bg-primary border-base-300 text-white focus:border-secondary focus:outline-none w-full"
-                placeholder="ga@ga.com"
+                className="input input-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
+                placeholder="grobles.dev@gmail.com"
               />
             </div>
 
             <div className="form-control">
               <label htmlFor="phone" className="label">
-                <span className="label-text text-white font-light">Teléfono</span>
+                <span className="label-text text-secondary font-light text-xl pb-2">Teléfono</span>
               </label>
               <input
                 type="tel"
@@ -136,8 +128,8 @@ export default function FormContacto() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                className="input input-bordered bg-primary border-base-300 text-white focus:border-secondary focus:outline-none w-full"
-                placeholder="99999999"
+                className="input input-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
+                placeholder="901617908"
               />
             </div>
           </div>
@@ -145,7 +137,7 @@ export default function FormContacto() {
           {/* Asunto */}
           <div className="form-control">
             <label htmlFor="subject" className="label">
-              <span className="label-text text-white font-light">Asunto *</span>
+              <span className="label-text text-secondary font-light text-xl pb-2">Asunto *</span>
             </label>
             <select
               id="subject"
@@ -153,7 +145,7 @@ export default function FormContacto() {
               value={formData.subject}
               onChange={handleChange}
               required
-              className="select select-bordered bg-primary border-base-300 text-white focus:border-secondary focus:outline-none w-full"
+              className="select select-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
             >
               <option value="" disabled>
                 Selecciona un asunto
@@ -170,7 +162,7 @@ export default function FormContacto() {
           {/* Mensaje */}
           <div className="form-control">
             <label htmlFor="message" className="label">
-              <span className="label-text text-white font-light">Mensaje *</span>
+              <span className="label-text text-secondary font-light text-xl pb-2">Mensaje *</span>
             </label>
             <textarea
               id="message"
@@ -179,7 +171,7 @@ export default function FormContacto() {
               onChange={handleChange}
               required
               rows={6}
-              className="textarea textarea-bordered bg-primary border-base-300 text-white focus:border-secondary focus:outline-none w-full resize-none"
+              className="textarea textarea-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full resize-none text-xl py-5"
               placeholder="Cuéntanos sobre tu proyecto..."
             />
           </div>
@@ -200,7 +192,7 @@ export default function FormContacto() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="btn btn-secondary text-primary font-bold px-8 hover:scale-105 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex items-center gap-2 border text-secondary border-secondary px-5 py-3 rounded-full cursor-pointer uppercase hover:bg-secondary hover:text-white hover:px-10 transition-all duration-700 text-xl"
             >
               {isSubmitting ? (
                 <>

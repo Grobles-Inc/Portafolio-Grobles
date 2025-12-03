@@ -1,5 +1,6 @@
-import SEOHead from "../components/SEOHead";
-import ServiceSection from "../components/ServiceSection";
+import SEOHead from "@/components/SEOHead";
+import HeroSectionService from "./components/HeroSectionService";
+import ServiceSection from "@/components/ServiceSection";
 
 export default function Services() {
   const structuredData = {
@@ -43,6 +44,7 @@ export default function Services() {
         canonical="https://www.groblestudio.com/services"
         structuredData={structuredData}
       />
+      <HeroSectionService />
       <ServiceSection />
     </div>
   )

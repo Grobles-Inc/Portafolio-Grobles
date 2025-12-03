@@ -1,49 +1,192 @@
 import { Link } from "react-router-dom"
-import { Facebook, Instagram, Github } from "lucide-react"
-import logo from "../assets/logoGrobles.png"
+import { Facebook, Instagram, Github, Phone, Mail, MapPin } from "lucide-react"
 
 export default function Footer() {
   return (
     <section
-      className="bg-primary flex flex-col items-center justify-center pb-10"
+      className="bg-secondary min-h-screen p-5 md:p-20 relative z-20"
     >
-      <div className="max-w-4xl mx-auto text-center px-6 py-20">
-        <h1 className="lg:text-6xl text-4xl   font-bold text-white leading-tight mb-8">
-          Transforma tu idea en realidad digital
-        </h1>
-
-        <p className="md:text-lg text-secondary mb-12 max-w-2xl mx-auto font-extralight">
-          Desarrollamos soluciones tecnológicas personalizadas que impulsan el crecimiento de tu negocio.
-        </p>
-
-        <div className="flex flex-col items-center space-y-6">
-          <Link
-            to="/contact"
-            className="bg-secondary text-primary font-extralight uppercase px-12 py-4 rounded-full text-lg hover:bg-white hover:text-black transition-all duration-300 hover:scale-105"
+      <h1
+        className="text-white text-5xl md:text-[100px] font-bold text-center md:text-left"
+      >
+        Grobles Studio ©
+      </h1>
+      <div
+      className="grid grid-cols-1 md:grid-cols-4 gap-10 pt-10 md:pt-40">
+        <div
+        className="flex flex-col items-center md:items-start">
+          <span className="text-gray-600 text-lg italic">
+            (Páginas)
+          </span>
+          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+            {[
+              { to: "/", label: "Inicio" },
+              { to: "/about", label: "Nosotros" },
+              { to: "/services", label: "Servicios" },
+              { to: "/projects", label: "Proyectos" },
+            ].map(({ to, label }) => (
+              <li key={to}>
+                <Link
+                  to={to}
+                  className="group relative inline-block"
+                >
+                  <span className="relative z-10">
+                    {label}
+                  </span>
+                  <span
+                    className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-white
+                      scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left
+                    "
+                    style={{
+                      display: 'block',
+                      borderRadius: '2px'
+                    }}
+                  />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div
+        className="flex flex-col items-center md:items-start">
+          <span
+            className="text-gray-600 text-lg italic"
           >
-            Empezar ahora
-          </Link>
+            (Servicios)
+          </span>
+          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+            {[
+              "Desarrollo de Software",
+              "Diseño UI/UX",
+              "Publicidad Digital",
+              "Consultoría",
+              "Branding",
+              "Manejo de Redes",
+            ].map((servicio, idx) => (
+              <li key={idx} className="relative group w-fit">
+                <span className="relative z-10">
+                  {servicio}
+                </span>
+                <span
+                  className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-white
+                    scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left
+                  "
+                  style={{
+                    display: 'block',
+                    borderRadius: '2px'
+                  }}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div
+        className="flex flex-col items-center md:items-start">
+          <span
+          className="text-gray-600 text-lg italic"
+          >
+            (Contacto)
+          </span>
+          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+            {[
+              {
+                icon: <Phone />,
+                label: "(+51) 901 617 809",
+                href: "tel:+51901617809"
+              },
+              {
+                icon: <Mail />,
+                label: "contacto@groblestudio.com",
+                href: "mailto:contacto@groblestudio.com"
+              },
+              {
+                icon: <MapPin />,
+                label: "Lima, Perú",
+                href: "https://maps.google.com/?q=Lima,Peru"
+              },
+            ].map(({ icon, label, href }, idx) => (
+              <li key={idx}>
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative inline-block align-middle"
+                  aria-label={label}
+                >
+                  <span className="relative z-10 flex items-center gap-5">
+                    {icon}
+                    {label}
+                  </span>
+                  <span
+                    className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-white
+                      scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left
+                    "
+                    style={{
+                      display: 'block',
+                      borderRadius: '2px'
+                    }}
+                  />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div
+        className="flex flex-col items-center md:items-start">
+          <span
+          className="text-gray-600 text-lg italic"
+          >
+            (Redes Sociales)
+          </span>
+          <ul className="space-y-2 text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+            {[
+              {
+                label: "Facebook",
+                icon: <Facebook />,
+                to: "https://www.facebook.com/GrobleStudio/"
+              },
+              {
+                label: "Instagram",
+                icon: <Instagram />,
+                to: "https://instagram.com/groblestudio"
+              },
+              {
+                label: "Github",
+                icon: <Github />,
+                to: "https://github.com/Grobles-Inc"
+              },
+            ].map(({ label, icon, to }, idx) => (
+              <li key={idx}>
+                <a
+                  href={to}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative inline-block align-middle"
+                  aria-label={label}
+                >
+                  <span className="relative z-10 flex items-center gap-5">
+                    {icon}
+                    {label}
+                  </span>
+                  <span
+                    className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-white
+                      scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left
+                    "
+                    style={{
+                      display: 'block',
+                      borderRadius: '2px'
+                    }}
+                  />
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-10 mt-10 space-y-4 md:space-y-0">
-        <div className="text-center md:text-start flex flex-col items-center">
-
-          <img src={logo} alt="Logo" className="h-20 w-auto" />
-          <div className="flex justify-center md:justify-start mt-2 text-secondary space-x-2">
-            <a href="https://www.facebook.com/profile.php?id=61573124294121" target="_blank" className="flex items-center hover:text-white rounded-full px-2 py-2 transition duration-500 ease-in-out" rel="noopener noreferrer">
-              <Facebook className="w-6 h-6 " />
-            </a>
-            <a href="https://www.instagram.com/grobl_esdev/" target="_blank" className="flex items-center hover:text-white rounded-full px-2 py-2 transition duration-500 ease-in-out" rel="noopener noreferrer">
-              <Instagram className="w-6 h-6" />
-            </a>
-            <a href="https://github.com/Grobles-Inc" target="_blank" className="flex items-center hover:text-white rounded-full px-2 py-2 transition duration-500 ease-in-out" rel="noopener noreferrer">
-              <Github className="w-6 h-6" />
-            </a>
-          </div>
-        </div>
-        <div className="text-center md:text-end text-white font-extralight">
-          <p>Todos los derechos reservados © 2025 Grobles Studio.</p>
-        </div>
+      <div
+      className="text-center pt-10 md:pt-30">
+        Desarrollado por <Link to="https://www.groblestudio.com">Grobles Studio</Link> <br />
+        Todos los derechos reservados &copy; {new Date().getFullYear()}
       </div>
     </section>
   )

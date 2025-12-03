@@ -1,6 +1,7 @@
-import HeroSection from "../components/HeroSection"
-import ServiceSection from "../components/ServiceSection"
-import SEOHead from "../components/SEOHead"
+import SEOHead from "@/components/SEOHead"
+import HeroSection from "./components/HeroSection"
+import ProjectSection from "./components/ProjectSection"
+import ServiceSection from "@/components/ServiceSection"
 
 export default function Home() {
   const structuredData = {
@@ -28,7 +29,7 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-primary pb-20">
+    <div className="bg-primary">
       <SEOHead
         title="Grobles™ - Startup Tecnológica"
         description="Startup líder en desarrollo de software. 15+ proyectos completados, 10+ años de experiencia. Convertimos tus ideas en soluciones innovadoras con tecnología de punta."
@@ -37,6 +38,7 @@ export default function Home() {
         structuredData={structuredData}
       />
       <HeroSection />
+      <ProjectSection />
       <ServiceSection />
     </div>
   )

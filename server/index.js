@@ -28,7 +28,7 @@ transporter.verify((error, success) => {
   if (error) {
     console.error('Error en la configuración SMTP:', error);
   } else {
-    console.log('✅ Servidor SMTP listo para enviar emails');
+    console.log('Servidor SMTP listo para enviar emails');
   }
 });
 
