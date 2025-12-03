@@ -40,12 +40,12 @@ export default function NavBar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
     >
       <main className="flex justify-between items-center max-w-6xl mx-auto bg-primary m-3 p-2 lg:p-2 rounded-full shadow-xl">
-        <Link to="/">
+        <a href="/">
           <div className="flex items-center gap-2">
             <img src={logo} alt="Logo" className="w-fit h-8 lg:h-10" />
             <h1 className='text-secondary text-lg lg:text-2xl font-bold'>Grobles Studio</h1>
           </div>
-        </Link>
+        </a>
 
         <div className="hidden lg:flex">
           <ul className="flex gap-10 text-secondary">

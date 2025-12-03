@@ -18,7 +18,7 @@ export default function Footer() {
           <span className="text-gray-600 text-lg italic">
             (Páginas)
           </span>
-          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               { to: "/", label: "Inicio" },
               { to: "/about", label: "Nosotros" },
@@ -54,7 +54,7 @@ export default function Footer() {
           >
             (Servicios)
           </span>
-          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               "Desarrollo de Software",
               "Diseño UI/UX",
@@ -87,7 +87,7 @@ export default function Footer() {
           >
             (Contacto)
           </span>
-          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               {
                 icon: <Phone />,
@@ -138,7 +138,7 @@ export default function Footer() {
           >
             (Redes Sociales)
           </span>
-          <ul className="space-y-2 text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start">
+          <ul className="space-y-2 text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               {
                 label: "Facebook",
@@ -185,7 +185,7 @@ export default function Footer() {
       </div>
       <div
       className="text-center pt-10 md:pt-30">
-        Desarrollado por <Link to="https://www.groblestudio.com">Grobles Studio</Link> <br />
+        Desarrollado por <a href="https://www.groblestudio.com" target="_blank" rel="noopener noreferrer">Grobles Studio</a> <br />
         Todos los derechos reservados &copy; {new Date().getFullYear()}
       </div>
     </section>
