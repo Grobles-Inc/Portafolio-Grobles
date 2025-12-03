@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react"
 export default function CallToAction() {
   return (
     <main 
-      className="h-screen flex items-center justify-center md:sticky top-0 z-0"
+      className="h-screen flex items-center justify-center md:sticky top-0 z-0 bg-[#1d232a]"
       data-aos="zoom-in"
       data-aos-delay="100">
       <div 

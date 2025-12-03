@@ -184,7 +184,7 @@ export default function Footer() {
         </div>
       </div>
       <div
-      className="text-center pt-10 md:pt-30">
+      className="text-center pt-10 md:pt-30 text-white">
         Desarrollado por <a href="https://www.groblestudio.com" target="_blank" rel="noopener noreferrer">Grobles Studio</a> <br />
         Todos los derechos reservados &copy; {new Date().getFullYear()}
       </div>

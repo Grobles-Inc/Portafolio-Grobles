@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import Button from "@/components/Button"
+import logoGrobles from '@/assets/logoGrobles.png'
 
 export default function HeroSection() {
   return (
@@ -81,7 +82,7 @@ export default function HeroSection() {
           <div
           className="bg-secondary rounded-3xl w-full md:w-[30%] flex justify-center md:justify-start">
             <a href="https://grobles-store.vercel.app" target="_blank">
-              <img src="/src/assets/logoGrobles.png" alt="Logo Grobles"
+              <img src={logoGrobles} alt="Logo Grobles"
                 className="w-fit h-20 object-cover" />
             </a>
           </div>

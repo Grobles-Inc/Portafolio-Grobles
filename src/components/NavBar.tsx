@@ -42,8 +42,8 @@ export default function NavBar() {
       <main className="flex justify-between items-center max-w-6xl mx-auto bg-primary m-3 p-2 lg:p-2 rounded-full shadow-xl">
         <a href="/">
           <div className="flex items-center gap-2">
-            <img src={logo} alt="Logo" className="w-fit h-8 lg:h-10" />
-            <h1 className='text-secondary text-lg lg:text-2xl font-bold'>Grobles Studio</h1>
+            <img src={logo} alt="Logo" className="w-10 h-10" />
+            <h1 className='text-secondary text-xl lg:text-2xl font-bold'>Grobles Studio</h1>
           </div>
         </a>
 
