@@ -14,7 +14,7 @@ export default function MainLayout() {
 
   useEffect(() => {
     AOS.init({
-      duration: 500,
+      duration: 700,
       once: true,
       offset: 100,
     })
