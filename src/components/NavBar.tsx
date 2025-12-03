@@ -95,7 +95,7 @@ export default function NavBar() {
       >
         <div className="bg-primary mx-3 mt-2 rounded-3xl shadow-xl overflow-hidden">
           <ul className="flex flex-col text-secondary">
-            <li className="border-b border-secondary/10">
+            <li className="border-b border-secondary/10 uppercase font-extralight text-xl">
               <Link
                 to="/"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -104,7 +104,7 @@ export default function NavBar() {
                 Inicio
               </Link>
             </li>
-            <li className="border-b border-secondary/10">
+            <li className="border-b border-secondary/10 uppercase font-extralight text-xl">
               <Link
                 to="/about"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -113,7 +113,7 @@ export default function NavBar() {
                 Nosotros
               </Link>
             </li>
-            <li className="border-b border-secondary/10">
+            <li className="border-b border-secondary/10 uppercase font-extralight text-xl">
               <Link
                 to="/services"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -122,7 +122,7 @@ export default function NavBar() {
                 Servicios
               </Link>
             </li>
-            <li className="border-b border-secondary/10">
+            <li className="border-b border-secondary/10 uppercase text-xl font-extralight">
               <Link
                 to="/projects"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -131,10 +131,11 @@ export default function NavBar() {
                 Proyectos
               </Link>
             </li>
-            <li>
+            <li
+            className='font-extralight text-xl'>
               <Link
                 to="/contact"
-                className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
+                className="block px-6 py-4 hover:bg-secondary/10 transition-color"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <div className="w-full">

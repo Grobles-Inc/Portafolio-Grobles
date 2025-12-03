@@ -7,10 +7,14 @@ export default function TeamSectionAbout() {
         <span className="italic text-extralight text-lg text-gray-600">
           (Nuestro Equipo)
         </span>
-        <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5">
+        <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5"
+        data-aos="fade-up"
+        data-aos-delay="100">
           Nuestro Equipo
         </h1>
-        <p className="text-gray-600 text-xl md:text-[40px] font-extralight">
+        <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
+        data-aos="fade-up"
+        data-aos-delay="200">
           Descubre las mentes brillantes que impulsan <br /> nuestro éxito.
         </p>
       </div>
@@ -28,10 +32,14 @@ export default function TeamSectionAbout() {
               <span className="italic text-extralight text-lg text-gray-600">
                 ({team.role})
               </span>
-              <h2 className="text-6xl font-bold text-secondary pt-5">
+              <h2 className="text-6xl font-bold text-secondary pt-5"
+              data-aos="fade-up"
+              data-aos-delay="100">
                 {team.name}
               </h2>
-              <p className="text-gray-600 text-lg font-extralight">
+              <p className="text-gray-600 text-lg font-extralight"
+              data-aos="fade-up"
+              data-aos-delay="200">
                 {team.description}
               </p>
             </div>

@@ -3,10 +3,14 @@ export default function HeroSectionProjects() {
     <main
       className="py-20">
       <div className="px-4 md:px-20 text-center md:text-left">
-        <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5">
+        <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5"
+        data-aos="fade-up"
+        data-aos-delay="100">
           Proyectos
         </h1>
-        <p className="text-gray-600 text-xl md:text-[40px] font-extralight">
+        <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
+        data-aos="fade-up"
+        data-aos-delay="200">
           Consulta nuestro trabajo, reflejando soluciones únicas <br /> para las necesidades de nuestros clientes.
         </p>
       </div>

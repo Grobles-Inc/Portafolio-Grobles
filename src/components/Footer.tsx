@@ -8,11 +8,13 @@ export default function Footer() {
     >
       <h1
         className="text-white text-5xl md:text-[100px] font-bold text-center md:text-left"
+        data-aos="fade-up"
       >
         Grobles Studio ©
       </h1>
       <div
-      className="grid grid-cols-1 md:grid-cols-4 gap-10 pt-10 md:pt-40">
+      className="grid grid-cols-1 md:grid-cols-4 gap-10 pt-10 md:pt-40"
+      data-aos="fade-up">
         <div
         className="flex flex-col items-center md:items-start">
           <span className="text-gray-600 text-lg italic">

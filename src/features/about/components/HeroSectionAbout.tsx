@@ -8,16 +8,19 @@ export default function HeroSectionAbout() {
         className="w-full md:w-[55%] px-4 md:px-20 py-10 md:py-30 text-secondary min-h-screen"
       >
         <div>
-          <div>
+          <div
+          data-aos="fade-up"
+          data-aos-delay="100">
             <h1
-              className="text-5xl text-center md:text-left md:text-[134px] font-bold uppercase leading-none"
+              className="text-5xl text-center md:text-left md:text-[134px] font-bold uppercase leading-none pt-15 md:pt-0"
             >
               Sobre <br className="hidden md:block" />Nosotros
             </h1>
           </div>
           <div
-            className="text-center md:text-left">
-            
+            className="text-center md:text-left"
+            data-aos="fade-up"
+            data-aos-delay="200">
             <p
               className="text-xl md:text-3xl pt-5 font-extralight"
             >
@@ -32,7 +35,9 @@ export default function HeroSectionAbout() {
             (Nuestra Historia)
           </span>
           <p
-            className="text-lg md:text-xl py-10 text-gray-600 font-extralight">
+            className="text-lg md:text-xl py-10 text-gray-600 font-extralight"
+            data-aos="fade-up"
+            data-aos-delay="300">
             Grobles Studio nació en Perú como una startup de desarrollo de software creada con la visión de acercar la tecnología moderna a las PYMEs de Perú. Desde el inicio, combinó creatividad, disciplina y un enfoque práctico para resolver problemas reales. Aunque comenzó como un proyecto pequeño, nuestra propuesta de valor <span className="font-bold">soluciones web, aplicaciones móviles y sistemas a medida</span> rápidamente llamó la atención de clientes que buscaban innovación sin complicaciones.
             <br />
             <br />
@@ -46,7 +51,9 @@ export default function HeroSectionAbout() {
             (Nuestra Misión)
           </span>
           <p
-            className="text-lg md:text-xl py-10 text-gray-600 font-extralight">
+            className="text-lg md:text-xl py-10 text-gray-600 font-extralight"
+            data-aos="fade-up"
+            data-aos-delay="300">
             Desarrollar soluciones de software innovadoras, accesibles y de alta calidad que impulsen el crecimiento digital de las PYMEs peruanas, ofreciendo tecnología confiable y adaptada a sus necesidades mediante un equipo comprometido y 100% remoto.
           </p>
         </div>
@@ -57,7 +64,9 @@ export default function HeroSectionAbout() {
             (Nuestra Visión)
           </span>
           <p
-            className="text-lg md:text-xl py-10 text-gray-600 font-extralight">
+            className="text-lg md:text-xl py-10 text-gray-600 font-extralight"
+            data-aos="fade-up"
+            data-aos-delay="300">
             Convertirnos en una empresa líder de desarrollo de software en Perú, reconocida por transformar ideas en productos tecnológicos eficientes y por generar un impacto positivo en los negocios que confían en nosotros.
           </p>
         </div>
@@ -68,7 +77,9 @@ export default function HeroSectionAbout() {
             (Nuestros Valores)
           </span>
           <div
-            className="text-lg md:text-xl py-10 text-gray-600 font-extralight">
+            className="text-lg md:text-xl py-10 text-gray-600 font-extralight"
+            data-aos="fade-up"
+            data-aos-delay="300">
             <ul className="list-disc list-inside">
               <li>Innovación: Buscamos constantemente nuevas formas de crear soluciones modernas y efectivas.</li>
               <li>Responsabilidad: Cumplimos con nuestros compromisos y trabajamos con integridad.</li>

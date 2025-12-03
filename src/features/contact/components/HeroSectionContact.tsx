@@ -12,10 +12,14 @@ export default function HeroSectionContact() {
       </div>
       <div className="w-full md:w-[55%]">
         <div className="px-4 md:px-20 text-center md:text-left">
-          <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-30 pb-5">
+          <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-30 pb-5"
+          data-aos="fade-up"
+          data-aos-delay="100">
             Contacto
           </h1>
-          <p className="text-gray-600 text-xl md:text-[40px] font-extralight pb-10">
+          <p className="text-gray-600 text-xl md:text-[40px] font-extralight pb-10"
+          data-aos="fade-up"
+          data-aos-delay="200">
             Empecemos a crear algo increíble juntos.
           </p>
         </div>

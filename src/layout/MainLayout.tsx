@@ -13,13 +13,11 @@ export default function MainLayout() {
   const location = useLocation()
 
   useEffect(() => {
-
     AOS.init({
-      duration: 1000,
+      duration: 500,
       once: true,
       offset: 100,
     })
-
     return () => {
     }
   }, [])

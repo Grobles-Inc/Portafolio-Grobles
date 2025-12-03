@@ -23,12 +23,15 @@ export default function HeroSection() {
           <div>
             <h1
               className="text-5xl text-center md:text-left md:text-[134px] font-bold uppercase leading-none"
+              data-aos="fade-up"
             >
               Grobles <br className="hidden md:block" />Studio ©
             </h1>
           </div>
           <div
-            className="pt-10 md:pt-70 text-center md:text-left">
+            className="pt-10 md:pt-70 text-center md:text-left"
+            data-aos="fade-up"
+            data-aos-delay="200">
             <span
               className="italic text-extralight text-lg text-gray-600"
             >
@@ -48,14 +51,18 @@ export default function HeroSection() {
             (Sobre nosotros)
           </span>
           <h1
-            className="text-5xl md:text-[120px] uppercase leading-none pt-10">
+            className="text-5xl md:text-[120px] uppercase leading-none pt-10"
+            data-aos="fade-up"
+            data-aos-delay="300">
             Software <br className="hidden md:block"/>
             Potente; <br className="hidden md:block"/>
             Sitios Web <br className="hidden md:block"/>
             Poderosos
           </h1>
           <p
-            className="text-lg md:text-xl py-15 text-gray-600 font-extralight">
+            className="text-lg md:text-xl py-15 text-gray-600 font-extralight"
+            data-aos="fade-up"
+            data-aos-delay="400">
             Nos apaciona crear software significativas y sitios web dinámicos que destaquen en el competitivo mercado digital. Nuestro equipo combina pensamiento estratégico con diseño creativo para crear soluciones personalizadas que se alineen con los objetivos de tu negocio. Desde desarrollar sitios web optimizados hasta crear softwares potentes y eficientes, nos centramos en ofrecer experiencias que involucren y conviertan.
             <br />
             <br />
@@ -70,7 +77,10 @@ export default function HeroSection() {
 
         </div>
         <div
-        className="pt-30 text-center md:text-left">
+        className="pt-30 text-center md:text-left"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        >
           <span
           className="italic text-extralight text-lg text-gray-600">
             (Socios de Nuestra Marca )

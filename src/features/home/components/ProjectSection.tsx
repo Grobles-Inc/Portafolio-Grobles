@@ -39,10 +39,14 @@ export default function ProjectSection() {
         <span className="italic text-extralight text-lg text-gray-600">
           (Últimos Proyectos)
         </span>
-        <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5">
+        <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5"
+        data-aos="fade-up"
+        data-aos-delay="100">
           Últimos Proyectos
         </h1>
-        <p className="text-gray-600 text-xl md:text-[40px] font-extralight">
+        <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
+        data-aos="fade-up"
+        data-aos-delay="200">
           Descubre nuestros últimos proyectos, que muestran innovación <br /> y soluciones digitales de alta calidad.
         </p>
       </div>
