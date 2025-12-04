@@ -1,7 +1,7 @@
-import tuTechoAhora from "@/assets/tutechoahora.png"
-import wildHorseCarWash from "@/assets/wildhorse.png"
-import andinaGroup from "@/assets/andinagroup.png"
-import landingCp360 from "@/assets/landing360.png"
+import tuTechoAhora from "@/assets/tutechoahora.webp"
+import wildHorseCarWash from "@/assets/wildhorse.webp"
+import andinaGroup from "@/assets/andinagroup.webp"
+import landingCp360 from "@/assets/landing360.webp"
 
 const projects = [
   {

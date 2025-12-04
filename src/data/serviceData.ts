@@ -1,3 +1,10 @@
+import webPage from "@/assets/pagina-web.webp"
+import software from "@/assets/software.webp"
+import uiUx from "@/assets/diseño-ux-ui.webp"
+import marketing from "@/assets/marketing-digital.webp"
+import branding from "@/assets/branding-marca.webp"
+import consulting from "@/assets/consultoria.webp"
+
 export interface Service {
   key: string;
   image: string;
@@ -11,8 +18,7 @@ export interface Service {
 export const services: Service[] = [
   {
     key: "web",
-    image:
-      "https://images.unsplash.com/photo-1604074131228-9d48b811bd80?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: webPage,
     imgSide: "left",
     title: "Páginas Web",
     description:
@@ -27,8 +33,7 @@ export const services: Service[] = [
   },
   {
     key: "software",
-    image:
-      "https://plus.unsplash.com/premium_photo-1678566154673-a728037f3f00?q=80&w=702&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: software,
     imgSide: "right",
     title: "Software",
     description:
@@ -43,8 +48,7 @@ export const services: Service[] = [
   },
   {
     key: "ui/ux",
-    image:
-      "https://images.unsplash.com/photo-1618788372246-79faff0c3742?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: uiUx,
     imgSide: "left",
     title: "Diseño UI/UX",
     description:
@@ -59,8 +63,7 @@ export const services: Service[] = [
   },
   {
     key: "marketing",
-    image:
-      "https://images.unsplash.com/photo-1586880244406-556ebe35f282?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: marketing,
     imgSide: "right",
     title: "Marketing Digital",
     description:
@@ -75,8 +78,7 @@ export const services: Service[] = [
   },
   {
     key: "branding",
-    image:
-      "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: branding,
     imgSide: "left",
     title: "Branding & Marca",
     description:
@@ -91,8 +93,7 @@ export const services: Service[] = [
   },
   {
     key: "consulting",
-    image:
-      "https://plus.unsplash.com/premium_photo-1661774953651-d4f658a7e34d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: consulting,
     imgSide: "right",
     title: "Consultoría",
     description:

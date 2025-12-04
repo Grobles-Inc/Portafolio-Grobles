@@ -7,7 +7,7 @@ export default function HeroSectionService() {
         <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5"
         data-aos="fade-up"
         data-aos-delay="100">
-          Servicios
+          Nuestros Servicios
         </h1>
         <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
         data-aos="fade-up"

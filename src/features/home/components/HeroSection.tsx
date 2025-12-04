@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import Button from "@/components/Button"
 import logoGrobles from '@/assets/logoGrobles.png'
+import heroImage from '@/assets/branding-marca.webp'
 
 export default function HeroSection() {
   return (
@@ -10,7 +11,7 @@ export default function HeroSection() {
       <div className="w-full md:w-[45%]">
         <div className="sticky top-0">
           <img
-            src="https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={heroImage}
             alt="Hero Section"
             className="w-full h-[50vh] md:h-screen object-cover"
           />

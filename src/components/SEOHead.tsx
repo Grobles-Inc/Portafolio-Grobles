@@ -11,20 +11,18 @@ interface SEOProps {
 }
 
 export default function SEOHead({
-  title = 'Grobles™ - Desarrollo de Software Innovador',
+  title = 'Grobles Studio™ - Desarrollo de Software Innovador',
   description = 'Startup líder en desarrollo de software. Convertimos tus ideas en soluciones innovadoras con tecnología de punta y productos escalables.',
   keywords = 'desarrollo software, startup, tecnología, aplicaciones web, programación, soluciones digitales',
-  ogImage = 'https://www.groblestudio.com/src/assets/logoGrobles.png',
+  ogImage = 'https://www.groblestudio.com/ogImage.png',
   canonical,
   type = 'website',
   structuredData
 }: SEOProps) {
 
   useEffect(() => {
-    // Actualizar título
     document.title = title
 
-    // Función para actualizar o crear meta tags
     const updateMetaTag = (name: string, content: string, isProperty?: boolean) => {
       const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`
       let meta = document.querySelector(selector) as HTMLMetaElement

@@ -1,13 +1,13 @@
-import ordee from "@/assets/ordee.png"
-import exaya from "@/assets/exaya.png"
-import vitalight from "@/assets/vitalight.png"
-import nidoPerulina from "@/assets/nidoperulina.png"
-import holosEduca from "@/assets/holoseduca.png"
-import mlStreaming from "@/assets/mlstreaming.png"
-import tuTechoAhora from "@/assets/tutechoahora.png"
-import wildHorseCarWash from "@/assets/wildhorse.png"
-import andinaGroup from "@/assets/andinagroup.png"
-import landingCp360 from "@/assets/landing360.png"
+import ordee from "@/assets/ordee.webp"
+import exaya from "@/assets/exaya.webp"
+import vitalight from "@/assets/vitalight.webp"
+import nidoPerulina from "@/assets/nidoperulina.webp"
+import holosEduca from "@/assets/holoseduca.webp"
+import mlStreaming from "@/assets/mlstreaming.webp"
+import tuTechoAhora from "@/assets/tutechoahora.webp"
+import wildHorseCarWash from "@/assets/wildhorse.webp"
+import andinaGroup from "@/assets/andinagroup.webp"
+import landingCp360 from "@/assets/landing360.webp"
 
 export interface Project {
   id: string;
