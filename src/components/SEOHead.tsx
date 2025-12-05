@@ -11,8 +11,8 @@ interface SEOProps {
 }
 
 export default function SEOHead({
-  title = 'Grobles Studio™ - Desarrollo de Software Innovador',
-  description = 'Startup líder en desarrollo de software. Convertimos tus ideas en soluciones innovadoras con tecnología de punta y productos escalables.',
+  title = 'Grobles Studio™ - Desarrollo de Software y Diseño Web | Perú',
+  description = 'Startup tecnológica peruana líder en desarrollo de software a medida, diseño web profesional y aplicaciones móviles. Transformamos ideas en soluciones digitales escalables.',
   keywords = 'desarrollo software, startup, tecnología, aplicaciones web, programación, soluciones digitales',
   ogImage = 'https://www.groblestudio.com/ogImage.png',
   canonical,

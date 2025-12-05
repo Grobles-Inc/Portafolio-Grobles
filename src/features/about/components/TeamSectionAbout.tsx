@@ -7,11 +7,11 @@ export default function TeamSectionAbout() {
         <span className="italic text-extralight text-lg text-gray-600">
           (Nuestro Equipo)
         </span>
-        <h1 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5"
+        <h2 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5"
         data-aos="fade-up"
         data-aos-delay="100">
           Nuestro Equipo
-        </h1>
+        </h2>
         <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
         data-aos="fade-up"
         data-aos-delay="200">

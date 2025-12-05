@@ -8,7 +8,7 @@ export default function CallToAction() {
       data-aos-delay="100">
       <div 
         className="max-w-7xl mx-auto px-4 py-10 md:p-20 flex flex-col items-center justify-center">
-        <h2
+        <h4
           className="text-white text-5xl md:text-[100px] text-center leading-none">
           Presentamos <br />
           <a
@@ -17,7 +17,7 @@ export default function CallToAction() {
             className="text-[#16ea9e]">
             Grobles - Store
           </a>
-        </h2>
+        </h4>
         <p
           className="text-white pt-10 text-center text-lg md:text-xl font-extralight">
           <a

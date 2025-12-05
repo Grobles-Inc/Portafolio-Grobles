@@ -64,6 +64,9 @@ export default function HeroSection() {
             className="text-lg md:text-xl py-15 text-gray-600 font-extralight"
             data-aos="fade-up"
             data-aos-delay="400">
+            Grobles Studio es una startup tecnológica peruana especializada en desarrollo de software personalizado, diseño de sitios web modernos y aplicaciones móviles <span className="font-bold">escalables</span>. Transformamos ideas en productos digitales de alto impacto que impulsan el crecimiento empresarial.
+            <br />
+            <br />
             Nos apaciona crear software significativas y sitios web dinámicos que destaquen en el competitivo mercado digital. Nuestro equipo combina pensamiento estratégico con diseño creativo para crear soluciones personalizadas que se alineen con los objetivos de tu negocio. Desde desarrollar sitios web optimizados hasta crear softwares potentes y eficientes, nos centramos en ofrecer experiencias que involucren y conviertan.
             <br />
             <br />
@@ -84,12 +87,16 @@ export default function HeroSection() {
         >
           <span
           className="italic text-extralight text-lg text-gray-600">
-            (Socios de Nuestra Marca )
+            (Ecosistema Grobles)
           </span>
           <h2
           className="text-2xl md:text-4xl font-bold uppercase pt-10 pb-5">
-            Grobles - Store
+            Nuestros Proyectos
           </h2>
+          <p
+          className="text-lg text-gray-600 mb-4">
+            Además de nuestros servicios principales, hemos creado Grobles Store, una plataforma especializada en plantillas web premium.
+          </p>
           <div
           className="bg-secondary rounded-3xl w-full md:w-[30%] flex justify-center md:justify-start">
             <a href="https://grobles-store.vercel.app" target="_blank">

@@ -11,11 +11,11 @@ export default function HeroSectionAbout() {
           <div
           data-aos="fade-up"
           data-aos-delay="100">
-            <h1
+            <h2
               className="text-5xl text-center md:text-left md:text-[134px] font-bold uppercase leading-none pt-15 md:pt-0"
             >
               Sobre <br className="hidden md:block" />Nosotros
-            </h1>
+            </h2>
           </div>
           <div
             className="text-center md:text-left"
