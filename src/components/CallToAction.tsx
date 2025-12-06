@@ -26,7 +26,7 @@ export default function CallToAction() {
             className="text-[#16ea9e] font-bold">
             Grobles - Store {""}
           </a>
-          es una rama de Grobles Studio encargada del diseño de plantillas para sitios web, con diseños modernos y de alta calidad, optimizados con SEO, velocidad de carga y accesibilidad, personalizadas para tu negocio.
+          es uno de nuestros proyectos, en el cual nos enfocamos en el diseño de plantillas para sitios web, con diseños modernos y de alta calidad, optimizados con SEO, velocidad de carga y accesibilidad, personalizadas para tu negocio.
         </p>
         <a 
           href="https://grobles-store.vercel.app"
