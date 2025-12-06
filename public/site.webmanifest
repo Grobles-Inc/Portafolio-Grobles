@@ -2,7 +2,14 @@
   "name": "Grobles Studio - Desarrollo de Software",
   "short_name": "Grobles Studio",
   "description": "Startup líder en desarrollo de software. Convertimos tus ideas en soluciones innovadoras.",
-  "icons": [],
+  "icons": [
+    {
+      "src": "/icons.png",
+      "sizes": "253x253",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "display": "standalone",
