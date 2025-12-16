@@ -86,7 +86,7 @@ export const projectsData: Project[] = [
     title: "Sistema CP-360°",
     description: "Landing Page para promocionar el sistema CP-360°, muestra los servicios, características y beneficios del sistema.",
     image: landingCp360,
-    liveDemo: "https://cp360-landing.abccostos.com/",
+    liveDemo: "https://cp-360.vercel.app/",
   },
 ] 
 

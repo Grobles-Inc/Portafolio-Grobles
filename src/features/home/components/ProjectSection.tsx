@@ -26,7 +26,7 @@ const projects = [
     id: 4,
     title: "Sistema CP-360°",
     image: landingCp360,
-    liveDemo: "https://cp360-landing.abccostos.com/",
+    liveDemo: "https://cp-360.vercel.app/",
   },
 ]
 
