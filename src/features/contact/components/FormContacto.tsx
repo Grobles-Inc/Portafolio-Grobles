@@ -129,7 +129,7 @@ export default function FormContacto() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="input input-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
-                placeholder="901617908"
+                placeholder="945689211"
               />
             </div>
           </div>

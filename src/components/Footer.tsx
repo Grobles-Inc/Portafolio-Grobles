@@ -93,8 +93,8 @@ export default function Footer() {
             {[
               {
                 icon: <Phone />,
-                label: "(+51) 901 617 809",
-                href: "tel:+51901617809"
+                label: "(+51) 945 689 211",
+                href: "tel:+51945689211"
               },
               {
                 icon: <Mail />,
