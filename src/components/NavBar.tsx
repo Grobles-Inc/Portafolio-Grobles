@@ -1,4 +1,4 @@
-import logo from '@/assets/icons.png'
+import logo from '/logoNa.png'
 import { Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Button from './Button'
@@ -43,26 +43,26 @@ export default function NavBar() {
         <a href="/">
           <div className="flex items-center gap-2">
             <img src={logo} alt="Logo" className="w-10 h-10" />
-            <h1 className='text-secondary text-xl lg:text-2xl font-bold'>Grobles Studio</h1>
+            <h1 className='text-secondary text-xl md:text-2xl'>Grobles Studio</h1>
           </div>
         </a>
 
         <div className="hidden lg:flex">
           <ul className="flex gap-10 text-secondary">
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase font-extralight'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
               <Link to="/">Inicio</Link>
             </li>
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase font-extralight'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
               <Link to="/about">Nosotros</Link>
             </li>
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase font-extralight'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
               <Link to="/services">Servicios</Link>
             </li>
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase font-extralight'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
               <Link to="/projects">Proyectos</Link>
             </li>
           </ul>
