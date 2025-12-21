@@ -1,7 +1,7 @@
 {
-  "name": "Grobles Studio - Desarrollo de Software",
+  "name": "Grobles Studio | Ingeniería de Software y Transformación Digital",
   "short_name": "Grobles Studio",
-  "description": "Startup líder en desarrollo de software. Convertimos tus ideas en soluciones innovadoras.",
+  "description": "Desarrollamos ecosistemas digitales a medida diseñados para optimizar la eficiencia operativa y acelerar el crecimiento empresarial. Especialistas en soluciones escalables, arquitectura cloud y modernización de procesos para empresas que buscan liderar su industria.",
   "icons": [
     {
       "src": "/icons.png",
@@ -16,5 +16,5 @@
   "start_url": "/",
   "scope": "/",
   "lang": "es",
-  "categories": ["business", "productivity", "technology", "developer", "portfolio", "design"]
+  "categories": ["business", "productivity", "software", "utilities"]
 } 
