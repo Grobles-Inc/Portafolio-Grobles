@@ -19,7 +19,7 @@ export default function CallToAction() {
           </a>
         </h4>
         <p
-          className="text-white pt-10 text-center text-lg md:text-xl font-extralight">
+          className="text-white pt-10 text-center text-lg md:text-xl">
           <a
             href="https://grobles-store.vercel.app"
             target="_blank"

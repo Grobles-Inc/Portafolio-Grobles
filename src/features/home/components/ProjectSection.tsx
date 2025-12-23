@@ -36,7 +36,7 @@ export default function ProjectSection() {
     <main className="py-20">
       <div
         className="px-4 md:px-20 text-center md:text-left">
-        <span className="italic text-extralight text-lg text-gray-600">
+        <span className="italic text-lg text-gray-700">
           (Últimos Proyectos)
         </span>
         <h2 className="text-secondary text-5xl md:text-[120px] font-bold uppercase pt-10 pb-5"
@@ -44,7 +44,7 @@ export default function ProjectSection() {
         data-aos-delay="100">
           Últimos Proyectos
         </h2>
-        <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
+        <p className="text-gray-700 text-xl md:text-[40px]"
         data-aos="fade-up"
         data-aos-delay="200">
           Descubre nuestros últimos proyectos, que muestran innovación <br /> y soluciones digitales de alta calidad.
@@ -68,7 +68,7 @@ export default function ProjectSection() {
             </div>
             <div className="flex justify-between items-center pt-8 mx-10 relative z-10">
               <h3 className="text-secondary text-3xl font-bold">{project.title}</h3>
-              <span className="text-gray-600 text-[20px] font-extralight">(2025)</span>
+              <span className="text-gray-700 text-[20px]">(2025)</span>
             </div>
           </div>
         ))}

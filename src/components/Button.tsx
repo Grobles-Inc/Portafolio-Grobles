@@ -7,7 +7,7 @@ interface ButtonProps {
 export default function Button({ children }: ButtonProps) {
   return (
     <button
-      className="relative overflow-hidden px-5 py-2 text-xl text-gray-600 rounded-full cursor-pointer border border-gray-600 group transition-colors duration-500 hover:text-white"
+      className="relative overflow-hidden px-5 py-2 text-xl text-gray-700 rounded-full cursor-pointer border border-gray-600 group transition-colors duration-500 hover:text-white"
     >
       <span
         className="

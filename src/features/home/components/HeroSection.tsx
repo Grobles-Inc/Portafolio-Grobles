@@ -34,12 +34,12 @@ export default function HeroSection() {
             data-aos="fade-up"
             data-aos-delay="200">
             <span
-              className="italic text-extralight text-lg text-gray-600"
+              className="italic text-lg text-gray-700"
             >
               (Con base en Perú)
             </span>
             <p
-              className="text-xl md:text-3xl pt-5 font-extralight"
+              className="text-xl md:text-3xl pt-5 text-gray-700"
             >
               Desarrollamos software y sitios web <br className="hidden md:block" /> impactantes que impulsen el <br className="hidden md:block" />crecimiento y el éxito de tu negocio.
             </p>
@@ -48,7 +48,7 @@ export default function HeroSection() {
         <div
           className="pt-30 md:pt-50 text-center md:text-left">
           <span
-            className="italic text-extralight text-lg text-gray-600">
+            className="italic text-lg text-gray-700">
             (Sobre nosotros)
           </span>
           <h1
@@ -61,16 +61,13 @@ export default function HeroSection() {
             Poderosos
           </h1>
           <p
-            className="text-lg md:text-xl py-15 text-gray-600 font-extralight"
+            className="text-lg md:text-xl py-15 text-gray-700"
             data-aos="fade-up"
             data-aos-delay="400">
             Grobles Studio es una startup tecnológica peruana especializada en desarrollo de software personalizado, diseño de sitios web modernos y aplicaciones móviles <span className="font-bold">escalables</span>. Transformamos ideas en productos digitales de alto impacto que impulsan el crecimiento empresarial.
             <br />
             <br />
-            Nos apaciona crear software significativas y sitios web dinámicos que destaquen en el competitivo mercado digital. Nuestro equipo combina pensamiento estratégico con diseño creativo para crear soluciones personalizadas que se alineen con los objetivos de tu negocio. Desde desarrollar sitios web optimizados hasta crear softwares potentes y eficientes, nos centramos en ofrecer experiencias que involucren y conviertan.
-            <br />
-            <br />
-            Con cada proyecto, nos aseguramos de que el resultado no solo cumpla con los estándares técnicos, sino que también sea una herramienta que impulse el crecimiento de tu negocio.
+            Nos apaciona crear software significativo y sitios web dinámicos que destaquen en el competitivo mercado digital. Nuestro equipo combina pensamiento estratégico con diseño creativo para crear soluciones personalizadas que se alineen con los objetivos de tu negocio.
           </p>
           <Link to='/about'
           >
@@ -86,7 +83,7 @@ export default function HeroSection() {
         data-aos-delay="400"
         >
           <span
-          className="italic text-extralight text-lg text-gray-600">
+          className="italic text-lg text-gray-700">
             (Ecosistema Grobles)
           </span>
           <h2
@@ -94,7 +91,7 @@ export default function HeroSection() {
             Nuestros Proyectos
           </h2>
           <p
-          className="text-lg text-gray-600 mb-4">
+          className="text-lg md:text-xl text-gray-700 mb-4">
             Además de nuestros servicios principales, hemos creado Grobles Store, una plataforma especializada en plantillas web premium.
           </p>
           <div

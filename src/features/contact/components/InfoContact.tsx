@@ -4,7 +4,7 @@ export default function InfoContact() {
   return (
     <main
     className="p-6 md:p-20">
-      <span className="text-xl italic text-gray-600">(Información de contacto)</span>
+      <span className="text-xl italic text-gray-700">(Información de contacto)</span>
       <div
       className="grid grid-cols-1 md:grid-cols-2 gap-10 pt-5">
         <div

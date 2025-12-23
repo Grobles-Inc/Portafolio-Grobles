@@ -50,19 +50,19 @@ export default function NavBar() {
         <div className="hidden lg:flex">
           <ul className="flex gap-10 text-secondary">
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
               <Link to="/">Inicio</Link>
             </li>
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
               <Link to="/about">Nosotros</Link>
             </li>
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
               <Link to="/services">Servicios</Link>
             </li>
             <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-600'>
+              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
               <Link to="/projects">Proyectos</Link>
             </li>
           </ul>
@@ -95,7 +95,7 @@ export default function NavBar() {
       >
         <div className="bg-primary mx-3 mt-2 rounded-3xl shadow-xl overflow-hidden">
           <ul className="flex flex-col text-secondary">
-            <li className="border-b border-secondary/10 uppercase font-extralight text-xl">
+            <li className="border-b border-secondary/10 uppercase  text-xl">
               <Link
                 to="/"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -104,7 +104,7 @@ export default function NavBar() {
                 Inicio
               </Link>
             </li>
-            <li className="border-b border-secondary/10 uppercase font-extralight text-xl">
+            <li className="border-b border-secondary/10 uppercase  text-xl">
               <Link
                 to="/about"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -113,7 +113,7 @@ export default function NavBar() {
                 Nosotros
               </Link>
             </li>
-            <li className="border-b border-secondary/10 uppercase font-extralight text-xl">
+            <li className="border-b border-secondary/10 uppercase  text-xl">
               <Link
                 to="/services"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -122,7 +122,7 @@ export default function NavBar() {
                 Servicios
               </Link>
             </li>
-            <li className="border-b border-secondary/10 uppercase text-xl font-extralight">
+            <li className="border-b border-secondary/10 uppercase text-xl ">
               <Link
                 to="/projects"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
@@ -132,7 +132,7 @@ export default function NavBar() {
               </Link>
             </li>
             <li
-            className='font-extralight text-xl'>
+            className=' text-xl'>
               <Link
                 to="/contact"
                 className="block px-6 py-4 hover:bg-secondary/10 transition-color"

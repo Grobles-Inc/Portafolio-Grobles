@@ -9,7 +9,7 @@ export default function HeroSectionService() {
         data-aos-delay="100">
           Nuestros Servicios
         </h2>
-        <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
+        <p className="text-gray-700 text-xl md:text-[40px] "
         data-aos="fade-up"
         data-aos-delay="200">
           Descubre nuestros servicios personalizados<br /> y diseñados para elevar tu marca.

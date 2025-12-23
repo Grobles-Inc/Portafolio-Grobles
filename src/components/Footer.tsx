@@ -17,10 +17,10 @@ export default function Footer() {
       data-aos="fade-up">
         <div
         className="flex flex-col items-center md:items-start">
-          <span className="text-gray-600 text-lg italic">
+          <span className="text-gray-700 text-lg italic">
             (Páginas)
           </span>
-          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
+          <ul className="text-xl pt-10  flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               { to: "/", label: "Inicio" },
               { to: "/about", label: "Nosotros" },
@@ -52,11 +52,11 @@ export default function Footer() {
         <div
         className="flex flex-col items-center md:items-start">
           <span
-            className="text-gray-600 text-lg italic"
+            className="text-gray-700 text-lg italic"
           >
             (Servicios)
           </span>
-          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
+          <ul className="text-xl pt-10  flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               "Desarrollo de Software",
               "Diseño UI/UX",
@@ -85,11 +85,11 @@ export default function Footer() {
         <div
         className="flex flex-col items-center md:items-start">
           <span
-          className="text-gray-600 text-lg italic"
+          className="text-gray-700 text-lg italic"
           >
             (Contacto)
           </span>
-          <ul className="text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
+          <ul className="text-xl pt-10  flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               {
                 icon: <Phone />,
@@ -136,11 +136,11 @@ export default function Footer() {
         <div
         className="flex flex-col items-center md:items-start">
           <span
-          className="text-gray-600 text-lg italic"
+          className="text-gray-700 text-lg italic"
           >
             (Redes Sociales)
           </span>
-          <ul className="space-y-2 text-xl pt-10 font-extralight flex flex-col cursor-pointer items-center md:items-start text-white">
+          <ul className="space-y-2 text-xl pt-10  flex flex-col cursor-pointer items-center md:items-start text-white">
             {[
               {
                 label: "Facebook",

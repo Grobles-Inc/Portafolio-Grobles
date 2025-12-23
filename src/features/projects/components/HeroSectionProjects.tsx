@@ -8,7 +8,7 @@ export default function HeroSectionProjects() {
         data-aos-delay="100">
           Proyectos
         </h2>
-        <p className="text-gray-600 text-xl md:text-[40px] font-extralight"
+        <p className="text-gray-700 text-xl md:text-[40px] "
         data-aos="fade-up"
         data-aos-delay="200">
           Consulta nuestro trabajo, reflejando soluciones únicas <br /> para las necesidades de nuestros clientes.

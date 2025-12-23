@@ -21,7 +21,7 @@ export default function AllProjectsSection() {
             </div>
             <div className="flex justify-between items-center pt-8 mx-10 relative z-10">
               <h3 className="text-secondary text-3xl font-bold">{project.title}</h3>
-              <span className="text-gray-600 text-[20px] font-extralight">(2025)</span>
+              <span className="text-gray-700 text-[20px] ">(2025)</span>
             </div>
           </div>
         ))}

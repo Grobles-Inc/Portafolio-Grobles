@@ -17,7 +17,7 @@ export default function HeroSectionContact() {
           data-aos-delay="100">
             Contacto
           </h2>
-          <p className="text-gray-600 text-xl md:text-[40px] font-extralight pb-10"
+          <p className="text-gray-700 text-xl md:text-[40px]  pb-10"
           data-aos="fade-up"
           data-aos-delay="200">
             Empecemos a crear algo increíble juntos.
