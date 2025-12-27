@@ -145,7 +145,7 @@ export default function FormContacto() {
               value={formData.subject}
               onChange={handleChange}
               required
-              className="select select-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
+              className="select select-bordered bg-[#f8f8f8] text-gray-500 focus:border-secondary focus:outline-none w-full text-xl"
             >
               <option value="" disabled>
                 Selecciona un asunto
