@@ -42,7 +42,7 @@ export default function NavBar() {
       <main className="flex justify-between items-center max-w-6xl mx-auto bg-primary m-3 p-2 lg:p-2 rounded-full shadow-xl">
         <a href="/">
           <div className="flex items-center gap-2 pl-3">
-            <img src={logo} alt="Logo" className="w-fit h-12" />
+            <img src={logo} alt="Logo" className="w-27 h-10 md:w-fit md:h-12" />
           </div>
         </a>
 
