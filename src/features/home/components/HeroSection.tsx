@@ -88,7 +88,7 @@ export default function HeroSection() {
           </span>
           <h2
           className="text-2xl md:text-4xl font-bold uppercase pt-10 pb-5">
-            Nuestros Proyectos
+            Nuestra Marca
           </h2>
           <p
           className="text-lg md:text-xl text-gray-700 mb-4">

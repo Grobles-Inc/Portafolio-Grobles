@@ -1,4 +1,4 @@
-import logo from '/logoNa.png'
+import logo from '/logoGroblesBlack.png'
 import { Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Button from './Button'
@@ -41,30 +41,33 @@ export default function NavBar() {
     >
       <main className="flex justify-between items-center max-w-6xl mx-auto bg-primary m-3 p-2 lg:p-2 rounded-full shadow-xl">
         <a href="/">
-          <div className="flex items-center gap-2">
-            <img src={logo} alt="Logo" className="w-10 h-10" />
-            <h1 className='text-secondary text-xl md:text-2xl'>Grobles Studio</h1>
+          <div className="flex items-center gap-2 pl-3">
+            <img src={logo} alt="Logo" className="w-fit h-12" />
           </div>
         </a>
 
         <div className="hidden lg:flex">
           <ul className="flex gap-10 text-secondary">
-            <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
-              <Link to="/">Inicio</Link>
-            </li>
-            <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
-              <Link to="/about">Nosotros</Link>
-            </li>
-            <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
-              <Link to="/services">Servicios</Link>
-            </li>
-            <li
-              className='hover:text-[#06e187] transition-colors duration-300 uppercase text-gray-700'>
-              <Link to="/projects">Proyectos</Link>
-            </li>
+            {[
+              { to: "/", label: "Inicio" },
+              { to: "/about", label: "Nosotros" },
+              { to: "/services", label: "Servicios" },
+              { to: "/projects", label: "Proyectos" },
+            ].map(({ to, label }) => (
+              <li key={to} className="uppercase text-gray-700 relative group cursor-pointer">
+                <Link to={to} className="relative z-10 transition-colors duration-300">
+                  {label}
+                </Link>
+                <span
+                  className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-secondary
+                  scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
+                  style={{
+                    display: 'block',
+                    borderRadius: '2px'
+                  }}
+                />
+              </li>
+            ))}
           </ul>
         </div>
 

@@ -26,6 +26,7 @@ export default function Footer() {
               { to: "/about", label: "Nosotros" },
               { to: "/services", label: "Servicios" },
               { to: "/projects", label: "Proyectos" },
+              { to: "/contact", label: "Contacto" },
             ].map(({ to, label }) => (
               <li key={to}>
                 <Link

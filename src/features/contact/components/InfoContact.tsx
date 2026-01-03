@@ -13,8 +13,8 @@ export default function InfoContact() {
         data-aos-delay="100">
           <PhoneIcon className="w-10 h-10" />
           <h4
-          className="text-2xl md:text-4xl">Llámanos:</h4>
-          <a href="tel:+51901617908" className="text-secondary text-xl md:text-2xl hover:text-[#07e288] transition-all duration-500">+51 945 689 211</a>
+          className="text-2xl md:text-3xl">Llámanos:</h4>
+          <a href="tel:+51945689211" className="text-secondary text-xl hover:text-[#07e288] transition-all duration-500">+51 945 689 211</a>
         </div>
         <div
         className="flex flex-col text-secondary bg-[#f8f8f8] p-10 space-y-5 rounded-xl"
@@ -22,8 +22,8 @@ export default function InfoContact() {
         data-aos-delay="200">
           <MailIcon className="w-10 h-10" />
           <h4
-          className="text-2xl md:text-4xl">Envíanos un correo:</h4>
-          <a href="mailto:contacto@groblestudio.com" className="text-secondary text-xl md:text-2xl hover:text-[#07e288] transition-all duration-500">grobles.dev@gmail.com</a>
+          className="text-2xl md:text-3xl">Envíanos un correo:</h4>
+          <a href="mailto:contacto@groblestudio.com" className="text-secondary text-xl hover:text-[#07e288] transition-all duration-500">contacto@groblestudio.com</a>
         </div>
       </div>
     </main>
