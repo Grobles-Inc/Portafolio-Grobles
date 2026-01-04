@@ -14,7 +14,7 @@ export default function CallToAction() {
           <a
             href="https://grobles-store.vercel.app"
             target="_blank"
-            className="text-[#16ea9e]">
+            className="text-[#dcd500]">
             Grobles - Store
           </a>
         </h4>
@@ -23,7 +23,7 @@ export default function CallToAction() {
           <a
             href="https://grobles-store.vercel.app"
             target="_blank"
-            className="text-[#16ea9e] font-bold">
+            className="text-[#dcd500] font-bold">
             Grobles - Store {""}
           </a>
           es parte de nuestra marca, en el cual nos enfocamos en el diseño de plantillas para sitios web, con diseños modernos y de alta calidad, optimizados con SEO, velocidad de carga y accesibilidad, personalizadas para tu negocio.
@@ -35,7 +35,7 @@ export default function CallToAction() {
             flex items-center mt-10 px-4 py-2 
             bg-white text-secondary text-sm md:text-lg rounded-xl border border-transparent
             transition-all duration-500 ease-in-out
-            hover:bg-transparent hover:text-white hover:border-[#16ea9e] uppercase">
+            hover:bg-transparent hover:text-white hover:border-[#dcd500] uppercase">
           Conocer más sobre Grobles-Store
           <ArrowRight className="h-4 w-4 ml-2" />
         </a>
