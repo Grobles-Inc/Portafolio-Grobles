@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Button from "@/components/Button"
-import logoGrobles from '@/assets/logoGrobles.png'
+import logoGrobles from '/logoIconBlack4x4.png'
 import heroImage from '@/assets/branding-marca.webp'
 
 export default function HeroSection() {
@@ -95,10 +95,11 @@ export default function HeroSection() {
             Además de nuestros servicios principales, hemos creado Grobles Store, una plataforma especializada en plantillas web premium.
           </p>
           <div
-          className="bg-secondary rounded-3xl w-full md:w-[30%] flex justify-center md:justify-start">
-            <a href="https://grobles-store.vercel.app" target="_blank">
+          className="rounded-3xl w-full md:w-[30%] flex justify-center md:justify-start">
+            <a href="https://grobles-store.vercel.app" target="_blank" className="flex items-center gap-2">
               <img src={logoGrobles} alt="Logo Grobles"
-                className="w-fit h-20 object-cover" />
+                className="md:w-fit h-12 object-cover" />
+              <h2 className="text-secondary text-3xl font-bold">Grobles Store</h2>
             </a>
           </div>
         </div>
