@@ -1,4 +1,3 @@
-import logo from '/logoGroblesBlack.png'
 import logoGrobleStudio from '/images/grobleStudio.png'
 import { Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'

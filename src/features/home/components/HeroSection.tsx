@@ -2,7 +2,6 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { ChevronRight, ChevronLeft } from "lucide-react"
 import Button from "@/components/Button"
-import logoGrobles from '/logoIconBlack4x4.png'
 import logoGrobleStore from '/images/grobleStore.png'
 import brandingMarca from '@/assets/branding-marca.webp'
 import software from '@/assets/software.webp'
