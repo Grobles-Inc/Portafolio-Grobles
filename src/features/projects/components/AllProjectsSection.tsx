@@ -15,13 +15,13 @@ export default function AllProjectsSection() {
                 />
                 <div className="absolute inset-0 bg-black/20"></div>
                 <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
-                  <h3 className="text-primary text-5xl font-bold mb-2">{project.title}</h3>
+                  <h3 className="text-primary text-center text-4xl md:text-5xl font-bold mb-2">{project.title}</h3>
                 </div>
               </a>
             </div>
             <div className="flex justify-between items-center pt-8 mx-10 relative z-10">
               <h3 className="text-secondary text-3xl font-bold">{project.title}</h3>
-              <span className="text-gray-700 text-[20px] ">(2025)</span>
+              <span className="text-gray-700 text-[20px] ">({project.date})</span>
             </div>
           </div>
         ))}

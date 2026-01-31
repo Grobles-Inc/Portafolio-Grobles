@@ -1,20 +1,78 @@
+import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
+import { ChevronRight, ChevronLeft } from "lucide-react"
 import Button from "@/components/Button"
 import logoGrobles from '/logoIconBlack4x4.png'
-import heroImage from '@/assets/branding-marca.webp'
+import brandingMarca from '@/assets/branding-marca.webp'
+import software from '@/assets/software.webp'
+import uiUx from '@/assets/diseño-ux-ui.webp'
+import marketing from '@/assets/marketing-digital.webp'
+import paginaWeb from '@/assets/pagina-web.webp'
+
+const heroImages = [
+  { src: brandingMarca, alt: "Branding Marca" },
+  { src: software, alt: "Software" },
+  { src: uiUx, alt: "UI/UX" },
+  { src: marketing, alt: "Marketing" },
+  { src: paginaWeb, alt: "Página Web" },
+]
 
 export default function HeroSection() {
+  const [currentImage, setCurrentImage] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % heroImages.length)
+    }, 5000)
+    return () => clearInterval(interval)
+  }, []);
+
+  const goToPrev = () => {
+    setCurrentImage((prev) => (prev - 1 + heroImages.length) % heroImages.length)
+  }
+
+  const goToNext = () => {
+    setCurrentImage((prev) => (prev + 1) % heroImages.length)
+  }
   return (
     <main
       className="flex flex-col md:flex-row"
     >
       <div className="w-full md:w-[45%]">
-        <div className="sticky top-0">
-          <img
-            src={heroImage}
-            alt="Hero Section"
-            className="w-full h-[50vh] md:h-screen object-cover"
-          />
+        <div className="sticky top-0 h-[50vh] md:h-screen overflow-hidden">
+          <div
+            className="flex h-full transition-transform duration-500 ease-out"
+            style={{ transform: `translateX(-${currentImage * 100}%)` }}
+          >
+            {heroImages.map((img) => (
+              <div
+                key={img.alt}
+                className="min-w-full w-full h-full flex-shrink-0"
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
+          <button
+            type="button"
+            onClick={goToPrev}
+            className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-black/40 text-white hover:bg-black/60 transition-colors z-10"
+            aria-label="Imagen anterior"
+          >
+            <ChevronLeft size={28} />
+          </button>
+          <button
+            type="button"
+            onClick={goToNext}
+            className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-black/40 text-white hover:bg-black/60 transition-colors z-10"
+            aria-label="Siguiente imagen"
+          >
+            <ChevronRight size={28} />
+          </button>
         </div>
       </div>
       <div

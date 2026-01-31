@@ -18,6 +18,7 @@ export interface Project {
   description: string;
   image: string;
   liveDemo?: string;
+  date?: string;
 }
 
 export const projectsData: Project[] = [
@@ -27,6 +28,7 @@ export const projectsData: Project[] = [
     description: "Aplicación móvil para la gestión de ordenes en restaurantes.",
     image: ordee,
     liveDemo: "https://ordee.framer.website/",
+    date: "2025",
   },
   {
     id: "2",
@@ -34,6 +36,7 @@ export const projectsData: Project[] = [
     description: "Sistema Web ERP para la gestión de una empresa de transporte.",
     image: exaya,
     liveDemo: "https://exaya.vercel.app/",  
+    date: "2025",
   },
   {
     id: "3",
@@ -41,6 +44,7 @@ export const projectsData: Project[] = [
     description: "Página Web Ecommerce de venta de productos naturales.",
     image: vitalight,
     liveDemo: "https://vitalightienda.com/",
+    date: "2025",
   },
   {
     id: "4",
@@ -48,6 +52,7 @@ export const projectsData: Project[] = [
     description: "Plataforma educativa informativa para la gestión de centros de educación inicial.",
     image: nidoPerulina,
     liveDemo: "https://nidoperulina.edu.pe/",
+    date: "2025",
   },
   {
     id: "5",
@@ -55,6 +60,7 @@ export const projectsData: Project[] = [
     description: "Página Web de presentación de la fundación HolosEduca, que muestra los servicios, proyectos y contacto de la fundación.",
     image: holosEduca,
     liveDemo: "https://holoseduca.netlify.app/",
+    date: "2025",
   },
   {
     id: "6",
@@ -62,6 +68,7 @@ export const projectsData: Project[] = [
     description: "MLStreaming es un sistam web que permite gestionar y comercializar cuentas de plataformas de streaming.",
     image: mlStreaming,
     liveDemo: "https://mlstreaming.com/",
+    date: "2025",
   },
   {
     id: "7",
@@ -69,6 +76,7 @@ export const projectsData: Project[] = [
     description: "Plataforma web para promocionar propiedades inmobiliarias con panel de administración integrado.",
     image: tuTechoAhora,
     liveDemo: "https://www.tutechoahora.com/",
+    date: "2025",
   },
   {
     id: "8",
@@ -76,6 +84,7 @@ export const projectsData: Project[] = [
     description: "Landing Page para promocionar servicios de limpieza de autos y captar clientes .",
     image: wildHorseCarWash,
     liveDemo: "https://wildhorsecarwashmobile.com/",
+    date: "2025",
   },
   {
     id: "9",
@@ -83,6 +92,7 @@ export const projectsData: Project[] = [
     description: "Landing Page de promoción de servicios generales para el hogar y negocios.",
     image: andinaGroup,
     liveDemo: "https://www.andinagroup.org/",
+    date: "2025",
   },
   {
     id: "10",
@@ -90,6 +100,7 @@ export const projectsData: Project[] = [
     description: "Landing Page para promocionar el sistema CP-360°, muestra los servicios, características y beneficios del sistema.",
     image: landingCp360,
     liveDemo: "https://cp-360.vercel.app/",
+    date: "2025",
   },
   {
     id: "11",
@@ -97,6 +108,7 @@ export const projectsData: Project[] = [
     description: "Landing Page para promocionar servicios y productos de la empresa Industria RLC.",
     image: industriaRlc,
     liveDemo: "https://www.industriarlc.com/",
+    date: "2026",
   },
   {
     id: "12",
@@ -104,6 +116,7 @@ export const projectsData: Project[] = [
     description: "Landing Page para promocionar cursos y capacitaciones de la empresa Industria RLC.",
     image: rlcAcademy,
     liveDemo: "https://academia.industriarlc.com/",
+    date: "2026",
   },
   {
     id: "13",
@@ -111,6 +124,7 @@ export const projectsData: Project[] = [
     description: "Sistema Web para la gestión y dictado de cursos y capacitaciones de la empresa Industria RLC.",
     image: rlcAcademyAula,
     liveDemo: "https://aula.industriarlc.com/login",
+    date: "2026",
   }
 ] 
 
