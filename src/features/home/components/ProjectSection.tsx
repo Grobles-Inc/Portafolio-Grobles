@@ -1,32 +1,32 @@
-import tuTechoAhora from "@/assets/tutechoahora.webp"
-import wildHorseCarWash from "@/assets/wildhorse.webp"
-import andinaGroup from "@/assets/andinagroup.webp"
 import landingCp360 from "@/assets/landing360.webp"
+import industriaRlc from "@/assets/industriarlc.webp"
+import rlcAcademy from "@/assets/rlcacademy.webp"
+import rlcAcademyAula from "@/assets/rlcacademyaula.webp"
 
 const projects = [
   {
     id: 1,
-    title: "Tu Techo Ahora",
-    image: tuTechoAhora,
-    liveDemo: "https://www.tutechoahora.com/",
-  },
-  {
-    id: 2,
-    title: "Wild Horse CarWash",
-    image: wildHorseCarWash,
-    liveDemo: "https://wildhorsecarwashmobile.com/",
-  },
-  {
-    id: 3,
-    title: "Andina Group E.I.R.L.",
-    image: andinaGroup,
-    liveDemo: "https://www.andinagroup.org/",
-  },
-  {
-    id: 4,
     title: "Sistema CP-360°",
     image: landingCp360,
     liveDemo: "https://cp-360.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Industria RLC",
+    image: industriaRlc,
+    liveDemo: "https://www.industriarlc.com/",
+  },
+  {
+    id: 3,
+    title: "RLC Academy 360",
+    image: rlcAcademy,
+    liveDemo: "https://academia.industriarlc.com/",
+  },
+  {
+    id: 4,
+    title: "RLC Academy Aula Virtual",
+    image: rlcAcademyAula,
+    liveDemo: "https://aula.industriarlc.com/login",
   },
 ]
 

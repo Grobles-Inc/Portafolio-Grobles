@@ -8,6 +8,9 @@ import tuTechoAhora from "@/assets/tutechoahora.webp"
 import wildHorseCarWash from "@/assets/wildhorse.webp"
 import andinaGroup from "@/assets/andinagroup.webp"
 import landingCp360 from "@/assets/landing360.webp"
+import industriaRlc from "@/assets/industriarlc.webp"
+import rlcAcademy from "@/assets/rlcacademy.webp"
+import rlcAcademyAula from "@/assets/rlcacademyaula.webp"
 
 export interface Project {
   id: string;
@@ -88,6 +91,27 @@ export const projectsData: Project[] = [
     image: landingCp360,
     liveDemo: "https://cp-360.vercel.app/",
   },
+  {
+    id: "11",
+    title: "Industria RLC",
+    description: "Landing Page para promocionar servicios y productos de la empresa Industria RLC.",
+    image: industriaRlc,
+    liveDemo: "https://www.industriarlc.com/",
+  },
+  {
+    id: "12",
+    title: "RLC Academy 360",
+    description: "Landing Page para promocionar cursos y capacitaciones de la empresa Industria RLC.",
+    image: rlcAcademy,
+    liveDemo: "https://academia.industriarlc.com/",
+  },
+  {
+    id: "13",
+    title: "RLC Academy Aula Virtual",
+    description: "Sistema Web para la gestión y dictado de cursos y capacitaciones de la empresa Industria RLC.",
+    image: rlcAcademyAula,
+    liveDemo: "https://aula.industriarlc.com/login",
+  }
 ] 
 
 export const getProjectsData = (): Project[] => {
