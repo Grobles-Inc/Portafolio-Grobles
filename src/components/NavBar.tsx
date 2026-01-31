@@ -1,4 +1,5 @@
 import logo from '/logoGroblesBlack.png'
+import logoGrobleStudio from '/images/grobleStudio.png'
 import { Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Button from './Button'
@@ -42,7 +43,7 @@ export default function NavBar() {
       <main className="flex justify-between items-center max-w-6xl mx-auto bg-primary m-3 p-2 lg:p-2 rounded-full shadow-xl">
         <a href="/">
           <div className="flex items-center gap-2 pl-3">
-            <img src={logo} alt="Logo" className="w-27 md:w-fit md:h-12" />
+            <img src={logoGrobleStudio} alt="Logo Groble Studio" className="w-27 md:w-fit md:h-12" />
           </div>
         </a>
 

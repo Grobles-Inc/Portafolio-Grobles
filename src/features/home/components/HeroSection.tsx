@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { ChevronRight, ChevronLeft } from "lucide-react"
 import Button from "@/components/Button"
 import logoGrobles from '/logoIconBlack4x4.png'
+import logoGrobleStore from '/images/grobleStore.png'
 import brandingMarca from '@/assets/branding-marca.webp'
 import software from '@/assets/software.webp'
 import uiUx from '@/assets/diseño-ux-ui.webp'
@@ -155,9 +156,8 @@ export default function HeroSection() {
           <div
           className="rounded-3xl w-full md:w-[30%] flex justify-center md:justify-start">
             <a href="https://grobles-store.vercel.app" target="_blank" className="flex items-center gap-2">
-              <img src={logoGrobles} alt="Logo Grobles"
-                className="md:w-fit h-12 object-cover" />
-              <h2 className="text-secondary text-3xl font-bold">Grobles Store</h2>
+              <img src={logoGrobleStore} alt="Logo Grobles Store"
+                className=" object-cover" />
             </a>
           </div>
         </div>
