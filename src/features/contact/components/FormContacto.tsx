@@ -32,7 +32,6 @@ export default function FormContacto() {
     setSubmitStatus({ type: null, message: "" });
 
     try {
-      // Usar ruta relativa en producción, localhost en desarrollo
       const apiUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
         ? "http://localhost:3001/api/contact"
         : "/api/contact";
@@ -53,7 +52,6 @@ export default function FormContacto() {
           message: "¡Mensaje enviado con éxito! Revisa tu correo, te hemos enviado una confirmación.",
         });
 
-        // Limpiar formulario
         setFormData({
           name: "",
           email: "",
@@ -114,7 +112,7 @@ export default function FormContacto() {
                 onChange={handleChange}
                 required
                 className="input input-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
-                placeholder="grobles.dev@gmail.com"
+                placeholder="contacto@groblestudio.com"
               />
             </div>
 
@@ -129,7 +127,7 @@ export default function FormContacto() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="input input-bordered bg-[#f8f8f8] text-secondary focus:border-secondary focus:outline-none w-full text-xl py-5"
-                placeholder="945689211"
+                placeholder="+51 945 689 211"
               />
             </div>
           </div>
