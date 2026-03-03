@@ -11,32 +11,30 @@ export default function CallToAction() {
         <h4
           className="text-white text-5xl md:text-[100px] text-center leading-none">
           Presentamos <br />
-          <a
-            href="https://grobles-store.vercel.app"
-            target="_blank"
-            className="text-[#dcd500]">
-            Grobles - Store
-          </a>
+          <span className="text-[#dcd500]">
+            Grupo HC Studio
+          </span>
         </h4>
         <p
           className="text-white pt-10 text-center text-lg md:text-xl">
-          <a
-            href="https://grobles-store.vercel.app"
+          
+          Somos la división tecnológica de <a
+            href="https://www.grupohcsolutions.com/"
             target="_blank"
             className="text-[#dcd500] font-bold">
-            Grobles - Store {""}
+            Grupo HC Solutions {""}
           </a>
-          es parte de nuestra marca, en el cual nos enfocamos en el diseño de plantillas para sitios web, con diseños modernos y de alta calidad, optimizados con SEO, velocidad de carga y accesibilidad, personalizadas para tu negocio.
+          nacidos de la fusión con <span className="font-bold">Grobles Studio</span>, combinamos el desarrollo de software de vanguardia con el respaldo corporativo de un grupo logístico líder, creando soluciones digitales que impulsan el crecimiento.
         </p>
         <a
-          href="https://grobles-store.vercel.app"
+          href="https://www.grupohcsolutions.com/"
           target="_blank"
           className="
             flex items-center mt-10 px-4 py-2 
             bg-white text-secondary text-sm md:text-lg rounded-xl border border-transparent
             transition-all duration-500 ease-in-out
             hover:bg-transparent hover:text-white hover:border-[#dcd500] uppercase">
-          Conocer más sobre Grobles-Store
+          Conocer más sobre Grupo HC Solutions
           <ArrowRight className="h-4 w-4 ml-2" />
         </a>
       </div>

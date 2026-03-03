@@ -84,7 +84,7 @@ export default function HeroSection() {
               className="text-5xl text-center md:text-left md:text-[134px] font-bold uppercase leading-none"
               data-aos="fade-up"
             >
-              Grobles <br className="hidden md:block" />Studio ©
+              Grupo HC <br className="hidden md:block" />Studio ©
             </h1>
           </div>
           <div
@@ -122,7 +122,7 @@ export default function HeroSection() {
             className="text-lg md:text-xl py-15 text-gray-700"
             data-aos="fade-up"
             data-aos-delay="400">
-            Grobles Studio es una startup tecnológica peruana especializada en desarrollo de software personalizado, diseño de sitios web modernos y aplicaciones móviles <span className="font-bold">escalables</span>. Transformamos ideas en productos digitales de alto impacto que impulsan el crecimiento empresarial.
+            Grupo HC Studio es una startup tecnológica peruana especializada en desarrollo de software personalizado, diseño de sitios web modernos y aplicaciones móviles <span className="font-bold">escalables</span>. Transformamos ideas en productos digitales de alto impacto que impulsan el crecimiento empresarial.
             <br />
             <br />
             Nos apaciona crear software significativo y sitios web dinámicos que destaquen en el competitivo mercado digital. Nuestro equipo combina pensamiento estratégico con diseño creativo para crear soluciones personalizadas que se alineen con los objetivos de tu negocio.
@@ -142,7 +142,7 @@ export default function HeroSection() {
         >
           <span
           className="italic text-lg text-gray-700">
-            (Ecosistema Grobles)
+            (Ecosistema Grupo HC Studio)
           </span>
           <h2
           className="text-2xl md:text-4xl font-bold uppercase pt-10 pb-5">
