@@ -1,4 +1,4 @@
-import logoGrobleStudio from '/images/grobleStudio.png'
+import logoGrobleStudio from '/images/GrupoHCStudio.png'
 import { Link } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import Button from './Button'
