@@ -10,7 +10,7 @@ export default function Footer() {
         className="text-white text-5xl md:text-[100px] font-bold text-center md:text-left"
         data-aos="fade-up"
       >
-        Grupo HC Studio ©
+        Grobles Studio ©
       </h1>
       <div
       className="grid grid-cols-1 md:grid-cols-4 gap-10 pt-10 md:pt-40"
@@ -188,7 +188,7 @@ export default function Footer() {
       </div>
       <div
       className="text-center pt-10 md:pt-30 text-white">
-        Desarrollado por <a href="https://www.groblestudio.com" target="_blank" rel="noopener noreferrer">Grupo HC Studio</a> <br />
+        Desarrollado por <a href="https://www.groblestudio.com" target="_blank" rel="noopener noreferrer">Grobles Studio</a> <br />
         Todos los derechos reservados &copy; {new Date().getFullYear()}
       </div>
     </section>

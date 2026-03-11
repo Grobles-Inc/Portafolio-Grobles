@@ -38,7 +38,7 @@ export default function HeroSectionAbout() {
             className="text-lg md:text-xl py-10 text-gray-700"
             data-aos="fade-up"
             data-aos-delay="300">
-            Grupo HC Studio nació en Perú como una startup de desarrollo de software creada con la visión de acercar la tecnología moderna a las PYMEs de Perú. Desde el inicio, combinó creatividad, disciplina y un enfoque práctico para resolver problemas reales. Aunque comenzó como un proyecto pequeño, nuestra propuesta de valor <span className="font-bold">soluciones web, aplicaciones móviles y sistemas a medida</span> rápidamente llamó la atención de clientes que buscaban innovación sin complicaciones.
+            Grobles Studio nació en Perú como una startup de desarrollo de software creada con la visión de acercar la tecnología moderna a las PYMEs de Perú. Desde el inicio, combinó creatividad, disciplina y un enfoque práctico para resolver problemas reales. Aunque comenzó como un proyecto pequeño, nuestra propuesta de valor <span className="font-bold">soluciones web, aplicaciones móviles y sistemas a medida</span> rápidamente llamó la atención de clientes que buscaban innovación sin complicaciones.
           </p>
         </div>
         <div
