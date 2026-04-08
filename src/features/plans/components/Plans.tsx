@@ -58,15 +58,15 @@ const plans = [
 export default function PlansComponent() {
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-20">
-      <div className="text-center md:text-left space-y-5">
-        <h2 className="text-7xl font-bold uppercase leading-none text-center text-[#ffde59]">
+      <div className="text-center md:text-left space-y-5" data-aos="fade-up" data-aos-delay="100">
+        <h2 className="text-4xl md:text-7xl font-bold uppercase leading-none text-center text-[#ffde59]">
           Explora Nuestros Planes
         </h2>
-        <p className="text-xl md:text-3xl text-primary text-center">
+        <p className="text-lg md:text-3xl text-primary text-center">
           Ya sea que estés empezando, expandiendo tu negocio o gestionando un equipo completo, nuestros planes de precios están diseñados para apoyar a tu negocio en cada etapa.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 py-10" data-aos="fade-up" data-aos-delay="200">
         {plans.map((plan) => {
           const isRecommended = plan.recomendado;
           return (
@@ -87,12 +87,12 @@ export default function PlansComponent() {
 
               <h3 className="uppercase text-center text-3xl font-bold">{plan.name}</h3>
               <p className="mx-auto text-center font-bold uppercase text-sm text-secondary bg-[#ffde59] rounded-full px-4 py-2 w-fit">{plan.badget}</p>
-              <p className="text-center text-lg uppercase">{plan.description}</p>
+              <p className="text-center text-md md:text-lg uppercase">{plan.description}</p>
               <div className="space-y-2">
                 {plan.features.map((feature) => (
                   <div key={feature} className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4" />
-                    <p className="text-md">{feature}</p>
+                    <p className="text-sm md:text-md">{feature}</p>
                   </div>
                 ))}
               </div>
@@ -113,7 +113,7 @@ export default function PlansComponent() {
                     }
                   }}
                 >
-                  <span className="uppercase font-semibold text-secondary text-xs tracking-wide mb-1">Desde</span>
+                  <span className="uppercase font-semibold text-secondary text-xs tracking-wide mb-1">Desde...</span>
                   <span className="text-5xl font-bold mb-0.5"
                   >
                     S/.{plan.price.toLocaleString("es-PE", { minimumFractionDigits: 2 })}

@@ -17,7 +17,7 @@ export default function Footer() {
       data-aos="fade-up">
         <div
         className="flex flex-col items-center md:items-start">
-          <span className="text-gray-700 text-lg italic">
+          <span className="text-primary text-lg italic">
             (Páginas)
           </span>
           <ul className="text-xl pt-10  flex flex-col cursor-pointer items-center md:items-start text-white">
@@ -53,7 +53,7 @@ export default function Footer() {
         <div
         className="flex flex-col items-center md:items-start">
           <span
-            className="text-gray-700 text-lg italic"
+            className="text-primary text-lg italic"
           >
             (Servicios)
           </span>
@@ -86,7 +86,7 @@ export default function Footer() {
         <div
         className="flex flex-col items-center md:items-start">
           <span
-          className="text-gray-700 text-lg italic"
+          className="text-primary text-lg italic"
           >
             (Contacto)
           </span>
@@ -137,7 +137,7 @@ export default function Footer() {
         <div
         className="flex flex-col items-center md:items-start">
           <span
-          className="text-gray-700 text-lg italic"
+          className="text-primary text-lg italic"
           >
             (Redes Sociales)
           </span>
