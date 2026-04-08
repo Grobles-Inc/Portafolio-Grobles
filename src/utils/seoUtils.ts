@@ -1,4 +1,3 @@
-// Utilidades para SEO
 
 export interface SitemapUrl {
   loc: string
