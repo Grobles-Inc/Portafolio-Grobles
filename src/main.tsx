@@ -8,6 +8,7 @@ import Contact from './features/contact/index.tsx'
 import MainLayout from './layout/MainLayout.tsx'
 import Services from './features/services/index.tsx'
 import About from './features/about/index.tsx'
+import Plans from './features/plans/index.tsx'
 import Logo from './features/Logo.tsx'
 
 const router = createBrowserRouter([
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
       { path: '/about', element: <About /> },
       { path: '/services', element: <Services /> },
       { path: '/contact', element: <Contact /> },
-      { path: '/logo', element: <Logo /> }
+      { path: '/logo', element: <Logo /> },
+      { path: '/plans', element: <Plans /> }
     ]
   },
 ])

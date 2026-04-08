@@ -53,6 +53,7 @@ export default function NavBar() {
               { to: "/about", label: "Nosotros" },
               { to: "/services", label: "Servicios" },
               { to: "/projects", label: "Proyectos" },
+              { to: "/plans", label: "Planes" },
             ].map(({ to, label }) => (
               <li key={to} className="uppercase text-gray-700 relative group cursor-pointer">
                 <Link to={to} className="relative z-10 transition-colors duration-300">
@@ -132,6 +133,15 @@ export default function NavBar() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Proyectos
+              </Link>
+            </li>
+            <li className="border-b border-secondary/10 uppercase text-xl">
+              <Link
+                to="/plans"
+                className="block px-6 py-4 hover:bg-secondary/10 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Planes
               </Link>
             </li>
             <li
