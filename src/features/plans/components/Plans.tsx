@@ -1,5 +1,6 @@
 import { CheckCircle } from "lucide-react"
 import { openWhatsAppPlanInquiry } from "@/utils/whatsappPlanInquiry"
+import highlightFeaturesText from "@/utils/highlightFeaturesText"
 
 const plans = [
   {
@@ -8,7 +9,7 @@ const plans = [
     badget: "Web Presencial",
     description: "Digitaliza tu negocio y genera confianza inmediata en tu negocio.",
     features: [
-      "Landing Page o hasta 4 secciones (Inicio, Nosotros, Servicios, Contacto).",
+      "Landing Page o hasta 4 secciones.",
       "Diseño Adaptable (Móvil/PC).",
       "Botón de WhatsApp Flotante.",
       "Hosting + Dominio GRATIS.",
@@ -44,11 +45,12 @@ const plans = [
     description: "Soluciones Avanzadas para Gestionar y Automatizar tu Negocio.",
     features: [
       "Desarrollo de Software a Medida.",
-      "Usuarios, Roles (Administradores, Usuarios, etc.).",
-      "Panel de Control Dashboard (Gráficos y Estadísticas en tiempo real).",
-      "Automatización (Cálculos automáticos, generación de PDF o reportes).",
-      "Integraciones (Conexión con servicios externos o pasarelas de pago).",
-      "Sistema Escalable y Seguro.",
+      "Sistema por Roles.",
+      "Panel de Control Dashboard.",
+      "Automatización de Procesos.",
+      "Integraciones con IA.",
+      "Soporte Técnico por 1 año.",
+      "Sistema Escalable.",
     ],
     price: 1100.00,
     details: "Precio Negociable."
@@ -87,12 +89,12 @@ export default function PlansComponent() {
 
               <h3 className="uppercase text-center text-3xl font-bold">{plan.name}</h3>
               <p className="mx-auto text-center font-bold uppercase text-sm text-secondary bg-[#ffde59] rounded-full px-4 py-2 w-fit">{plan.badget}</p>
-              <p className="text-center text-md md:text-lg uppercase">{plan.description}</p>
+              <p className="text-center text-md md:text-lg uppercase">{highlightFeaturesText(plan.description)}</p>
               <div className="space-y-2">
                 {plan.features.map((feature) => (
                   <div key={feature} className="flex items-center space-x-2">
                     <CheckCircle className="w-4 h-4" />
-                    <p className="text-sm md:text-md">{feature}</p>
+                    <p className="text-sm md:text-md">{highlightFeaturesText(feature)}</p>
                   </div>
                 ))}
               </div>
