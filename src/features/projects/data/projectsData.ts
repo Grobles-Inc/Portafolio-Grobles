@@ -11,6 +11,7 @@ import landingCp360 from "@/assets/landing360.webp"
 import industriaRlc from "@/assets/industriarlc.webp"
 import rlcAcademy from "@/assets/rlcacademy.webp"
 import rlcAcademyAula from "@/assets/rlcacademyaula.webp"
+import mecatronix from "@/assets/mecatronix.webp"
 
 export interface Project {
   id: string;
@@ -124,6 +125,14 @@ export const projectsData: Project[] = [
     description: "Sistema Web para la gestión y dictado de cursos y capacitaciones de la empresa Industria RLC.",
     image: rlcAcademyAula,
     liveDemo: "https://aula.industriarlc.com/login",
+    date: "2026",
+  },
+  {
+    id: "14",
+    title: "Mecatronix Perú E.I.R.L.",
+    description: "Landing Page para promocionar servicios de mecatrónica y electrónica, de la empresa Mecatronix Perú E.I.R.L.",
+    image: mecatronix,
+    liveDemo: "https://mecatronixperu.com/",
     date: "2026",
   }
 ] 

@@ -2,12 +2,13 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { ChevronRight, ChevronLeft } from "lucide-react"
 import Button from "@/components/Button"
-import logoGrobleStore from '/images/grobleStore.png'
+import logoGrobleStore from '/images/logoGroblesBlack.png'
 import brandingMarca from '@/assets/branding-marca.webp'
 import software from '@/assets/software.webp'
 import uiUx from '@/assets/diseño-ux-ui.webp'
 import marketing from '@/assets/marketing-digital.webp'
 import paginaWeb from '@/assets/pagina-web.webp'
+import ClientSection from '@/components/ClientSection'
 
 const heroImages = [
   { src: brandingMarca, alt: "Branding Marca" },
@@ -113,9 +114,9 @@ export default function HeroSection() {
             className="text-5xl md:text-[120px] uppercase leading-none pt-10"
             data-aos="fade-up"
             data-aos-delay="300">
-            Software <br className="hidden md:block"/>
-            Potente; <br className="hidden md:block"/>
-            Sitios Web <br className="hidden md:block"/>
+            Software <br className="hidden md:block" />
+            Potente; <br className="hidden md:block" />
+            Sitios Web <br className="hidden md:block" />
             Poderosos
           </h1>
           <p
@@ -136,29 +137,48 @@ export default function HeroSection() {
 
         </div>
         <div
-        className="pt-30 text-center md:text-left"
-        data-aos="fade-up"
-        data-aos-delay="400"
+          className="pt-30 text-center md:text-left"
+          data-aos="fade-up"
+          data-aos-delay="400"
         >
           <span
-          className="italic text-lg text-gray-700">
+            className="italic text-lg text-gray-700">
             (Ecosistema Grobles Studio)
           </span>
           <h2
-          className="text-2xl md:text-4xl font-bold uppercase pt-10 pb-5">
+            className="text-2xl md:text-4xl font-bold uppercase pt-10 pb-5">
             Nuestra Marca
           </h2>
           <p
-          className="text-lg md:text-xl text-gray-700 mb-4">
+            className="text-lg md:text-xl text-gray-700 mb-4">
             Además de nuestros servicios principales, hemos creado Grobles Store, una plataforma especializada en plantillas web premium.
           </p>
           <div
-          className="rounded-3xl w-full md:w-[30%] flex justify-center md:justify-start">
+            className="rounded-3xl w-full md:w-[30%] flex justify-center md:justify-start">
             <a href="https://grobles-store.vercel.app" target="_blank" className="flex items-center gap-2">
               <img src={logoGrobleStore} alt="Logo Grobles Store"
                 className=" object-cover" />
             </a>
           </div>
+        </div>
+        <div
+          className="pt-30 text-center md:text-left"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <span
+            className="italic text-lg text-gray-700">
+              (Clientes de Grobles Studio)
+          </span>
+          <h2
+            className="text-2xl md:text-4xl font-bold uppercase pt-10 pb-5">
+            Nuestros Clientes
+          </h2>
+          <p
+            className="text-lg md:text-xl text-gray-700 mb-4">
+            Hemos trabajado con empresas de todos los tamaños y sectores, desde startups hasta corporaciones multinacionales.
+          </p>
+          <ClientSection />
         </div>
       </div>
     </main>

@@ -1,37 +1,37 @@
-import landingCp360 from "@/assets/landing360.webp"
 import industriaRlc from "@/assets/industriarlc.webp"
 import rlcAcademy from "@/assets/rlcacademy.webp"
 import rlcAcademyAula from "@/assets/rlcacademyaula.webp"
+import mecatronix from "@/assets/mecatronix.webp"
 
 const projects = [
   {
     id: 1,
-    title: "Sistema CP-360°",
-    image: landingCp360,
-    liveDemo: "https://cp-360.vercel.app/",
-    date: "2025",
-  },
-  {
-    id: 2,
     title: "Industria RLC",
     image: industriaRlc,
     liveDemo: "https://www.industriarlc.com/",
     date: "2026",
   },
   {
-    id: 3,
+    id: 2,
     title: "RLC Academy 360",
     image: rlcAcademy,
     liveDemo: "https://academia.industriarlc.com/",
     date: "2026",
   },
   {
-    id: 4,
+    id: 3,
     title: "RLC Academy Aula Virtual",
     image: rlcAcademyAula,
     liveDemo: "https://aula.industriarlc.com/login",
     date: "2026",
   },
+  {
+    id: 4,
+    title: "Mecatronix Perú E.I.R.L.",
+    image: mecatronix,
+    liveDemo: "https://mecatronixperu.com/",
+    date: "2026",
+  }
 ]
 
 
